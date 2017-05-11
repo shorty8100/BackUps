@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<style>
+		table, th, td {
+			border: 2px solid white;
+		}
+		th, td {
+			padding: 5px;
+		}
+		table tr:nth-child(even) {
+			background-color: #eee;
+		}
+		table tr:nth-child(odd) {
+			background-color:#fff;
+		}
+		table th {
+			background-color: black;
+			color: white;
+		}
+</style>
+</head>
+<body>
+<h3 id = DATAHORA>
+</h3>
+  Index: <input id="SMindice" type="text" name="indice" value="">
+  Valor: <input id="SMvalor" type="text" name="valor" value="">
+         <input id="SMenviar" type="submit" value="Enviar">
+<table id="DadosSmonitor" class="display" width="50%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Valor</th>
+                <th>Index</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+        </tbody>
+    </table>
+<h2 id = ligacao>
+</h2>
+</body>
+<script>
+	function xpto() {
+		var indexes = "all";
+		//var indexes = "0,1,2,3,4"
+		$.post("/dados/" + indexes, function (info) {
+			var tr;
+			var result = "";
+			var sjson = JSON.parse(info);
+			$("#ligacao").html("S-Monitor " + sjson.STATUS.ligacao );
+			for (var i = 0; i < sjson.DADOS.length; i++) {
+				tr = '<tr>';
+				tr += "<td>" + sjson.DADOS[i].nome + "</td>";
+				tr += "<td>" + sjson.DADOS[i].valor + "</td>";
+				tr += "<td>" + sjson.DADOS[i].indice + "</td>";
+				tr += '</tr>';
+				result += tr;
+				}
+			$("#data").html(result);
+			$("#DATAHORA").html("Actualizado: " + sjson.DATAHORA.data + " às " + sjson.DATAHORA.hora);
+		});
+	}
+	function SMpush(){
+		$('#SMenviar').click(function(){
+			$.ajax({
+				url: "/dados/envia",
+				type:'POST',
+				data:{
+					indice: $("#SMindice").val(),
+					valor: $("#SMvalor").val()
+				}
+			});
+		});
+	}
+	$(document).ready(function(){
+		setInterval(xpto, 5000);
+		xpto();
+		SMpush();	
+	});
+</script>
+</html>
