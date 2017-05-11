@@ -687,6 +687,8 @@ class HTMLCreator:
 					tempLINKOBJ += self.DROPDOWNGenerator(dicIDs, "ID0")
 					tempLINKOBJ += "</ul></li></ul>"
 					tempLINKOBJ += "</nav>"
+			else:
+				pass
 		return tempLINKCSS, tempLINKOBJ
 
 	def makeContent(self):
