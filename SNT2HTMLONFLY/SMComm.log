@@ -53,3 +53,25 @@ The Application mounted at '' has an empty config.
 2017-05-11 16:08:05,635 [INFO] [11/May/2017:16:08:05] ENGINE Bus STOPPED
 2017-05-11 16:08:05,635 [INFO] [11/May/2017:16:08:05] ENGINE Bus EXITING
 2017-05-11 16:08:05,636 [INFO] [11/May/2017:16:08:05] ENGINE Waiting for child threads to terminate...
+2017-05-11 16:16:58,145 [INFO] [11/May/2017:16:16:58] ENGINE Listening for SIGTERM.
+2017-05-11 16:16:58,146 [INFO] [11/May/2017:16:16:58] ENGINE Bus STARTING
+2017-05-11 16:16:58,146 [WARNING] CherryPy Checker:
+The Application mounted at '' has an empty config.
+
+
+2017-05-11 16:16:58,146 [ERROR] [11/May/2017:16:16:58] ENGINE Set handler for console events.
+2017-05-11 16:16:58,147 [INFO] [11/May/2017:16:16:58] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-11 16:16:58,147 [INFO] [11/May/2017:16:16:58] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-11 16:16:58,355 [INFO] [11/May/2017:16:16:58] ENGINE Serving on http://127.0.0.1
+2017-05-11 16:16:58,357 [INFO] [11/May/2017:16:16:58] ENGINE Bus STARTED
+2017-05-11 16:17:03,600 [INFO] [11/May/2017:16:17:03] ENGINE Console event 0: shutting down bus
+2017-05-11 16:17:03,600 [ERROR] [11/May/2017:16:17:03] ENGINE Removed handler for console events.
+2017-05-11 16:17:03,601 [INFO] [11/May/2017:16:17:03] ENGINE Bus STOPPING
+2017-05-11 16:17:03,707 [INFO] [11/May/2017:16:17:03] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 80)) shut down
+2017-05-11 16:17:03,708 [INFO] [11/May/2017:16:17:03] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-11 16:17:03,709 [INFO] [11/May/2017:16:17:03] ENGINE Stopped thread 'Autoreloader'.
+2017-05-11 16:17:03,709 [ERROR] [11/May/2017:16:17:03] ENGINE Handler for console events already off.
+2017-05-11 16:17:03,710 [INFO] [11/May/2017:16:17:03] ENGINE Bus STOPPED
+2017-05-11 16:17:03,711 [INFO] [11/May/2017:16:17:03] ENGINE Bus EXITING
+2017-05-11 16:17:03,711 [INFO] [11/May/2017:16:17:03] ENGINE Waiting for child threads to terminate...
+2017-05-11 16:17:03,712 [INFO] [11/May/2017:16:17:03] ENGINE Bus EXITED

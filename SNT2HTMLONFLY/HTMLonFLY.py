@@ -8,13 +8,17 @@ import imageio
 import cherrypy
 import SMComm
 
+PortaServidor = 80
+SinoticoPrincipal = "Files\Main\MenuPrincipal.snt"
+SMonitorFolder = "C:\\S-Monitor\\"
 
 class INICIO(object):
 	@cherrypy.expose
 	def index(self):
-		return "<html><head></head><body>Hello world!</body></html>"
+		tempHTML = "<html><head></head><body>Hello world!</body></html>"
+		return tempHTML
 
 
 if __name__=="__main__":
-	cherrypy.config.update({'server.socket_port': 80})
+	cherrypy.config.update({'server.socket_port': PortaServidor })
 	cherrypy.quickstart(INICIO())
