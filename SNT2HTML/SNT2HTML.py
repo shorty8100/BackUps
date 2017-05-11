@@ -689,6 +689,7 @@ class HTMLCreator:
 					tempLINKOBJ += "</nav>"
 			else:
 				pass
+				
 		return tempLINKCSS, tempLINKOBJ
 
 	def makeContent(self):

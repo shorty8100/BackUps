@@ -1,0 +1,55 @@
+2017-05-11 16:05:55,941 [INFO] [11/May/2017:16:05:55] ENGINE Listening for SIGTERM.
+2017-05-11 16:05:55,941 [INFO] [11/May/2017:16:05:55] ENGINE Bus STARTING
+2017-05-11 16:05:55,942 [ERROR] [11/May/2017:16:05:55] ENGINE Set handler for console events.
+2017-05-11 16:05:55,942 [WARNING] CherryPy Checker:
+The Application mounted at '' has an empty config.
+
+
+2017-05-11 16:05:55,943 [INFO] [11/May/2017:16:05:55] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-11 16:05:55,943 [INFO] [11/May/2017:16:05:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-11 16:05:56,153 [INFO] [11/May/2017:16:05:56] ENGINE Serving on http://127.0.0.1
+2017-05-11 16:05:56,155 [INFO] [11/May/2017:16:05:56] ENGINE Bus STARTED
+2017-05-11 16:06:18,160 [INFO] 127.0.0.1 - - [11/May/2017:16:06:18] "GET / HTTP/1.1" 200 12 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:06:18,259 [INFO] 127.0.0.1 - - [11/May/2017:16:06:18] "GET /favicon.ico HTTP/1.1" 200 1406 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:06:19,443 [INFO] 127.0.0.1 - - [11/May/2017:16:06:19] "GET / HTTP/1.1" 200 12 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:06:20,112 [INFO] 127.0.0.1 - - [11/May/2017:16:06:20] "GET / HTTP/1.1" 200 12 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:06:20,320 [INFO] 127.0.0.1 - - [11/May/2017:16:06:20] "GET / HTTP/1.1" 200 12 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:06:20,461 [INFO] 127.0.0.1 - - [11/May/2017:16:06:20] "GET / HTTP/1.1" 200 12 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:06:20,550 [INFO] 127.0.0.1 - - [11/May/2017:16:06:20] "GET / HTTP/1.1" 200 12 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:06:20,726 [INFO] 127.0.0.1 - - [11/May/2017:16:06:20] "GET / HTTP/1.1" 200 12 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:06:21,874 [INFO] 127.0.0.1 - - [11/May/2017:16:06:21] "GET / HTTP/1.1" 200 12 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:06:22,032 [INFO] 127.0.0.1 - - [11/May/2017:16:06:22] "GET / HTTP/1.1" 200 12 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:06:22,168 [INFO] 127.0.0.1 - - [11/May/2017:16:06:22] "GET / HTTP/1.1" 200 12 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:07:42,418 [INFO] [11/May/2017:16:07:42] ENGINE Console event 0: shutting down bus
+2017-05-11 16:07:42,419 [ERROR] [11/May/2017:16:07:42] ENGINE Removed handler for console events.
+2017-05-11 16:07:42,422 [INFO] [11/May/2017:16:07:42] ENGINE Bus STOPPING
+2017-05-11 16:07:42,528 [INFO] [11/May/2017:16:07:42] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 80)) shut down
+2017-05-11 16:07:42,529 [ERROR] [11/May/2017:16:07:42] ENGINE Handler for console events already off.
+2017-05-11 16:07:42,530 [INFO] [11/May/2017:16:07:42] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-11 16:07:42,531 [INFO] [11/May/2017:16:07:42] ENGINE Stopped thread 'Autoreloader'.
+2017-05-11 16:07:42,532 [INFO] [11/May/2017:16:07:42] ENGINE Bus STOPPED
+2017-05-11 16:07:42,533 [INFO] [11/May/2017:16:07:42] ENGINE Bus EXITING
+2017-05-11 16:07:42,533 [INFO] [11/May/2017:16:07:42] ENGINE Waiting for child threads to terminate...
+2017-05-11 16:07:47,834 [INFO] [11/May/2017:16:07:47] ENGINE Listening for SIGTERM.
+2017-05-11 16:07:47,835 [INFO] [11/May/2017:16:07:47] ENGINE Bus STARTING
+2017-05-11 16:07:47,835 [WARNING] CherryPy Checker:
+The Application mounted at '' has an empty config.
+
+
+2017-05-11 16:07:47,835 [ERROR] [11/May/2017:16:07:47] ENGINE Set handler for console events.
+2017-05-11 16:07:47,836 [INFO] [11/May/2017:16:07:47] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-11 16:07:47,836 [INFO] [11/May/2017:16:07:47] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-11 16:07:48,045 [INFO] [11/May/2017:16:07:48] ENGINE Serving on http://127.0.0.1
+2017-05-11 16:07:48,047 [INFO] [11/May/2017:16:07:48] ENGINE Bus STARTED
+2017-05-11 16:07:52,147 [INFO] 127.0.0.1 - - [11/May/2017:16:07:52] "GET / HTTP/1.1" 200 51 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:07:53,287 [INFO] 127.0.0.1 - - [11/May/2017:16:07:53] "GET / HTTP/1.1" 200 51 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-11 16:08:05,528 [INFO] [11/May/2017:16:08:05] ENGINE Console event 0: shutting down bus
+2017-05-11 16:08:05,529 [ERROR] [11/May/2017:16:08:05] ENGINE Removed handler for console events.
+2017-05-11 16:08:05,529 [INFO] [11/May/2017:16:08:05] ENGINE Bus STOPPING
+2017-05-11 16:08:05,632 [INFO] [11/May/2017:16:08:05] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 80)) shut down
+2017-05-11 16:08:05,633 [INFO] [11/May/2017:16:08:05] ENGINE Stopped thread 'Autoreloader'.
+2017-05-11 16:08:05,633 [INFO] [11/May/2017:16:08:05] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-11 16:08:05,634 [ERROR] [11/May/2017:16:08:05] ENGINE Handler for console events already off.
+2017-05-11 16:08:05,635 [INFO] [11/May/2017:16:08:05] ENGINE Bus STOPPED
+2017-05-11 16:08:05,635 [INFO] [11/May/2017:16:08:05] ENGINE Bus EXITING
+2017-05-11 16:08:05,636 [INFO] [11/May/2017:16:08:05] ENGINE Waiting for child threads to terminate...
