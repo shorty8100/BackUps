@@ -699,6 +699,9 @@ class HTMLCreator:
 		return tempLINKCSS, tempLINKOBJ
 
 	def DumpHTML(self):
+		directoria = "HTML"
+		if not os.path.exists(directoria):
+			os.makedirs(directoria)
 		counter = 0
 		tempSTYLE = "<style>\n"
 		tempBODY = ""
@@ -729,12 +732,7 @@ class HTMLCreator:
 			tempBODY += "</div>\n"
 		tempSTYLE += "</style>\n"
 		tempHEAD += tempSTYLE
-		tempHEAD += "<script src='/Base/jquery-3.2.1.js'></script>\n"
-		tempHEAD += "<script>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
-		tempHEAD += "<title>\n" + "S-Monitor" + " @ Itelmatis" + "</title>\n"
-		tempHEAD += "</head>\n"
 		tempBODY += "</div>\n"
-		tempBODY += "</body>\n"
 		return tempHEAD, tempBODY
 
 
@@ -748,6 +746,7 @@ class INICIO(object):
 		tempHTML += "</style>"
 		tempHTML += "<script src='/Base/jquery-3.2.1.js'></script>\n"
 		tempHTML += "<script>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
+		tempHTML += "<script> '$('a').click(function( event ){ event.preventDefault(); var href = $('a').attr('href'); $.post('Sinoptico', { Caminho: href }, function(returnedData){ $('#wrapper').html(returnedData);})}); </script>\n"
 		tempHTML += "<title>\n" + "S-Monitor" + " @ Itelmatis" + "</title>\n"
 		tempHTML += "</head>\n"
 		tempHTML += "<body>\n"
@@ -767,8 +766,6 @@ class INICIO(object):
 		styles, body = htmlinho.DumpHTML()
 		tempstyles += styles
 		tempstyles += "</style>"
-		body += "<script> '$('a').click(function( event ){ event.preventDefault(); var href = $('a').attr('href'); $.post('Sinoptico', { Caminho: href }, \
-		function(returnedData){ $('#wrapper').html(returnedData);})}); </script>"
 		return styles, body
 
 	def LoadDefaultConfig(self):
@@ -782,8 +779,7 @@ class INICIO(object):
 		clearFORMATs += " body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; }"
 		clearFORMATs += " blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }"
 		clearFORMATs += " table { border-collapse: collapse; border-spacing: 0; } "
-		defaultMENU = ""
-		defaultMENU += " nav ul { list-style-type:none; margin:0; padding:0; }"
+		defaultMENU = " nav ul { list-style-type:none; margin:0; padding:0; }"
 		defaultMENU += " nav ul li { display:inline-block; position:relative; }"
 		defaultMENU += " nav li ul { background-color:rgb(242,242,242); position:absolute; left:0; border:solid 1px rgb(160,160,160); box-shadow: 2px 2px 5px rgb(89,111,89); }"
 		defaultMENU += " nav li li { position:relative; margin:0; display:block; }"
@@ -803,7 +799,8 @@ if __name__ == "__main__":
 	cherrypy.server.socket_host = "0.0.0.0"
 	cherrypy.server.socket_port = PortaServidor
 	config = {"/HTML": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(file_path, "HTML") },
-			"/Base": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(file_path, "Base") }}
+			"/Base": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(file_path, "Base") },
+			"/favicon.ico": { "tools.staticfile.on": True, "tools.staticfile.filename": file_path + "/Base/IMG/icone.ico"} }
 	cherrypy.tree.mount(INICIO(), "/", config=config)
 	cherrypy.engine.start()
 	cherrypy.engine.block()
