@@ -2,6 +2,7 @@
 
 import struct
 import os.path
+import os
 from PIL import Image
 from moviepy.editor import *
 import imageio
@@ -19,6 +20,7 @@ __status__ = "Under Development"
 PortaServidor = 80
 SinoticoPrincipal = "Files\\Main\\MenuPrincipal.snt"
 SMonitorFolder = "C:\\S-Monitor\\"
+file_path = os.getcwd().replace("\\", "/")
 
 class Objeto:
 	def __init__(self):
@@ -503,14 +505,305 @@ class Sinoptico:
 		except:
 			print("Falhou escrita de idioma")
 
+class HTMLCreator:
+	def __init__(self, nomeFicheiro, idioma = "01"):
+		self.DicSinopticos = {}
+		caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+		nome , extensao = self.nomeFicheiro.split(".")
+		if os.path.isfile(nomeFicheiro):
+			self.DicSinopticos[self.nomeFicheiro] = Sinoptico()
+			self.DicSinopticos[self.nomeFicheiro].carregarSNT(nomeFicheiro)
+			if os.path.isfile(caminho + "/" + nome + ".ini"):
+				FicheiroINI = open(caminho + "/" + nome + ".ini", "r")
+				self.conteudoINI = FicheiroINI.read()
+				FicheiroINI.close()
+				for linhas in self.conteudoINI.split("\n"):
+					try:
+						if os.path.isfile(linhas.split("=", 1)[1]):
+							self.DicSinopticos[os.path.split(linhas.split("=", 1)[1])[1]] = Sinoptico()
+							self.DicSinopticos[os.path.split(linhas.split("=", 1)[1])[1]].carregarSNT(linhas.split("=", 1)[1])
+					except:
+						pass
+
+	def FileConverter (self, ImagePath, ImageExtensao):
+		caminho , ficheiro = os.path.split(ImagePath)
+		nome , extensao = ficheiro.split(".")
+		if extensao.lower() == "bmp":
+			if not os.path.isfile("HTML/" + nome + "." + ImageExtensao):
+				Image.open(ImagePath).save("HTML/" + nome + "." + ImageExtensao)
+		elif extensao.lower() == "avi":
+			if not os.path.isfile("HTML/" + nome + "." + ImageExtensao):
+				Sreader = imageio.get_reader(ImagePath)
+				Sfps = Sreader.get_meta_data()['fps']
+				Swriter = imageio.get_writer("HTML/" + nome + "." + ImageExtensao, fps=Sfps)
+				for i,im in enumerate(Sreader):
+					Swriter.append_data(im)
+				Swriter.close()
+				#VideoFileClip(ImagePath, verbose=False).write_gif("HTML/" + nome + "." + ImageExtensao, verbose=False) #já não usa esta biblioteca
+		else:
+			print("Tipo de ficheiro desconhecido")
+			return
+		return "/HTML/" + nome + "." + ImageExtensao
+
+	def CSSGenerator(self, objecto, objId, faseX, faseY):
+		TextColorBGR = ""
+		BackColorBGR = ""
+		tempCSS = ""
+		if objecto.Tipo == 2 or objecto.Tipo == 3:
+			TextColorBGR = str(hex((objecto.TipoDeLetraCor + (1 << 64)) % (1 << 64))).split("x", 1)[1]
+			tempCSS += "#"
+			tempCSS += "index" + str(objId) + " {"
+			tempCSS += " text-align: center; vertical-align: middle; line-height: normal; display: inline-block;"
+			tempCSS += " font-family: '" + objecto.TipoDeLetraNome + "';"
+			tempCSS += " font-size: " + str(objecto.TipoDeLetraTamanho) +"pt;"
+			if objecto.TipoDeLetraCor > 0:
+				tempCSS += " color: #" + TextColorBGR[4:] + TextColorBGR[2:4] + TextColorBGR[:2] + ";"
+			else:
+				tempCSS += " color: #" + TextColorBGR[14:] + TextColorBGR[12:14] + TextColorBGR[10:12] + ";"
+			if objecto.Tipo == 2:
+				BackColorBGR = str(hex((objecto.CorDoFundo + (1 << 64)) % (1 << 64))).split("x", 1)[1]
+				if objecto.CorDoFundo > 0:
+					tempCSS += " background-color: #" + BackColorBGR[4:] + BackColorBGR[2:4] + BackColorBGR[:2] + ";"
+				else:
+					tempCSS += " background-color: #" + BackColorBGR[14:] + BackColorBGR[12:14] + BackColorBGR[10:12] + ";"
+			if objecto.TipoDeLetraBold  == 1:
+				tempCSS += " font-weight: bold;"
+			if objecto.TipoDeLetraItalico  == 1:
+				tempCSS += " font-style: italic;"
+			if objecto.TipoDeLetraSublinhado  == 1:
+				tempCSS += " text-decoration: underline;"
+			tempCSS += " width: " + str(objecto.Largura - 1) + "px;"
+			tempCSS += " height: " + str(objecto.Altura - 1) +"px;"
+			tempCSS += " position: absolute;"
+			tempCSS += " left: " + str(objecto.x - faseX) + "px;"
+			tempCSS += " top: " + str(objecto.y - faseY) + "px;"
+			if objecto.Contorno == 1:
+				tempCSS += " border-style: solid; border-width: 1px;"
+			tempCSS += " }"
+		if objecto.Tipo == 0:
+			tempCSS += "#"
+			tempCSS += "index" + str(objId) + " {"
+			tempCSS += " position: absolute;"
+			tempCSS += " left: " + str(objecto.x - faseX) + "px;"
+			tempCSS += " top: " + str(objecto.y - faseY) + "px;"
+			tempCSS += " }"
+		if objecto.Tipo == 1:
+			tempCSS += "#"
+			tempCSS += "index" + str(objId) + " {"
+			tempCSS += " position: absolute;"
+			tempCSS += " left: " + str(objecto.x - faseX) + "px;"
+			tempCSS += " top: " + str(objecto.y - faseY) + "px;"
+			tempCSS += " width: " + str(objecto.Largura - 1) + "px;"
+			tempCSS += " height: " + str(objecto.Altura - 1) +"px;"
+			tempCSS += " font-family: '" + objecto.TipoDeLetraNome + "';"
+			tempCSS += " font-size: " + str(objecto.TipoDeLetraTamanho) +"pt;"
+			tempCSS += " text-align: center; display: inline-block; line-height: normal;"
+			tempCSS += " }"
+		return tempCSS
+
+	def OBJGenerator(self, objecto , objId):
+		tempOBJ = ""
+		if objecto.Tipo == 2 or objecto.Tipo == 3:
+			tempOBJ = "<div id='index" + str(objId) + "' class='"
+			if objecto.Digital == 0:
+				tempOBJ += "a"
+			else:
+				tempOBJ += "d"
+			tempOBJ += "-" + str(objecto.Variavel) + "'>"
+			tempOBJ += objecto.Nome
+			tempOBJ += "</div>"
+		if objecto.Tipo == 0:
+			tempOBJ += "<img id='index" + str(objId) + "' class='"
+			if objecto.Digital == 0:
+				tempOBJ += "a"
+			else:
+				tempOBJ += "d"
+			tempOBJ += "-" + str(objecto.Variavel) + "' src='"
+			tempOBJ += self.FileConverter(objecto.Ficheiro, "gif") + "'>"
+		if objecto.Tipo == 1:
+			tempOBJ += "<button type='button' id='index" + str(objId) + "' class='"
+			if objecto.Digital == 0:
+				tempOBJ += "a"
+			else:
+				tempOBJ += "d"
+			tempOBJ += "-" + str(objecto.Variavel) + "'>"
+			tempOBJ += objecto.TextoOff
+			tempOBJ += "</button>"
+		return tempOBJ
+
+	def DROPDOWNGenerator(self,ALLdics, dicID):
+		tempDROP = ""
+		for detalhes in ALLdics[dicID]:
+			if ".snt" in detalhes["destino"]:
+				caminho , ficheiro = os.path.split(detalhes["destino"])
+				nome , extensao = ficheiro.split(".")
+				tempDROP += "<li><a href=" + '"' + detalhes["destino"] + '">'
+				if len(detalhes["iconOFF"]) > 1:
+					tempDROP += "<img src='" + self.FileConverter(detalhes["iconOFF"], "png") + "'>"
+				tempDROP += detalhes["descricao"]
+				tempDROP += "</a></li>"
+			if "ID" in detalhes["destino"]:
+				tempDROP += '<li class="dropdown">'
+				tempDROP += '<a href="#">'
+				if len(detalhes["iconOFF"]) > 1:
+					tempDROP += "<img src='" + self.FileConverter(detalhes["iconOFF"], "png") + "'>"
+				tempDROP += detalhes["descricao"]
+				tempDROP += "</a>" + '<ul class="sub-menu">'
+				tempDROP += self.DROPDOWNGenerator(ALLdics, detalhes["destino"])
+				tempDROP += "</ul>"
+				tempDROP += "</li>"
+		return tempDROP
+
+	def LINKGenerator(self, index, Xi, Yi, Xf, Yf, destino, imagem, faseX, faseY):
+		tempLINKCSS = ""
+		tempLINKOBJ = ""
+		if len(destino) > 1:
+			tempLINKCSS += "#index" + str(index) + " { position: absolute; "
+			tempLINKCSS += "top: " + str(Yi - faseY) + "px; left: " + str(Xi - faseX) + "px; "
+			tempLINKCSS += "height: " + str(Yf - Yi) + "px; width: " + str(Xf - Xi) + "px; }"
+			if not "POP" in destino:
+				if ".snt" in destino:
+					tempLINKCSS += "#index" + str(index) + " a { "
+					tempLINKCSS += "height: " + str(Yf - Yi) + "px; width: " + str(Xf - Xi) + "px; }\n"
+					tempLINKOBJ += "<nav id='index" + str(index) + "'>"
+					tempLINKOBJ += "<ul><li>"
+					tempLINKOBJ += '<a href="'+ destino + '"' + "> </a>"
+					tempLINKOBJ += "</li></ul>"
+					tempLINKOBJ += "</nav>"
+				if ".csv" in destino:
+					tempLINKCSS += "#index" + str(index) + " a { white-space:nowrap; padding-left: 10px; padding-right: 10px;}"
+					menucsv = open(destino,"r")
+					conteudoCSV = menucsv.read()
+					menucsv.close()
+					dicIDs = {}
+					for linha in conteudoCSV.split("\n"):
+						dicINFO = {"descricao": "", "destino": "", "iconOFF": "", "iconON": ""}
+						if "ID" in linha.split(";")[0]:
+							if not linha.split(";")[0] in dicIDs:
+								dicIDs[linha.split(";")[0]] = []
+							dicINFO["descricao"] = linha.split(";")[1]
+							dicINFO["destino"] = linha.split(";")[3]
+							dicINFO["iconOFF"] = linha.split(";")[4]
+							dicINFO["iconON"] = linha.split(";")[5]
+							dicIDs[linha.split(";")[0]].append(dicINFO)
+					tempLINKOBJ += "<nav id='index" + str(index) + "'>"
+					tempLINKOBJ += '<ul class="content clearfix">'
+					tempLINKOBJ += '<li class="dropdown">'
+					tempLINKOBJ += '<a href="#" style="width: ' + str(Xf - Xi + 5) + 'px; height: ' + str(Yf - Yi) + 'px; background-color:none; "></a><ul class="sub-menu">'
+					tempLINKOBJ += self.DROPDOWNGenerator(dicIDs, "ID0")
+					tempLINKOBJ += "</ul></li></ul>"
+					tempLINKOBJ += "</nav>"
+			else:
+				pass
+				
+		return tempLINKCSS, tempLINKOBJ
+
+	def DumpHTML(self):
+		counter = 0
+		tempSTYLE = "<style>\n"
+		tempBODY = ""
+		tempHEAD = ""
+		for sinoticos in self.DicSinopticos:
+			tempSTYLE += "#index" + str(counter)
+			tempSTYLE += "{"
+			tempSTYLE += " background-size: auto; background-repeat: no-repeat;"
+			tempSTYLE += " position: absolute;"
+			tempSTYLE += " left: " + str(self.DicSinopticos[sinoticos].x) + "px;"
+			tempSTYLE += " top: " + str(self.DicSinopticos[sinoticos].y) + "px;"
+			tempSTYLE += " } "
+			tempBODY += "<div id='index" + str(counter) + "'"
+			tempBODY += " style='position:fixed; left:"
+			tempBODY += str(self.DicSinopticos[sinoticos].x) + "; top:"
+			tempBODY += str(self.DicSinopticos[sinoticos].y) + "'>"
+			tempBODY += "<img src='" + self.FileConverter(self.DicSinopticos[sinoticos].ImagemFundo, "png") + "'>"
+			counter += 1
+			for obj in self.DicSinopticos[sinoticos].objeto:
+				tempSTYLE += self.CSSGenerator(obj, counter, self.DicSinopticos[sinoticos].x, self.DicSinopticos[sinoticos].y)
+				tempBODY += self.OBJGenerator(obj, counter)
+				counter += 1
+			for num in range(0, 100):
+				tempLINKCSS, tempLINKOBJ = self.LINKGenerator(counter, self.DicSinopticos[sinoticos].LinkXi[num], self.DicSinopticos[sinoticos].LinkYi[num], self.DicSinopticos[sinoticos].LinkXf[num], self.DicSinopticos[sinoticos].LinkYf[num], self.DicSinopticos[sinoticos].LinkFicheiro[num], self.DicSinopticos[sinoticos].LinkImagem[num], self.DicSinopticos[sinoticos].x, self.DicSinopticos[sinoticos].y)
+				tempSTYLE += tempLINKCSS
+				tempBODY += tempLINKOBJ
+				counter += 1
+			tempBODY += "</div>\n"
+		tempSTYLE += "</style>\n"
+		tempHEAD += tempSTYLE
+		tempHEAD += "<script src='/Base/jquery-3.2.1.js'></script>\n"
+		tempHEAD += "<script>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
+		tempHEAD += "<title>\n" + "S-Monitor" + " @ Itelmatis" + "</title>\n"
+		tempHEAD += "</head>\n"
+		tempBODY += "</div>\n"
+		tempBODY += "</body>\n"
+		return tempHEAD, tempBODY
+
 
 class INICIO(object):
 	@cherrypy.expose
 	def index(self):
-		tempHTML = "<html><head></head><body>Hello world!</body></html>"
+		tempHTML = "<!DOCTYPE html>\n<html lang='pt-PT'>\n"
+		tempHTML += "<head>\n"
+		tempHTML += "<style type='text/css'>\n"
+		tempHTML += self.LoadDefaultConfig()
+		tempHTML += "</style>"
+		tempHTML += "<script src='/Base/jquery-3.2.1.js'></script>\n"
+		tempHTML += "<script>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
+		tempHTML += "<title>\n" + "S-Monitor" + " @ Itelmatis" + "</title>\n"
+		tempHTML += "</head>\n"
+		tempHTML += "<body>\n"
+		tempHTML += "<div id='wrapper'>\n"
+		tempstyles , tempbody = self.Sinoptico(SMonitorFolder + SinoticoPrincipal)
+		tempHTML += tempstyles
+		tempHTML += tempbody
+		tempHTML += "</div>\n"
+		tempHTML += "</body>\n"
+		tempHTML += "</html>"
 		return tempHTML
 
+	@cherrypy.expose
+	def Sinoptico(self, Caminho=None):
+		htmlinho = HTMLCreator(Caminho)
+		tempstyles = "<style>"
+		styles, body = htmlinho.DumpHTML()
+		tempstyles += styles
+		tempstyles += "</style>"
+		body += "<script> '$('a').click(function( event ){ event.preventDefault(); var href = $('a').attr('href'); $.post('Sinoptico', { Caminho: href }, \
+		function(returnedData){ $('#wrapper').html(returnedData);})}); </script>"
+		return styles, body
 
-if __name__=="__main__":
-	cherrypy.config.update({'server.socket_port': PortaServidor })
-	cherrypy.quickstart(INICIO())
+	def LoadDefaultConfig(self):
+		clearFORMATs = "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,"
+		clearFORMATs += " abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,"
+		clearFORMATs += " small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,"
+		clearFORMATs += " table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,"
+		clearFORMATs += " figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video"
+		clearFORMATs += " {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }"
+		clearFORMATs += " article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }"
+		clearFORMATs += " body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; }"
+		clearFORMATs += " blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }"
+		clearFORMATs += " table { border-collapse: collapse; border-spacing: 0; } "
+		defaultMENU = ""
+		defaultMENU += " nav ul { list-style-type:none; margin:0; padding:0; }"
+		defaultMENU += " nav ul li { display:inline-block; position:relative; }"
+		defaultMENU += " nav li ul { background-color:rgb(242,242,242); position:absolute; left:0; border:solid 1px rgb(160,160,160); box-shadow: 2px 2px 5px rgb(89,111,89); }"
+		defaultMENU += " nav li li { position:relative; margin:0; display:block; }"
+		defaultMENU += " nav li li ul { position:absolute; top:0; left:50%; margin:0; margin-left: 50%; }"
+		defaultMENU += " nav a { color:#000; text-decoration:none; display:block; }"
+		defaultMENU += " nav ul li ul li a:hover, nav ul li ul li a:focus, nav ul li ul li a:active { color:rgb(50,50,50); background-color:rgb(145,201,247) }"
+		defaultMENU += " nav li li a { margin:0; padding:0; }"
+		defaultMENU += " nav li li:last-child a { border-bottom:none; }"
+		defaultMENU += " nav li.dropdown > a { background-image:url('/Base/IMG/arrow-down-black.png'); background-position:right 30px; background-repeat:no-repeat; }"
+		defaultMENU += " nav li li.dropdown > a { background-image:url('/Base/IMG/arrow-right-black.png'); background-position:right 8px; background-repeat:no-repeat; }"
+		defaultMENU += " nav li li.dropdown:hover > a { background-image:url('/Base/IMG/arrow-right-white.png'); background-position:right 8px; background-repeat:no-repeat; }"
+		defaultMENU += " ul .sub-menu { display:none; }"
+		defaultMENU += " nav img { height: 16px; width: 16px; }"
+		return clearFORMATs + defaultMENU
+
+if __name__ == "__main__":
+	cherrypy.server.socket_host = "0.0.0.0"
+	cherrypy.server.socket_port = PortaServidor
+	config = {"/HTML": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(file_path, "HTML") },
+			"/Base": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(file_path, "Base") }}
+	cherrypy.tree.mount(INICIO(), "/", config=config)
+	cherrypy.engine.start()
+	cherrypy.engine.block()
