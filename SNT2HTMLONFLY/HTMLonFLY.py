@@ -20,7 +20,7 @@ __status__ = "Under Development"
 PortaServidor = 80
 SinoticoPrincipal = "Files\\Main\\MenuPrincipal.snt"
 SMonitorFolder = "C:\\S-Monitor\\"
-file_path = os.getcwd().replace("\\", "/")
+this_file_path = os.getcwd().replace("\\", "/")
 
 class Objeto:
 	def __init__(self):
@@ -798,9 +798,9 @@ class INICIO(object):
 if __name__ == "__main__":
 	cherrypy.server.socket_host = "0.0.0.0"
 	cherrypy.server.socket_port = PortaServidor
-	config = {"/HTML": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(file_path, "HTML") },
-			"/Base": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(file_path, "Base") },
-			"/favicon.ico": { "tools.staticfile.on": True, "tools.staticfile.filename": file_path + "/Base/IMG/icone.ico"} }
+	config = {"/HTML": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(this_file_path, "HTML") },
+			"/Base": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(this_file_path, "Base") },
+			"/favicon.ico": { "tools.staticfile.on": True, "tools.staticfile.filename": this_file_path + "/Base/IMG/icone.ico"} }
 	cherrypy.tree.mount(INICIO(), "/", config=config)
 	cherrypy.engine.start()
 	cherrypy.engine.block()
