@@ -7534,3 +7534,1143 @@ Request Headers:
   Content-Type: application/x-www-form-urlencoded; charset=UTF-8
   Content-Length: 11
 2017-05-17 17:15:04,714 [INFO] 127.0.0.1 - - [17/May/2017:17:15:04] "POST /Sinoptico HTTP/1.1" 500 1489 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-17 17:45:08,357 [INFO] [17/May/2017:17:45:08] ENGINE Bus STARTING
+2017-05-17 17:45:08,359 [INFO] [17/May/2017:17:45:08] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-17 17:45:08,359 [INFO] [17/May/2017:17:45:08] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-17 17:45:13,531 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-17 17:45:13,532 [INFO] [17/May/2017:17:45:13] ENGINE Serving on http://0.0.0.0
+2017-05-17 17:45:13,533 [INFO] [17/May/2017:17:45:13] ENGINE Bus STARTED
+2017-05-17 17:45:15,955 [INFO] 127.0.0.1 - - [17/May/2017:17:45:15] "GET / HTTP/1.1" 200 22377 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,054 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,062 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,063 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,071 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,224 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,224 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,224 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,225 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,227 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,228 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,239 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,242 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,242 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,242 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,259 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,260 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:16,261 [INFO] 127.0.0.1 - - [17/May/2017:17:45:16] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:19,241 [INFO] 127.0.0.1 - - [17/May/2017:17:45:19] "POST /Sinoptico HTTP/1.1" 200 18884 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:19,310 [INFO] 127.0.0.1 - - [17/May/2017:17:45:19] "GET /Cache/Files/L11/Fundo - Bombagem Principal3.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:19,318 [INFO] 127.0.0.1 - - [17/May/2017:17:45:19] "GET /Cache/Files/B1/Animation - light small.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:19,320 [INFO] 127.0.0.1 - - [17/May/2017:17:45:19] "GET /Cache/Files/B1/Animation - Pump alarm2.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:19,322 [INFO] 127.0.0.1 - - [17/May/2017:17:45:19] "GET /Cache/Files/B1/Animation - Reservatorio.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:19,322 [INFO] 127.0.0.1 - - [17/May/2017:17:45:19] "GET /Cache/Files/B1/Animation - Pump stopped2.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:19,324 [INFO] 127.0.0.1 - - [17/May/2017:17:45:19] "GET /Cache/Files/B1/Animation - HMotor3.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,613 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET / HTTP/1.1" 200 22377 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,671 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Base/jquery-3.2.1.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,756 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,757 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,773 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,775 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,778 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,778 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,779 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,789 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,790 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,791 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,791 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,791 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,793 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,812 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,814 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,815 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,815 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:22,817 [INFO] 127.0.0.1 - - [17/May/2017:17:45:22] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:27,059 [INFO] 127.0.0.1 - - [17/May/2017:17:45:27] "POST /Sinoptico HTTP/1.1" 200 18884 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:27,131 [INFO] 127.0.0.1 - - [17/May/2017:17:45:27] "GET /Cache/Files/B1/Animation - Pump stopped2.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:27,132 [INFO] 127.0.0.1 - - [17/May/2017:17:45:27] "GET /Cache/Files/L11/Fundo - Bombagem Principal3.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:27,136 [INFO] 127.0.0.1 - - [17/May/2017:17:45:27] "GET /Cache/Files/B1/Animation - HMotor3.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:27,139 [INFO] 127.0.0.1 - - [17/May/2017:17:45:27] "GET /Cache/Files/B1/Animation - light small.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:27,139 [INFO] 127.0.0.1 - - [17/May/2017:17:45:27] "GET /Cache/Files/B1/Animation - Reservatorio.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:27,140 [INFO] 127.0.0.1 - - [17/May/2017:17:45:27] "GET /Cache/Files/B1/Animation - Pump alarm2.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:30,053 [ERROR] [17/May/2017:17:45:30] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:45:30,056 [INFO] [17/May/2017:17:45:30] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:45:30,056 [INFO] 127.0.0.1 - - [17/May/2017:17:45:30] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:30,895 [ERROR] [17/May/2017:17:45:30] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:45:30,896 [INFO] [17/May/2017:17:45:30] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:45:30,897 [INFO] 127.0.0.1 - - [17/May/2017:17:45:30] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:31,302 [ERROR] [17/May/2017:17:45:31] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:45:31,307 [INFO] [17/May/2017:17:45:31] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:45:31,308 [INFO] 127.0.0.1 - - [17/May/2017:17:45:31] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:31,534 [ERROR] [17/May/2017:17:45:31] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:45:31,535 [INFO] [17/May/2017:17:45:31] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:45:31,537 [INFO] 127.0.0.1 - - [17/May/2017:17:45:31] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:32,322 [ERROR] [17/May/2017:17:45:32] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:45:32,323 [INFO] [17/May/2017:17:45:32] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:45:32,324 [INFO] 127.0.0.1 - - [17/May/2017:17:45:32] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:33,389 [ERROR] [17/May/2017:17:45:33] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:45:33,390 [INFO] [17/May/2017:17:45:33] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:45:33,391 [INFO] 127.0.0.1 - - [17/May/2017:17:45:33] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:45:33,542 [ERROR] [17/May/2017:17:45:33] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:45:33,544 [INFO] [17/May/2017:17:45:33] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:45:33,544 [INFO] 127.0.0.1 - - [17/May/2017:17:45:33] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:02,141 [INFO] [17/May/2017:17:46:02] ENGINE Bus STARTING
+2017-05-17 17:46:02,142 [INFO] [17/May/2017:17:46:02] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-17 17:46:02,142 [INFO] [17/May/2017:17:46:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-17 17:46:07,348 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-17 17:46:07,348 [INFO] [17/May/2017:17:46:07] ENGINE Serving on http://0.0.0.0
+2017-05-17 17:46:07,349 [INFO] [17/May/2017:17:46:07] ENGINE Bus STARTED
+2017-05-17 17:46:11,630 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET / HTTP/1.1" 200 22501 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,688 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Base/jquery-3.2.1.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,775 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,778 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,795 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,796 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,805 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,802 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,798 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,807 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,816 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,818 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,818 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,819 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,820 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,821 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,823 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,826 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,827 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:11,860 [INFO] 127.0.0.1 - - [17/May/2017:17:46:11] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:13,313 [INFO] 127.0.0.1 - - [17/May/2017:17:46:13] "POST /Sinoptico HTTP/1.1" 200 19076 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:13,373 [INFO] 127.0.0.1 - - [17/May/2017:17:46:13] "GET /Cache/Files/L11/Fundo - Bombagem Principal3.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:13,373 [INFO] 127.0.0.1 - - [17/May/2017:17:46:13] "GET /Cache/Files/B1/Animation - Pump stopped2.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:13,378 [INFO] 127.0.0.1 - - [17/May/2017:17:46:13] "GET /Cache/Files/B1/Animation - Pump alarm2.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:13,378 [INFO] 127.0.0.1 - - [17/May/2017:17:46:13] "GET /Cache/Files/B1/Animation - Reservatorio.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:13,379 [INFO] 127.0.0.1 - - [17/May/2017:17:46:13] "GET /Cache/Files/B1/Animation - light small.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:13,380 [INFO] 127.0.0.1 - - [17/May/2017:17:46:13] "GET /Cache/Files/B1/Animation - HMotor3.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:14,448 [ERROR] [17/May/2017:17:46:14] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:46:14,453 [INFO] [17/May/2017:17:46:14] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:46:14,455 [INFO] 127.0.0.1 - - [17/May/2017:17:46:14] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:16,124 [ERROR] [17/May/2017:17:46:16] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:46:16,126 [INFO] [17/May/2017:17:46:16] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:46:16,129 [INFO] 127.0.0.1 - - [17/May/2017:17:46:16] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:16,619 [ERROR] [17/May/2017:17:46:16] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:46:16,623 [INFO] [17/May/2017:17:46:16] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:46:16,624 [INFO] 127.0.0.1 - - [17/May/2017:17:46:16] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:16,893 [ERROR] [17/May/2017:17:46:16] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:46:16,897 [INFO] [17/May/2017:17:46:16] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:46:16,898 [INFO] 127.0.0.1 - - [17/May/2017:17:46:16] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:17,073 [ERROR] [17/May/2017:17:46:17] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:46:17,075 [INFO] [17/May/2017:17:46:17] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:46:17,076 [INFO] 127.0.0.1 - - [17/May/2017:17:46:17] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:17,263 [ERROR] [17/May/2017:17:46:17] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:46:17,265 [INFO] [17/May/2017:17:46:17] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:46:17,267 [INFO] 127.0.0.1 - - [17/May/2017:17:46:17] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:17,561 [ERROR] [17/May/2017:17:46:17] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:46:17,564 [INFO] [17/May/2017:17:46:17] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:46:17,565 [INFO] 127.0.0.1 - - [17/May/2017:17:46:17] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:17,712 [ERROR] [17/May/2017:17:46:17] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:46:17,715 [INFO] [17/May/2017:17:46:17] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:46:17,716 [INFO] 127.0.0.1 - - [17/May/2017:17:46:17] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:17,849 [ERROR] [17/May/2017:17:46:17] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:46:17,856 [INFO] [17/May/2017:17:46:17] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:46:17,857 [INFO] 127.0.0.1 - - [17/May/2017:17:46:17] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:17,966 [ERROR] [17/May/2017:17:46:17] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:46:17,970 [INFO] [17/May/2017:17:46:17] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:46:17,971 [INFO] 127.0.0.1 - - [17/May/2017:17:46:17] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:18,125 [ERROR] [17/May/2017:17:46:18] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-17 17:46:18,128 [INFO] [17/May/2017:17:46:18] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-17 17:46:18,129 [INFO] 127.0.0.1 - - [17/May/2017:17:46:18] "POST /Sinoptico HTTP/1.1" 500 1489 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:18,870 [INFO] 127.0.0.1 - - [17/May/2017:17:46:18] "GET /Base/IMG/arrow-right-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,048 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET / HTTP/1.1" 200 22501 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,106 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Base/jquery-3.2.1.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,194 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,194 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,196 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,219 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,220 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,220 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,223 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,225 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,238 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,240 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,242 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,242 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,243 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,244 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,245 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,246 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,253 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:20,260 [INFO] 127.0.0.1 - - [17/May/2017:17:46:20] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:21,955 [INFO] 127.0.0.1 - - [17/May/2017:17:46:21] "GET /Base/IMG/arrow-right-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:25,348 [INFO] 127.0.0.1 - - [17/May/2017:17:46:25] "POST /Sinoptico HTTP/1.1" 200 19076 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:25,414 [INFO] 127.0.0.1 - - [17/May/2017:17:46:25] "GET /Cache/Files/B1/Animation - Pump stopped2.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:25,417 [INFO] 127.0.0.1 - - [17/May/2017:17:46:25] "GET /Cache/Files/B1/Animation - HMotor3.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:25,417 [INFO] 127.0.0.1 - - [17/May/2017:17:46:25] "GET /Cache/Files/L11/Fundo - Bombagem Principal3.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:25,422 [INFO] 127.0.0.1 - - [17/May/2017:17:46:25] "GET /Cache/Files/B1/Animation - Pump alarm2.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:25,423 [INFO] 127.0.0.1 - - [17/May/2017:17:46:25] "GET /Cache/Files/B1/Animation - Reservatorio.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:46:25,423 [INFO] 127.0.0.1 - - [17/May/2017:17:46:25] "GET /Cache/Files/B1/Animation - light small.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:16,448 [INFO] 127.0.0.1 - - [17/May/2017:17:47:16] "POST /Sinoptico HTTP/1.1" 200 19076 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:44,926 [INFO] 127.0.0.1 - - [17/May/2017:17:47:44] "GET / HTTP/1.1" 200 22501 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,001 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Base/jquery-3.2.1.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,110 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,118 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,135 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,139 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,142 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,146 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,169 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,169 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,186 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,187 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,188 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,188 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,190 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,190 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,230 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,234 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,235 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:47:45,237 [INFO] 127.0.0.1 - - [17/May/2017:17:47:45] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 17:48:24,812 [INFO] [17/May/2017:17:48:24] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-17 17:48:24,812 [INFO] [17/May/2017:17:48:24] ENGINE Stopped thread 'Autoreloader'.
+2017-05-17 17:48:24,813 [INFO] [17/May/2017:17:48:24] ENGINE Bus STOPPING
+2017-05-17 17:48:24,825 [INFO] [17/May/2017:17:48:24] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-17 17:48:24,825 [INFO] [17/May/2017:17:48:24] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-17 17:48:24,826 [INFO] [17/May/2017:17:48:24] ENGINE Bus STOPPED
+2017-05-17 17:48:24,826 [INFO] [17/May/2017:17:48:24] ENGINE Bus EXITING
+2017-05-17 17:48:24,827 [INFO] [17/May/2017:17:48:24] ENGINE Waiting for child threads to terminate...
+2017-05-17 17:48:24,827 [INFO] [17/May/2017:17:48:24] ENGINE Bus EXITED
+2017-05-17 17:48:24,827 [INFO] [17/May/2017:17:48:24] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-17 17:48:25,990 [INFO] [17/May/2017:17:48:25] ENGINE Bus STARTING
+2017-05-17 17:48:25,993 [INFO] [17/May/2017:17:48:25] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-17 17:48:25,994 [INFO] [17/May/2017:17:48:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-17 17:48:31,198 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-17 17:48:31,198 [INFO] [17/May/2017:17:48:31] ENGINE Serving on http://0.0.0.0
+2017-05-17 17:48:31,199 [INFO] [17/May/2017:17:48:31] ENGINE Bus STARTED
+2017-05-17 18:00:01,691 [INFO] [17/May/2017:18:00:01] ENGINE Bus STARTING
+2017-05-17 18:00:01,692 [INFO] [17/May/2017:18:00:01] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-17 18:00:01,692 [INFO] [17/May/2017:18:00:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-17 18:00:06,863 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-17 18:00:06,863 [INFO] [17/May/2017:18:00:06] ENGINE Serving on http://0.0.0.0
+2017-05-17 18:00:06,864 [INFO] [17/May/2017:18:00:06] ENGINE Bus STARTED
+2017-05-17 18:00:14,600 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET / HTTP/1.1" 200 22455 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,822 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,824 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,836 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,837 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,840 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,842 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,843 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,852 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,971 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,972 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,972 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,972 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,973 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,974 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,982 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,983 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:14,986 [INFO] 127.0.0.1 - - [17/May/2017:18:00:14] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:26,465 [INFO] 127.0.0.1 - - [17/May/2017:18:00:26] "POST /Sinoptico HTTP/1.1" 200 19049 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:26,593 [INFO] 127.0.0.1 - - [17/May/2017:18:00:26] "GET /Cache/Files/L11/Fundo - Bombagem Principal3.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:26,601 [INFO] 127.0.0.1 - - [17/May/2017:18:00:26] "GET /Cache/Files/B1/Animation - HMotor3.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:26,604 [INFO] 127.0.0.1 - - [17/May/2017:18:00:26] "GET /Cache/Files/B1/Animation - Pump stopped2.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:26,607 [INFO] 127.0.0.1 - - [17/May/2017:18:00:26] "GET /Cache/Files/B1/Animation - Pump alarm2.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:26,607 [INFO] 127.0.0.1 - - [17/May/2017:18:00:26] "GET /Cache/Files/B1/Animation - Reservatorio.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:26,608 [INFO] 127.0.0.1 - - [17/May/2017:18:00:26] "GET /Cache/Files/B1/Animation - light small.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:31,286 [ERROR] [17/May/2017:18:00:31] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:31,319 [INFO] [17/May/2017:18:00:31] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:31,320 [INFO] 127.0.0.1 - - [17/May/2017:18:00:31] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:31,812 [ERROR] [17/May/2017:18:00:31] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:31,819 [INFO] [17/May/2017:18:00:31] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:31,820 [INFO] 127.0.0.1 - - [17/May/2017:18:00:31] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:32,163 [ERROR] [17/May/2017:18:00:32] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:32,167 [INFO] [17/May/2017:18:00:32] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:32,168 [INFO] 127.0.0.1 - - [17/May/2017:18:00:32] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:32,304 [ERROR] [17/May/2017:18:00:32] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:32,306 [INFO] [17/May/2017:18:00:32] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:32,307 [INFO] 127.0.0.1 - - [17/May/2017:18:00:32] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:32,487 [ERROR] [17/May/2017:18:00:32] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:32,489 [INFO] [17/May/2017:18:00:32] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:32,490 [INFO] 127.0.0.1 - - [17/May/2017:18:00:32] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:33,276 [ERROR] [17/May/2017:18:00:33] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:33,278 [INFO] [17/May/2017:18:00:33] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:33,279 [INFO] 127.0.0.1 - - [17/May/2017:18:00:33] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:33,445 [ERROR] [17/May/2017:18:00:33] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:33,447 [INFO] [17/May/2017:18:00:33] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:33,449 [INFO] 127.0.0.1 - - [17/May/2017:18:00:33] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:33,572 [ERROR] [17/May/2017:18:00:33] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:33,575 [INFO] [17/May/2017:18:00:33] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:33,576 [INFO] 127.0.0.1 - - [17/May/2017:18:00:33] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:36,572 [ERROR] [17/May/2017:18:00:36] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:36,574 [INFO] [17/May/2017:18:00:36] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:36,575 [INFO] 127.0.0.1 - - [17/May/2017:18:00:36] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:37,140 [ERROR] [17/May/2017:18:00:37] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:37,143 [INFO] [17/May/2017:18:00:37] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:37,144 [INFO] 127.0.0.1 - - [17/May/2017:18:00:37] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:37,380 [ERROR] [17/May/2017:18:00:37] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:37,382 [INFO] [17/May/2017:18:00:37] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:37,384 [INFO] 127.0.0.1 - - [17/May/2017:18:00:37] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:38,005 [ERROR] [17/May/2017:18:00:38] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:38,007 [INFO] [17/May/2017:18:00:38] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:38,008 [INFO] 127.0.0.1 - - [17/May/2017:18:00:38] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:38,144 [ERROR] [17/May/2017:18:00:38] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:38,146 [INFO] [17/May/2017:18:00:38] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:38,147 [INFO] 127.0.0.1 - - [17/May/2017:18:00:38] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:38,252 [ERROR] [17/May/2017:18:00:38] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:38,255 [INFO] [17/May/2017:18:00:38] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:38,256 [INFO] 127.0.0.1 - - [17/May/2017:18:00:38] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:39,299 [ERROR] [17/May/2017:18:00:39] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 775, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 511, in __init__
+    caminho , self.nomeFicheiro = os.path.split(nomeFicheiro)
+  File "C:\Python36\lib\ntpath.py", line 204, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2017-05-17 18:00:39,306 [INFO] [17/May/2017:18:00:39] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+  ACCEPT: */*
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://127.0.0.1/
+  CONNECTION: keep-alive
+  Content-Length: 0
+2017-05-17 18:00:39,307 [INFO] 127.0.0.1 - - [17/May/2017:18:00:39] "POST /Sinoptico HTTP/1.1" 500 1583 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,319 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET / HTTP/1.1" 200 22455 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,406 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Base/jquery-3.2.1.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,513 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,539 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,542 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,544 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,545 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,547 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,548 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,558 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,558 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,558 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,561 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,564 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,566 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,590 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,593 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,594 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,594 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:00:40,595 [INFO] 127.0.0.1 - - [17/May/2017:18:00:40] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-17 18:01:23,578 [INFO] [17/May/2017:18:01:23] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-17 18:01:23,578 [INFO] [17/May/2017:18:01:23] ENGINE Stopped thread 'Autoreloader'.
+2017-05-17 18:01:23,584 [INFO] [17/May/2017:18:01:23] ENGINE Bus STOPPING
+2017-05-17 18:01:23,595 [INFO] [17/May/2017:18:01:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-17 18:01:23,595 [INFO] [17/May/2017:18:01:23] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-17 18:01:23,595 [INFO] [17/May/2017:18:01:23] ENGINE Bus STOPPED
+2017-05-17 18:01:23,596 [INFO] [17/May/2017:18:01:23] ENGINE Bus EXITING
+2017-05-17 18:01:23,596 [INFO] [17/May/2017:18:01:23] ENGINE Waiting for child threads to terminate...
+2017-05-17 18:01:23,597 [INFO] [17/May/2017:18:01:23] ENGINE Bus EXITED
+2017-05-17 18:01:23,597 [INFO] [17/May/2017:18:01:23] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-17 18:01:24,906 [INFO] [17/May/2017:18:01:24] ENGINE Bus STARTING
+2017-05-17 18:01:24,910 [INFO] [17/May/2017:18:01:24] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-17 18:01:24,911 [INFO] [17/May/2017:18:01:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-17 18:01:30,104 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-17 18:01:30,104 [INFO] [17/May/2017:18:01:30] ENGINE Serving on http://0.0.0.0
+2017-05-17 18:01:30,105 [INFO] [17/May/2017:18:01:30] ENGINE Bus STARTED

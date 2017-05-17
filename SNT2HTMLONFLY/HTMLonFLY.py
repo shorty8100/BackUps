@@ -742,7 +742,7 @@ class HTMLCreator:
 class INICIO(object):
 	@cherrypy.expose
 	def index(self):
-		tempHTML = "<!DOCTYPE html>\n<html lang='pt-PT'>\n"
+		tempHTML = "<<html>\n"
 		tempHTML += "<head>\n"
 		tempHTML += "<style type='text/css'>\n"
 		tempHTML += self.LoadDefaultConfig()
