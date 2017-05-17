@@ -748,7 +748,7 @@ class INICIO(object):
 		tempHTML += self.LoadDefaultConfig()
 		tempHTML += "</style>"
 		tempHTML += "<script src='/Base/jquery-3.2.1.js'></script>\n"
-		tempHTML += "<script>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
+		#tempHTML += "<script>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
 		tempHTML += "<title>\n" + "S-Monitor" + " @ Itelmatis" + "</title>\n"
 		tempHTML += "</head>\n"
 		tempHTML += "<body>\n"
@@ -757,7 +757,15 @@ class INICIO(object):
 		tempHTML += tempstyles
 		tempHTML += tempbody
 		tempHTML += "</div>\n"
-		tempHTML += "<script> $(document).ready(function() { $('a').click(function( event ){ event.preventDefault(); var href = $('a').attr('href'); $.post('Sinoptico', { Caminho: href }, function(returnedData){ $('#wrapper').html(returnedData);})})}); </script>\n"
+		tempHTML += "<script> $(document).ready( \
+		\nfunction() { \
+		\n$(document).on('click','a',function(event) { \
+		\nevent.preventDefault(); \
+		\nvar href = $('a').attr('href'); \
+		\n$.post('Sinoptico', { Caminho: href }, \
+		\nfunction(returnedData){ \
+		\n$('#wrapper').html(returnedData); \
+		\n})})}); </script>\n"
 		tempHTML += "</body>\n"
 		tempHTML += "</html>"
 		return tempHTML
@@ -765,8 +773,11 @@ class INICIO(object):
 	@cherrypy.expose
 	def Sinoptico(self, Caminho=None):
 		htmlinho = HTMLCreator(Caminho)
+		print(Caminho)
 		tempstyles = "<style>"
 		styles, body = htmlinho.DumpHTML()
+		#body += "<script> $(document).ready(function() { $(document).on('click','a',function(event) { event.preventDefault(); var href = $('a').attr('href'); $.post('Sinoptico', { Caminho: href }, function(returnedData){ $('#wrapper').html(returnedData);})})}); </script>\n"
+		body += "<script>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
 		tempstyles += styles
 		tempstyles += "</style>"
 		return styles, body
