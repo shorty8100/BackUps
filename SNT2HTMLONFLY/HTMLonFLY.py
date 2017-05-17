@@ -528,17 +528,17 @@ class HTMLCreator:
 	def FileConverter (self, ImagePath, ImageExtensao):
 		caminho , ficheiro = os.path.split(ImagePath)
 		nome , extensao = ficheiro.split(".")
-		arquitectura = ImagePath.split(SMonitorFolder,1)[1].split(ficheiro,1)[0]
-		if not os.path.exists(this_file_path + arquitectura):
+		arquitectura = ImagePath.split(SMonitorFolder,1)[1].split(ficheiro,1)[0].replace("\\", "/")
+		if not os.path.exists(this_file_path + "/Cache" + arquitectura):
 			os.makedirs(this_file_path + "/Cache" + arquitectura)
 		if extensao.lower() == "bmp":
-			if not os.path.isfile("HTML/" + nome + "." + ImageExtensao):
-				Image.open(ImagePath).save("HTML/" + nome + "." + ImageExtensao)
+			if not os.path.isfile("Cache" + arquitectura + nome + "." + ImageExtensao):
+				Image.open(ImagePath).save("Cache" + arquitectura + nome + "." + ImageExtensao)
 		elif extensao.lower() == "avi":
-			if not os.path.isfile("HTML/" + nome + "." + ImageExtensao):
+			if not os.path.isfile("Cache" + arquitectura + nome + "." + ImageExtensao):
 				Sreader = imageio.get_reader(ImagePath)
 				Sfps = Sreader.get_meta_data()['fps']
-				Swriter = imageio.get_writer("HTML/" + nome + "." + ImageExtensao, fps=Sfps)
+				Swriter = imageio.get_writer("Cache" + arquitectura + nome + "." + ImageExtensao, fps=Sfps)
 				for i,im in enumerate(Sreader):
 					Swriter.append_data(im)
 				Swriter.close()
@@ -546,7 +546,7 @@ class HTMLCreator:
 		else:
 			print("Tipo de ficheiro desconhecido")
 			return
-		return "/HTML/" + nome + "." + ImageExtensao
+		return "/Cache" + arquitectura + nome + "." + ImageExtensao
 
 	def CSSGenerator(self, objecto, objId, faseX, faseY):
 		TextColorBGR = ""
@@ -749,15 +749,15 @@ class INICIO(object):
 		tempHTML += "</style>"
 		tempHTML += "<script src='/Base/jquery-3.2.1.js'></script>\n"
 		tempHTML += "<script>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
-		tempHTML += "<script> '$('a').click(function( event ){ event.preventDefault(); var href = $('a').attr('href'); $.post('Sinoptico', { Caminho: href }, function(returnedData){ $('#wrapper').html(returnedData);})}); </script>\n"
 		tempHTML += "<title>\n" + "S-Monitor" + " @ Itelmatis" + "</title>\n"
 		tempHTML += "</head>\n"
 		tempHTML += "<body>\n"
 		tempHTML += "<div id='wrapper'>\n"
-		tempstyles , tempbody = self.Sinoptico(SMonitorFolder + SinoticoPrincipal)
+		tempstyles , tempbody = self.Sinoptico(SMonitorFolder + "\\" + SinoticoPrincipal)
 		tempHTML += tempstyles
 		tempHTML += tempbody
 		tempHTML += "</div>\n"
+		tempHTML += "<script> $(document).ready(function() { $('a').click(function( event ){ event.preventDefault(); var href = $('a').attr('href'); $.post('Sinoptico', { Caminho: href }, function(returnedData){ $('#wrapper').html(returnedData);})})}); </script>\n"
 		tempHTML += "</body>\n"
 		tempHTML += "</html>"
 		return tempHTML
@@ -805,5 +805,6 @@ if __name__ == "__main__":
 			"/Base": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(this_file_path, "Base") },
 			"/favicon.ico": { "tools.staticfile.on": True, "tools.staticfile.filename": this_file_path + "/Base/IMG/icone.ico"} }
 	cherrypy.tree.mount(INICIO(), "/", config=config)
+	#cherrypy.config.update({'log.screen': False }) # nao cospe informacao para a consola
 	cherrypy.engine.start()
 	cherrypy.engine.block()
