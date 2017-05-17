@@ -18,9 +18,9 @@ __email__ = "MicaelMartins@itelmatis.com"
 __status__ = "Under Development"
 
 PortaServidor = 80
-SinoticoPrincipal = "Files\\Main\\MenuPrincipal.snt"
-SMonitorFolder = "C:\\S-Monitor\\"
-this_file_path = os.getcwd().replace("\\", "/")
+SinoticoPrincipal = "Files\Main\MenuPrincipal.snt"
+SMonitorFolder = "C:\S-Monitor"
+this_file_path = os.getcwd()
 
 class Objeto:
 	def __init__(self):
@@ -528,6 +528,9 @@ class HTMLCreator:
 	def FileConverter (self, ImagePath, ImageExtensao):
 		caminho , ficheiro = os.path.split(ImagePath)
 		nome , extensao = ficheiro.split(".")
+		arquitectura = ImagePath.split(SMonitorFolder,1)[1].split(ficheiro,1)[0]
+		if not os.path.exists(this_file_path + arquitectura):
+			os.makedirs(this_file_path + "/Cache" + arquitectura)
 		if extensao.lower() == "bmp":
 			if not os.path.isfile("HTML/" + nome + "." + ImageExtensao):
 				Image.open(ImagePath).save("HTML/" + nome + "." + ImageExtensao)
@@ -699,7 +702,7 @@ class HTMLCreator:
 		return tempLINKCSS, tempLINKOBJ
 
 	def DumpHTML(self):
-		directoria = "HTML"
+		directoria = "Cache/HTML"
 		if not os.path.exists(directoria):
 			os.makedirs(directoria)
 		counter = 0
@@ -798,7 +801,7 @@ class INICIO(object):
 if __name__ == "__main__":
 	cherrypy.server.socket_host = "0.0.0.0"
 	cherrypy.server.socket_port = PortaServidor
-	config = {"/HTML": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(this_file_path, "HTML") },
+	config = {"/Cache": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(this_file_path, "Cache") },
 			"/Base": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(this_file_path, "Base") },
 			"/favicon.ico": { "tools.staticfile.on": True, "tools.staticfile.filename": this_file_path + "/Base/IMG/icone.ico"} }
 	cherrypy.tree.mount(INICIO(), "/", config=config)
