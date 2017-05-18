@@ -613,7 +613,7 @@ class HTMLCreator:
 			else:
 				tempOBJ += "d"
 			tempOBJ += "-" + str(objecto.Variavel) + "'>"
-			tempOBJ += objecto.Nome
+			tempOBJ += objecto.Texto
 			tempOBJ += "</div>"
 		if objecto.Tipo == 0:
 			tempOBJ += "<img id='index" + str(objId) + "' class='"
@@ -757,15 +757,7 @@ class INICIO(object):
 		tempHTML += tempstyles
 		tempHTML += tempbody
 		tempHTML += "</div>\n"
-		tempHTML += "<script> $(document).ready( \
-		\nfunction() { \
-		\n$(document).on('click','a',function(event) { \
-		\nevent.preventDefault(); \
-		\nvar href = $('a').attr('href'); \
-		\n$.post('Sinoptico', { Caminho: href }, \
-		\nfunction(returnedData){ \
-		\n$('#wrapper').html(returnedData); \
-		\n})})}); </script>\n"
+		tempHTML += "<script type='application/javascript'> $(document).ready(function() { $(document).on('click','a',function(event) { event.preventDefault(); var sino = $(this).attr('href'); $.post('Sinoptico', { Caminho: sino }, function(returnedData){ $('#wrapper').html(returnedData); })})}); </script>\n"
 		tempHTML += "</body>\n"
 		tempHTML += "</html>"
 		return tempHTML
@@ -773,11 +765,11 @@ class INICIO(object):
 	@cherrypy.expose
 	def Sinoptico(self, Caminho=None):
 		htmlinho = HTMLCreator(Caminho)
-		print(Caminho)
+		print("----- " + Caminho + " -----")
 		tempstyles = "<style>"
 		styles, body = htmlinho.DumpHTML()
 		#body += "<script> $(document).ready(function() { $(document).on('click','a',function(event) { event.preventDefault(); var href = $('a').attr('href'); $.post('Sinoptico', { Caminho: href }, function(returnedData){ $('#wrapper').html(returnedData);})})}); </script>\n"
-		body += "<script>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
+		body += "<script type='application/javascript'>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
 		tempstyles += styles
 		tempstyles += "</style>"
 		return styles, body
