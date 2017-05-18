@@ -10551,3 +10551,889 @@ Request Headers:
 
 2017-05-18 15:58:32,079 [INFO] [18/May/2017:15:58:32] ENGINE Serving on http://0.0.0.0
 2017-05-18 15:58:32,079 [INFO] [18/May/2017:15:58:32] ENGINE Bus STARTED
+2017-05-18 15:59:36,672 [INFO] [18/May/2017:15:59:36] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 15:59:36,672 [INFO] [18/May/2017:15:59:36] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 15:59:36,673 [INFO] [18/May/2017:15:59:36] ENGINE Bus STOPPING
+2017-05-18 15:59:36,695 [INFO] [18/May/2017:15:59:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 15:59:36,695 [INFO] [18/May/2017:15:59:36] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 15:59:36,696 [INFO] [18/May/2017:15:59:36] ENGINE Bus STOPPED
+2017-05-18 15:59:36,696 [INFO] [18/May/2017:15:59:36] ENGINE Bus EXITING
+2017-05-18 15:59:36,696 [INFO] [18/May/2017:15:59:36] ENGINE Waiting for child threads to terminate...
+2017-05-18 15:59:36,696 [INFO] [18/May/2017:15:59:36] ENGINE Bus EXITED
+2017-05-18 15:59:36,697 [INFO] [18/May/2017:15:59:36] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 15:59:38,034 [INFO] [18/May/2017:15:59:38] ENGINE Bus STARTING
+2017-05-18 15:59:38,035 [INFO] [18/May/2017:15:59:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 15:59:38,035 [INFO] [18/May/2017:15:59:38] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 15:59:43,146 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 15:59:43,146 [INFO] [18/May/2017:15:59:43] ENGINE Serving on http://0.0.0.0
+2017-05-18 15:59:43,147 [INFO] [18/May/2017:15:59:43] ENGINE Bus STARTED
+2017-05-18 15:59:51,327 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET / HTTP/1.1" 200 26227 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,404 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Base/jquery-3.2.1.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,407 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Base/jquery-ui.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,412 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Base/jquery-ui.css HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,595 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,602 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,605 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,613 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,620 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,623 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,637 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,639 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,641 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,648 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,649 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,654 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,655 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,656 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,658 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,662 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,665 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:51,668 [INFO] 127.0.0.1 - - [18/May/2017:15:59:51] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:53,002 [INFO] 127.0.0.1 - - [18/May/2017:15:59:53] "GET /Base/IMG/arrow-right-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:53,408 [INFO] 127.0.0.1 - - [18/May/2017:15:59:53] "GET /Base/IMG/arrow-right-white.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:54,643 [INFO] 127.0.0.1 - - [18/May/2017:15:59:54] "POST /Sinoptico HTTP/1.1" 200 8757 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:54,673 [INFO] 127.0.0.1 - - [18/May/2017:15:59:54] "GET /Cache/Files/L11/Fundo - Bomba.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:54,674 [INFO] 127.0.0.1 - - [18/May/2017:15:59:54] "GET /Cache/Files/L11/Anim - State ONOFF.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:54,676 [INFO] 127.0.0.1 - - [18/May/2017:15:59:54] "GET /Cache/Files/L11/Anim - State Auto.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:54,680 [INFO] 127.0.0.1 - - [18/May/2017:15:59:54] "GET /Cache/Files/L11/Anim - State Alarm - CF.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,256 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET / HTTP/1.1" 200 26227 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,329 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Base/jquery-3.2.1.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,339 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Base/jquery-ui.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,340 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Base/jquery-ui.css HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,515 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,520 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,522 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,525 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,531 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,533 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,549 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,551 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,552 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,552 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,552 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,554 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,557 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,565 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,567 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,570 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,573 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 15:59:59,575 [INFO] 127.0.0.1 - - [18/May/2017:15:59:59] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:00:00,426 [INFO] 127.0.0.1 - - [18/May/2017:16:00:00] "GET /Base/IMG/arrow-right-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:00:00,773 [INFO] 127.0.0.1 - - [18/May/2017:16:00:00] "GET /Base/IMG/arrow-right-white.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:00:01,781 [INFO] 127.0.0.1 - - [18/May/2017:16:00:01] "POST /Sinoptico HTTP/1.1" 200 8757 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:00:01,807 [INFO] 127.0.0.1 - - [18/May/2017:16:00:01] "GET /Cache/Files/L11/Fundo - Bomba.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:00:01,808 [INFO] 127.0.0.1 - - [18/May/2017:16:00:01] "GET /Cache/Files/L11/Anim - State ONOFF.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:00:01,809 [INFO] 127.0.0.1 - - [18/May/2017:16:00:01] "GET /Cache/Files/L11/Anim - State Auto.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:00:01,811 [INFO] 127.0.0.1 - - [18/May/2017:16:00:01] "GET /Cache/Files/L11/Anim - State Alarm - CF.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,472 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET / HTTP/1.1" 200 26227 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,578 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Base/jquery-3.2.1.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,582 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Base/jquery-ui.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,594 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Base/jquery-ui.css HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,786 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,789 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,792 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,804 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,804 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,806 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,807 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,808 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,816 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,816 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,828 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,832 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,832 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,836 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,855 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,855 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,871 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:12,871 [INFO] 127.0.0.1 - - [18/May/2017:16:02:12] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 16:02:37,506 [INFO] 127.0.0.1 - - [18/May/2017:16:02:37] "GET / HTTP/1.1" 200 26227 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:37,663 [INFO] 127.0.0.1 - - [18/May/2017:16:02:37] "GET /Base/jquery-ui.css HTTP/1.1" 200 37326 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:37,742 [INFO] 127.0.0.1 - - [18/May/2017:16:02:37] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 200 1645 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:37,742 [INFO] 127.0.0.1 - - [18/May/2017:16:02:37] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 200 1682 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:37,748 [INFO] 127.0.0.1 - - [18/May/2017:16:02:37] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 200 2101 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:37,763 [INFO] 127.0.0.1 - - [18/May/2017:16:02:37] "GET /Base/jquery-ui.js HTTP/1.1" 200 520714 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:37,869 [INFO] 127.0.0.1 - - [18/May/2017:16:02:37] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 200 2003 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:37,903 [INFO] 127.0.0.1 - - [18/May/2017:16:02:37] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 200 934487 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:37,928 [INFO] 127.0.0.1 - - [18/May/2017:16:02:37] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 200 1951 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:37,951 [INFO] 127.0.0.1 - - [18/May/2017:16:02:37] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 200 1588 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:38,006 [INFO] 127.0.0.1 - - [18/May/2017:16:02:38] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 200 60976 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:38,010 [INFO] 127.0.0.1 - - [18/May/2017:16:02:38] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 200 5352 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:38,010 [INFO] 127.0.0.1 - - [18/May/2017:16:02:38] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 200 3192 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:38,021 [INFO] 127.0.0.1 - - [18/May/2017:16:02:38] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 200 113 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:38,062 [INFO] 127.0.0.1 - - [18/May/2017:16:02:38] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 200 13909 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:38,067 [INFO] 127.0.0.1 - - [18/May/2017:16:02:38] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 200 2877 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:38,067 [INFO] 127.0.0.1 - - [18/May/2017:16:02:38] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 200 981 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:38,158 [INFO] 127.0.0.1 - - [18/May/2017:16:02:38] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 200 919 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:38,277 [INFO] 127.0.0.1 - - [18/May/2017:16:02:38] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 200 1371 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:38,285 [INFO] 127.0.0.1 - - [18/May/2017:16:02:38] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 200 4265 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:38,918 [INFO] 127.0.0.1 - - [18/May/2017:16:02:38] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:51,108 [INFO] 127.0.0.1 - - [18/May/2017:16:02:51] "GET /Base/IMG/arrow-right-black.png HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:52,393 [INFO] 127.0.0.1 - - [18/May/2017:16:02:52] "POST /Sinoptico HTTP/1.1" 200 8757 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:52,450 [INFO] 127.0.0.1 - - [18/May/2017:16:02:52] "GET /Cache/Files/L11/Fundo - Bomba.png HTTP/1.1" 200 5120 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:52,465 [INFO] 127.0.0.1 - - [18/May/2017:16:02:52] "GET /Cache/Files/L11/Anim - State ONOFF.gif HTTP/1.1" 200 3955 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:52,473 [INFO] 127.0.0.1 - - [18/May/2017:16:02:52] "GET /Cache/Files/L11/Anim - State Auto.gif HTTP/1.1" 200 4010 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:02:52,481 [INFO] 127.0.0.1 - - [18/May/2017:16:02:52] "GET /Cache/Files/L11/Anim - State Alarm - CF.gif HTTP/1.1" 200 4050 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:05:23,984 [INFO] [18/May/2017:16:05:23] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:05:23,986 [INFO] [18/May/2017:16:05:23] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:05:23,993 [INFO] [18/May/2017:16:05:23] ENGINE Bus STOPPING
+2017-05-18 16:05:24,006 [INFO] [18/May/2017:16:05:24] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:05:24,007 [INFO] [18/May/2017:16:05:24] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:05:24,009 [INFO] [18/May/2017:16:05:24] ENGINE Bus STOPPED
+2017-05-18 16:05:24,009 [INFO] [18/May/2017:16:05:24] ENGINE Bus EXITING
+2017-05-18 16:05:24,009 [INFO] [18/May/2017:16:05:24] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:05:24,010 [INFO] [18/May/2017:16:05:24] ENGINE Bus EXITED
+2017-05-18 16:05:24,010 [INFO] [18/May/2017:16:05:24] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:05:25,598 [INFO] [18/May/2017:16:05:25] ENGINE Bus STARTING
+2017-05-18 16:05:25,599 [INFO] [18/May/2017:16:05:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:05:25,600 [INFO] [18/May/2017:16:05:25] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:05:30,761 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:05:30,762 [INFO] [18/May/2017:16:05:30] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:05:30,762 [INFO] [18/May/2017:16:05:30] ENGINE Bus STARTED
+2017-05-18 16:05:34,192 [INFO] 127.0.0.1 - - [18/May/2017:16:05:34] "GET / HTTP/1.1" 200 26236 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:05:34,465 [INFO] 127.0.0.1 - - [18/May/2017:16:05:34] "GET /favicon.ico HTTP/1.1" 200 370070 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:05:41,252 [INFO] 127.0.0.1 - - [18/May/2017:16:05:41] "POST /Sinoptico HTTP/1.1" 200 8760 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:06:45,148 [INFO] [18/May/2017:16:06:45] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:06:45,149 [INFO] [18/May/2017:16:06:45] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:06:45,150 [INFO] [18/May/2017:16:06:45] ENGINE Bus STOPPING
+2017-05-18 16:06:45,152 [INFO] [18/May/2017:16:06:45] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:06:45,152 [INFO] [18/May/2017:16:06:45] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:06:45,152 [INFO] [18/May/2017:16:06:45] ENGINE Bus STOPPED
+2017-05-18 16:06:45,153 [INFO] [18/May/2017:16:06:45] ENGINE Bus EXITING
+2017-05-18 16:06:45,153 [INFO] [18/May/2017:16:06:45] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:06:45,153 [INFO] [18/May/2017:16:06:45] ENGINE Bus EXITED
+2017-05-18 16:06:45,153 [INFO] [18/May/2017:16:06:45] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:06:47,934 [INFO] [18/May/2017:16:06:47] ENGINE Bus STARTING
+2017-05-18 16:06:47,935 [INFO] [18/May/2017:16:06:47] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:06:47,938 [INFO] [18/May/2017:16:06:47] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:06:53,136 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:06:53,137 [INFO] [18/May/2017:16:06:53] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:06:53,137 [INFO] [18/May/2017:16:06:53] ENGINE Bus STARTED
+2017-05-18 16:06:56,435 [INFO] 127.0.0.1 - - [18/May/2017:16:06:56] "GET / HTTP/1.1" 200 26236 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:06:56,637 [INFO] 127.0.0.1 - - [18/May/2017:16:06:56] "GET /favicon.ico HTTP/1.1" 200 370070 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:07:00,633 [INFO] 127.0.0.1 - - [18/May/2017:16:07:00] "POST /Sinoptico HTTP/1.1" 200 8760 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:02,002 [INFO] [18/May/2017:16:10:02] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:10:02,003 [INFO] [18/May/2017:16:10:02] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:10:02,009 [INFO] [18/May/2017:16:10:02] ENGINE Bus STOPPING
+2017-05-18 16:10:02,021 [INFO] [18/May/2017:16:10:02] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:10:02,022 [INFO] [18/May/2017:16:10:02] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:10:02,026 [INFO] [18/May/2017:16:10:02] ENGINE Bus STOPPED
+2017-05-18 16:10:02,027 [INFO] [18/May/2017:16:10:02] ENGINE Bus EXITING
+2017-05-18 16:10:02,027 [INFO] [18/May/2017:16:10:02] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:10:02,027 [INFO] [18/May/2017:16:10:02] ENGINE Bus EXITED
+2017-05-18 16:10:02,028 [INFO] [18/May/2017:16:10:02] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:10:03,083 [INFO] [18/May/2017:16:10:03] ENGINE Bus STARTING
+2017-05-18 16:10:03,085 [INFO] [18/May/2017:16:10:03] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:10:03,085 [INFO] [18/May/2017:16:10:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:10:08,209 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:10:08,209 [INFO] [18/May/2017:16:10:08] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:10:08,210 [INFO] [18/May/2017:16:10:08] ENGINE Bus STARTED
+2017-05-18 16:10:12,671 [INFO] 127.0.0.1 - - [18/May/2017:16:10:12] "GET / HTTP/1.1" 200 26241 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:12,825 [INFO] 127.0.0.1 - - [18/May/2017:16:10:12] "GET /favicon.ico HTTP/1.1" 200 370070 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:14,042 [INFO] 127.0.0.1 - - [18/May/2017:16:10:14] "POST /Sinoptico HTTP/1.1" 200 48654 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:14,083 [INFO] 127.0.0.1 - - [18/May/2017:16:10:14] "GET /Cache/Files/Furos/Comutador pequeno auto-manual.gif HTTP/1.1" 200 2051 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:14,084 [INFO] 127.0.0.1 - - [18/May/2017:16:10:14] "GET /Cache/Files/Furos/Comutador pequeno on-off.gif HTTP/1.1" 200 2037 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:14,084 [INFO] 127.0.0.1 - - [18/May/2017:16:10:14] "GET /Cache/Files/Furos/animacao - alarme geral peq.gif HTTP/1.1" 200 3833 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:14,095 [INFO] 127.0.0.1 - - [18/May/2017:16:10:14] "GET /Cache/Files/Furos/Fundo - Furos Geral.png HTTP/1.1" 200 64160 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:14,102 [INFO] 127.0.0.1 - - [18/May/2017:16:10:14] "GET /Cache/Files/Furos/animacao - fora de servico peq.gif HTTP/1.1" 200 3957 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:14,108 [INFO] 127.0.0.1 - - [18/May/2017:16:10:14] "GET /Cache/Files/Furos/animacao - em falha peq.gif HTTP/1.1" 200 3547 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:14,127 [INFO] 127.0.0.1 - - [18/May/2017:16:10:14] "GET /Cache/Files/Furos/Animacao - Bomba furo2.gif HTTP/1.1" 200 2798 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:14,131 [INFO] 127.0.0.1 - - [18/May/2017:16:10:14] "GET /Cache/Files/Furos/Animacao - Nivel do furo.gif HTTP/1.1" 200 41871 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:14,144 [INFO] 127.0.0.1 - - [18/May/2017:16:10:14] "GET /Cache/Files/Furos/animacao - incomunicavel peq.gif HTTP/1.1" 200 3935 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:14,175 [INFO] 127.0.0.1 - - [18/May/2017:16:10:14] "GET /Cache/Files/SX/Animation - light small.gif HTTP/1.1" 200 2079 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:17,456 [INFO] 127.0.0.1 - - [18/May/2017:16:10:17] "POST /Sinoptico HTTP/1.1" 200 8760 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:17,520 [INFO] 127.0.0.1 - - [18/May/2017:16:10:17] "GET /Base/images/ui-icons_444444_256x240.png HTTP/1.1" 200 7006 "http://localhost/Base/jquery-ui.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:17,522 [INFO] 127.0.0.1 - - [18/May/2017:16:10:17] "GET /Base/images/ui-icons_777777_256x240.png HTTP/1.1" 200 7013 "http://localhost/Base/jquery-ui.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:19,513 [INFO] 127.0.0.1 - - [18/May/2017:16:10:19] "GET /Base/images/ui-icons_555555_256x240.png HTTP/1.1" 200 7074 "http://localhost/Base/jquery-ui.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:26,860 [INFO] 127.0.0.1 - - [18/May/2017:16:10:26] "GET /Base/images/ui-icons_ffffff_256x240.png HTTP/1.1" 200 6313 "http://localhost/Base/jquery-ui.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:28,098 [INFO] 127.0.0.1 - - [18/May/2017:16:10:28] "POST /Sinoptico HTTP/1.1" 200 23293 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:29,971 [INFO] 127.0.0.1 - - [18/May/2017:16:10:29] "GET / HTTP/1.1" 200 26241 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:30,118 [INFO] 127.0.0.1 - - [18/May/2017:16:10:30] "GET /favicon.ico HTTP/1.1" 200 370070 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:10:32,331 [INFO] 127.0.0.1 - - [18/May/2017:16:10:32] "POST /Sinoptico HTTP/1.1" 200 8760 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:11:11,948 [ERROR] [18/May/2017:16:11:11] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 792, in Sinoptico
+    tempstyles, tempbody = htmlinho.DumpHTML()
+  File "HTMLonFLY.py", line 720, in DumpHTML
+    tempBODY += "<img src='" + self.FileConverter(self.DicSinopticos[sinoticos].ImagemFundo, "png") + "'>"
+  File "HTMLonFLY.py", line 530, in FileConverter
+    nome , extensao = ficheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-18 16:11:11,955 [INFO] [18/May/2017:16:11:11] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  CONNECTION: keep-alive
+  ACCEPT: */*
+  ORIGIN: http://localhost
+  X-REQUESTED-WITH: XMLHttpRequest
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  REFERER: http://localhost/
+  ACCEPT-ENCODING: gzip, deflate, br
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 75
+2017-05-18 16:11:11,967 [INFO] 127.0.0.1 - - [18/May/2017:16:11:11] "POST /Sinoptico HTTP/1.1" 500 1654 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:11:14,437 [ERROR] [18/May/2017:16:11:14] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 792, in Sinoptico
+    tempstyles, tempbody = htmlinho.DumpHTML()
+  File "HTMLonFLY.py", line 720, in DumpHTML
+    tempBODY += "<img src='" + self.FileConverter(self.DicSinopticos[sinoticos].ImagemFundo, "png") + "'>"
+  File "HTMLonFLY.py", line 530, in FileConverter
+    nome , extensao = ficheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-18 16:11:14,438 [INFO] [18/May/2017:16:11:14] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  CONNECTION: keep-alive
+  ACCEPT: */*
+  ORIGIN: http://localhost
+  X-REQUESTED-WITH: XMLHttpRequest
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  REFERER: http://localhost/
+  ACCEPT-ENCODING: gzip, deflate, br
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 75
+2017-05-18 16:11:14,440 [INFO] 127.0.0.1 - - [18/May/2017:16:11:14] "POST /Sinoptico HTTP/1.1" 500 1654 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:11:15,087 [ERROR] [18/May/2017:16:11:15] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 792, in Sinoptico
+    tempstyles, tempbody = htmlinho.DumpHTML()
+  File "HTMLonFLY.py", line 720, in DumpHTML
+    tempBODY += "<img src='" + self.FileConverter(self.DicSinopticos[sinoticos].ImagemFundo, "png") + "'>"
+  File "HTMLonFLY.py", line 530, in FileConverter
+    nome , extensao = ficheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-18 16:11:15,088 [INFO] [18/May/2017:16:11:15] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  CONNECTION: keep-alive
+  ACCEPT: */*
+  ORIGIN: http://localhost
+  X-REQUESTED-WITH: XMLHttpRequest
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  REFERER: http://localhost/
+  ACCEPT-ENCODING: gzip, deflate, br
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 75
+2017-05-18 16:11:15,089 [INFO] 127.0.0.1 - - [18/May/2017:16:11:15] "POST /Sinoptico HTTP/1.1" 500 1654 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:11:15,365 [ERROR] [18/May/2017:16:11:15] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 792, in Sinoptico
+    tempstyles, tempbody = htmlinho.DumpHTML()
+  File "HTMLonFLY.py", line 720, in DumpHTML
+    tempBODY += "<img src='" + self.FileConverter(self.DicSinopticos[sinoticos].ImagemFundo, "png") + "'>"
+  File "HTMLonFLY.py", line 530, in FileConverter
+    nome , extensao = ficheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-18 16:11:15,366 [INFO] [18/May/2017:16:11:15] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  CONNECTION: keep-alive
+  ACCEPT: */*
+  ORIGIN: http://localhost
+  X-REQUESTED-WITH: XMLHttpRequest
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  REFERER: http://localhost/
+  ACCEPT-ENCODING: gzip, deflate, br
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 75
+2017-05-18 16:11:15,367 [INFO] 127.0.0.1 - - [18/May/2017:16:11:15] "POST /Sinoptico HTTP/1.1" 500 1654 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:11:15,679 [ERROR] [18/May/2017:16:11:15] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 792, in Sinoptico
+    tempstyles, tempbody = htmlinho.DumpHTML()
+  File "HTMLonFLY.py", line 720, in DumpHTML
+    tempBODY += "<img src='" + self.FileConverter(self.DicSinopticos[sinoticos].ImagemFundo, "png") + "'>"
+  File "HTMLonFLY.py", line 530, in FileConverter
+    nome , extensao = ficheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-18 16:11:15,680 [INFO] [18/May/2017:16:11:15] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  CONNECTION: keep-alive
+  ACCEPT: */*
+  ORIGIN: http://localhost
+  X-REQUESTED-WITH: XMLHttpRequest
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  REFERER: http://localhost/
+  ACCEPT-ENCODING: gzip, deflate, br
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 75
+2017-05-18 16:11:15,681 [INFO] 127.0.0.1 - - [18/May/2017:16:11:15] "POST /Sinoptico HTTP/1.1" 500 1654 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:11:15,871 [ERROR] [18/May/2017:16:11:15] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 792, in Sinoptico
+    tempstyles, tempbody = htmlinho.DumpHTML()
+  File "HTMLonFLY.py", line 720, in DumpHTML
+    tempBODY += "<img src='" + self.FileConverter(self.DicSinopticos[sinoticos].ImagemFundo, "png") + "'>"
+  File "HTMLonFLY.py", line 530, in FileConverter
+    nome , extensao = ficheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-18 16:11:15,872 [INFO] [18/May/2017:16:11:15] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  CONNECTION: keep-alive
+  ACCEPT: */*
+  ORIGIN: http://localhost
+  X-REQUESTED-WITH: XMLHttpRequest
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  REFERER: http://localhost/
+  ACCEPT-ENCODING: gzip, deflate, br
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 75
+2017-05-18 16:11:15,874 [INFO] 127.0.0.1 - - [18/May/2017:16:11:15] "POST /Sinoptico HTTP/1.1" 500 1654 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:11:18,585 [INFO] 127.0.0.1 - - [18/May/2017:16:11:18] "GET / HTTP/1.1" 200 26241 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:11:18,721 [INFO] 127.0.0.1 - - [18/May/2017:16:11:18] "GET /favicon.ico HTTP/1.1" 200 370070 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:11:21,140 [INFO] 127.0.0.1 - - [18/May/2017:16:11:21] "POST /Sinoptico HTTP/1.1" 200 4661 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:11:21,177 [INFO] 127.0.0.1 - - [18/May/2017:16:11:21] "GET /Cache/Files/L11/Fundo - Diversos.png HTTP/1.1" 200 30724 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:11:34,307 [INFO] 127.0.0.1 - - [18/May/2017:16:11:34] "POST /Sinoptico HTTP/1.1" 200 8760 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:13:03,698 [INFO] [18/May/2017:16:13:03] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:13:03,699 [INFO] [18/May/2017:16:13:03] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:13:03,699 [INFO] [18/May/2017:16:13:03] ENGINE Bus STOPPING
+2017-05-18 16:13:03,722 [INFO] [18/May/2017:16:13:03] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:13:03,722 [INFO] [18/May/2017:16:13:03] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:13:03,723 [INFO] [18/May/2017:16:13:03] ENGINE Bus STOPPED
+2017-05-18 16:13:03,723 [INFO] [18/May/2017:16:13:03] ENGINE Bus EXITING
+2017-05-18 16:13:03,723 [INFO] [18/May/2017:16:13:03] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:13:03,723 [INFO] [18/May/2017:16:13:03] ENGINE Bus EXITED
+2017-05-18 16:13:03,724 [INFO] [18/May/2017:16:13:03] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:13:04,956 [INFO] [18/May/2017:16:13:04] ENGINE Bus STARTING
+2017-05-18 16:13:04,958 [INFO] [18/May/2017:16:13:04] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:13:04,958 [INFO] [18/May/2017:16:13:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:13:10,139 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:13:10,139 [INFO] [18/May/2017:16:13:10] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:13:10,141 [INFO] [18/May/2017:16:13:10] ENGINE Bus STARTED
+2017-05-18 16:13:13,835 [INFO] 127.0.0.1 - - [18/May/2017:16:13:13] "GET / HTTP/1.1" 200 26191 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:13:18,906 [INFO] 127.0.0.1 - - [18/May/2017:16:13:18] "POST /Sinoptico HTTP/1.1" 200 8760 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:13:39,850 [INFO] 127.0.0.1 - - [18/May/2017:16:13:39] "POST /Sinoptico HTTP/1.1" 200 9389 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:13:39,885 [INFO] 127.0.0.1 - - [18/May/2017:16:13:39] "GET /Cache/Files/L14/Fundo - Bomba.png HTTP/1.1" 200 5304 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:13:39,890 [INFO] 127.0.0.1 - - [18/May/2017:16:13:39] "GET /Cache/Files/L14/Anim - State ONOFF.gif HTTP/1.1" 200 3955 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:13:39,894 [INFO] 127.0.0.1 - - [18/May/2017:16:13:39] "POST /Sinoptico HTTP/1.1" 200 9389 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:13:39,899 [INFO] 127.0.0.1 - - [18/May/2017:16:13:39] "GET /Cache/Files/L14/Anim - State Auto.gif HTTP/1.1" 200 4010 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:13:39,909 [INFO] 127.0.0.1 - - [18/May/2017:16:13:39] "GET /Cache/Files/L14/Anim - State Alarm - CF.gif HTTP/1.1" 200 4050 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:13:48,880 [ERROR] [18/May/2017:16:13:48] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 792, in Sinoptico
+    tempstyles, tempbody = htmlinho.DumpHTML()
+  File "HTMLonFLY.py", line 720, in DumpHTML
+    tempBODY += "<img src='" + self.FileConverter(self.DicSinopticos[sinoticos].ImagemFundo, "png") + "'>"
+  File "HTMLonFLY.py", line 530, in FileConverter
+    nome , extensao = ficheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-18 16:13:48,884 [INFO] [18/May/2017:16:13:48] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  CONNECTION: keep-alive
+  ACCEPT: */*
+  ORIGIN: http://localhost
+  X-REQUESTED-WITH: XMLHttpRequest
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  REFERER: http://localhost/
+  ACCEPT-ENCODING: gzip, deflate, br
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 75
+2017-05-18 16:13:48,885 [INFO] 127.0.0.1 - - [18/May/2017:16:13:48] "POST /Sinoptico HTTP/1.1" 500 1654 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:13:56,113 [ERROR] [18/May/2017:16:13:56] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 792, in Sinoptico
+    tempstyles, tempbody = htmlinho.DumpHTML()
+  File "HTMLonFLY.py", line 720, in DumpHTML
+    tempBODY += "<img src='" + self.FileConverter(self.DicSinopticos[sinoticos].ImagemFundo, "png") + "'>"
+  File "HTMLonFLY.py", line 530, in FileConverter
+    nome , extensao = ficheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-18 16:13:56,115 [INFO] [18/May/2017:16:13:56] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  CONNECTION: keep-alive
+  ACCEPT: */*
+  ORIGIN: http://localhost
+  X-REQUESTED-WITH: XMLHttpRequest
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  REFERER: http://localhost/
+  ACCEPT-ENCODING: gzip, deflate, br
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 75
+2017-05-18 16:13:56,117 [INFO] 127.0.0.1 - - [18/May/2017:16:13:56] "POST /Sinoptico HTTP/1.1" 500 1654 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:14:05,603 [INFO] 127.0.0.1 - - [18/May/2017:16:14:05] "POST /Sinoptico HTTP/1.1" 200 12787 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:14:05,725 [INFO] 127.0.0.1 - - [18/May/2017:16:14:05] "GET /Cache/Files/L14/Fundo - Opc.png HTTP/1.1" 200 34799 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:14:05,735 [INFO] 127.0.0.1 - - [18/May/2017:16:14:05] "GET /Cache/Files/L14/Animation - light small.gif HTTP/1.1" 200 2079 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:15:52,228 [ERROR] [18/May/2017:16:15:52] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 781, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-18 16:15:52,239 [INFO] [18/May/2017:16:15:52] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  CONNECTION: keep-alive
+  ACCEPT: */*
+  ORIGIN: http://localhost
+  X-REQUESTED-WITH: XMLHttpRequest
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  REFERER: http://localhost/
+  ACCEPT-ENCODING: gzip, deflate, br
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-18 16:15:52,240 [INFO] 127.0.0.1 - - [18/May/2017:16:15:52] "POST /Sinoptico HTTP/1.1" 500 1489 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:15:53,326 [INFO] 127.0.0.1 - - [18/May/2017:16:15:53] "POST /Sinoptico HTTP/1.1" 200 8760 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:21:29,977 [INFO] [18/May/2017:16:21:29] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:21:29,978 [INFO] [18/May/2017:16:21:29] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:21:29,979 [INFO] [18/May/2017:16:21:29] ENGINE Bus STOPPING
+2017-05-18 16:21:29,990 [INFO] [18/May/2017:16:21:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:21:29,990 [INFO] [18/May/2017:16:21:29] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:21:29,992 [INFO] [18/May/2017:16:21:29] ENGINE Bus STOPPED
+2017-05-18 16:21:29,993 [INFO] [18/May/2017:16:21:29] ENGINE Bus EXITING
+2017-05-18 16:21:29,993 [INFO] [18/May/2017:16:21:29] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:21:29,993 [INFO] [18/May/2017:16:21:29] ENGINE Bus EXITED
+2017-05-18 16:21:29,993 [INFO] [18/May/2017:16:21:29] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:21:32,156 [INFO] [18/May/2017:16:21:32] ENGINE Bus STARTING
+2017-05-18 16:21:32,165 [INFO] [18/May/2017:16:21:32] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:21:32,177 [INFO] [18/May/2017:16:21:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:21:37,348 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:21:37,349 [INFO] [18/May/2017:16:21:37] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:21:37,349 [INFO] [18/May/2017:16:21:37] ENGINE Bus STARTED
+2017-05-18 16:21:38,190 [INFO] 127.0.0.1 - - [18/May/2017:16:21:38] "GET / HTTP/1.1" 200 26241 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:21:40,047 [ERROR] [18/May/2017:16:21:40] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 781, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-18 16:21:40,051 [INFO] [18/May/2017:16:21:40] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  CONNECTION: keep-alive
+  ORIGIN: http://localhost
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  ACCEPT: */*
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://localhost/
+  ACCEPT-ENCODING: gzip, deflate, br
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-18 16:21:40,055 [INFO] 127.0.0.1 - - [18/May/2017:16:21:40] "POST /Sinoptico HTTP/1.1" 500 1489 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:21:40,667 [ERROR] [18/May/2017:16:21:40] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 781, in Sinoptico
+    htmlinho = HTMLCreator(Caminho)
+  File "HTMLonFLY.py", line 512, in __init__
+    nome , extensao = self.nomeFicheiro.split(".")
+ValueError: not enough values to unpack (expected 2, got 1)
+2017-05-18 16:21:40,671 [INFO] [18/May/2017:16:21:40] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  CONNECTION: keep-alive
+  ORIGIN: http://localhost
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  ACCEPT: */*
+  X-REQUESTED-WITH: XMLHttpRequest
+  REFERER: http://localhost/
+  ACCEPT-ENCODING: gzip, deflate, br
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Content-Length: 11
+2017-05-18 16:21:40,672 [INFO] 127.0.0.1 - - [18/May/2017:16:21:40] "POST /Sinoptico HTTP/1.1" 500 1489 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:21:41,310 [INFO] 127.0.0.1 - - [18/May/2017:16:21:41] "POST /Sinoptico HTTP/1.1" 200 8760 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:26:37,661 [INFO] [18/May/2017:16:26:37] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:26:37,661 [INFO] [18/May/2017:16:26:37] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:26:37,663 [INFO] [18/May/2017:16:26:37] ENGINE Bus STOPPING
+2017-05-18 16:26:37,665 [INFO] [18/May/2017:16:26:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:26:37,666 [INFO] [18/May/2017:16:26:37] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:26:37,666 [INFO] [18/May/2017:16:26:37] ENGINE Bus STOPPED
+2017-05-18 16:26:37,666 [INFO] [18/May/2017:16:26:37] ENGINE Bus EXITING
+2017-05-18 16:26:37,666 [INFO] [18/May/2017:16:26:37] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:26:37,666 [INFO] [18/May/2017:16:26:37] ENGINE Bus EXITED
+2017-05-18 16:26:37,667 [INFO] [18/May/2017:16:26:37] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:26:38,847 [INFO] [18/May/2017:16:26:38] ENGINE Bus STARTING
+2017-05-18 16:26:38,850 [INFO] [18/May/2017:16:26:38] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:26:38,850 [INFO] [18/May/2017:16:26:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:26:44,001 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:26:44,001 [INFO] [18/May/2017:16:26:44] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:26:44,002 [INFO] [18/May/2017:16:26:44] ENGINE Bus STARTED
+2017-05-18 16:26:44,386 [INFO] 127.0.0.1 - - [18/May/2017:16:26:44] "GET / HTTP/1.1" 200 26261 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:26:44,417 [INFO] 127.0.0.1 - - [18/May/2017:16:26:44] "GET /Base/jquery-ui.js HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:26:44,422 [INFO] 127.0.0.1 - - [18/May/2017:16:26:44] "GET /Base/jquery-ui.css HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:26:47,639 [INFO] 127.0.0.1 - - [18/May/2017:16:26:47] "GET /POP(-1,-1,-1,-1) C:/S-Monitor/Files/L11/Bomba 1.snt HTTP/1.1" 404 1288 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:26:56,700 [INFO] 127.0.0.1 - - [18/May/2017:16:26:56] "GET / HTTP/1.1" 200 26261 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:27:08,328 [INFO] [18/May/2017:16:27:08] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:27:08,329 [INFO] [18/May/2017:16:27:08] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:27:08,337 [INFO] [18/May/2017:16:27:08] ENGINE Bus STOPPING
+2017-05-18 16:27:08,349 [INFO] [18/May/2017:16:27:08] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:27:08,349 [INFO] [18/May/2017:16:27:08] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:27:08,351 [INFO] [18/May/2017:16:27:08] ENGINE Bus STOPPED
+2017-05-18 16:27:08,352 [INFO] [18/May/2017:16:27:08] ENGINE Bus EXITING
+2017-05-18 16:27:08,352 [INFO] [18/May/2017:16:27:08] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:27:08,352 [INFO] [18/May/2017:16:27:08] ENGINE Bus EXITED
+2017-05-18 16:27:08,353 [INFO] [18/May/2017:16:27:08] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:27:09,441 [INFO] [18/May/2017:16:27:09] ENGINE Bus STARTING
+2017-05-18 16:27:09,446 [INFO] [18/May/2017:16:27:09] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:27:09,447 [INFO] [18/May/2017:16:27:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:27:11,559 [INFO] [18/May/2017:16:27:11] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:27:11,560 [INFO] [18/May/2017:16:27:11] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:27:11,561 [INFO] [18/May/2017:16:27:11] ENGINE Bus STOPPING
+2017-05-18 16:27:11,562 [INFO] [18/May/2017:16:27:11] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+2017-05-18 16:27:11,564 [INFO] [18/May/2017:16:27:11] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:27:11,568 [INFO] [18/May/2017:16:27:11] ENGINE Bus STOPPED
+2017-05-18 16:27:11,569 [INFO] [18/May/2017:16:27:11] ENGINE Bus EXITING
+2017-05-18 16:27:11,571 [INFO] [18/May/2017:16:27:11] ENGINE Bus EXITED
+2017-05-18 16:27:18,585 [INFO] [18/May/2017:16:27:18] ENGINE Bus STARTING
+2017-05-18 16:27:18,586 [INFO] [18/May/2017:16:27:18] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:27:18,586 [INFO] [18/May/2017:16:27:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:27:23,753 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:27:23,753 [INFO] [18/May/2017:16:27:23] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:27:23,754 [INFO] [18/May/2017:16:27:23] ENGINE Bus STARTED
+2017-05-18 16:27:28,540 [INFO] 127.0.0.1 - - [18/May/2017:16:27:28] "GET / HTTP/1.1" 200 26261 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:27:31,722 [INFO] 127.0.0.1 - - [18/May/2017:16:27:31] "POST /Sinoptico HTTP/1.1" 200 8760 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:27:31,762 [INFO] 127.0.0.1 - - [18/May/2017:16:27:31] "GET /Cache/Files/L11/Fundo - Bomba.png HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:27:31,763 [INFO] 127.0.0.1 - - [18/May/2017:16:27:31] "GET /Cache/Files/L11/Anim - State ONOFF.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:27:31,767 [INFO] 127.0.0.1 - - [18/May/2017:16:27:31] "GET /Cache/Files/L11/Anim - State Auto.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:27:31,770 [INFO] 127.0.0.1 - - [18/May/2017:16:27:31] "GET /Cache/Files/L11/Anim - State Alarm - CF.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:28:46,677 [INFO] [18/May/2017:16:28:46] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:28:46,677 [INFO] [18/May/2017:16:28:46] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:28:46,678 [INFO] [18/May/2017:16:28:46] ENGINE Bus STOPPING
+2017-05-18 16:28:46,699 [INFO] [18/May/2017:16:28:46] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:28:46,700 [INFO] [18/May/2017:16:28:46] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:28:46,700 [INFO] [18/May/2017:16:28:46] ENGINE Bus STOPPED
+2017-05-18 16:28:46,700 [INFO] [18/May/2017:16:28:46] ENGINE Bus EXITING
+2017-05-18 16:28:46,700 [INFO] [18/May/2017:16:28:46] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:28:46,700 [INFO] [18/May/2017:16:28:46] ENGINE Bus EXITED
+2017-05-18 16:28:46,701 [INFO] [18/May/2017:16:28:46] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:28:47,921 [INFO] [18/May/2017:16:28:47] ENGINE Bus STARTING
+2017-05-18 16:28:47,923 [INFO] [18/May/2017:16:28:47] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:28:47,923 [INFO] [18/May/2017:16:28:47] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:28:53,046 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:28:53,047 [INFO] [18/May/2017:16:28:53] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:28:53,048 [INFO] [18/May/2017:16:28:53] ENGINE Bus STARTED
+2017-05-18 16:28:57,492 [INFO] 127.0.0.1 - - [18/May/2017:16:28:57] "GET / HTTP/1.1" 200 26261 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:29:00,703 [INFO] 127.0.0.1 - - [18/May/2017:16:29:00] "POST /Sinoptico HTTP/1.1" 200 8713 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:30:46,957 [INFO] 127.0.0.1 - - [18/May/2017:16:30:46] "POST /Sinoptico HTTP/1.1" 200 8713 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:30:48,174 [INFO] 127.0.0.1 - - [18/May/2017:16:30:48] "POST /Sinoptico HTTP/1.1" 200 8713 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:31:19,924 [INFO] [18/May/2017:16:31:19] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:31:19,924 [INFO] [18/May/2017:16:31:19] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:31:19,925 [INFO] [18/May/2017:16:31:19] ENGINE Bus STOPPING
+2017-05-18 16:31:19,927 [INFO] [18/May/2017:16:31:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:31:19,927 [INFO] [18/May/2017:16:31:19] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:31:19,927 [INFO] [18/May/2017:16:31:19] ENGINE Bus STOPPED
+2017-05-18 16:31:19,927 [INFO] [18/May/2017:16:31:19] ENGINE Bus EXITING
+2017-05-18 16:31:19,927 [INFO] [18/May/2017:16:31:19] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:31:19,931 [INFO] [18/May/2017:16:31:19] ENGINE Bus EXITED
+2017-05-18 16:31:19,931 [INFO] [18/May/2017:16:31:19] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:31:21,018 [INFO] [18/May/2017:16:31:21] ENGINE Bus STARTING
+2017-05-18 16:31:21,019 [INFO] [18/May/2017:16:31:21] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:31:21,019 [INFO] [18/May/2017:16:31:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:31:26,209 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:31:26,210 [INFO] [18/May/2017:16:31:26] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:31:26,210 [INFO] [18/May/2017:16:31:26] ENGINE Bus STARTED
+2017-05-18 16:31:35,935 [INFO] 127.0.0.1 - - [18/May/2017:16:31:35] "GET / HTTP/1.1" 200 26267 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:31:38,710 [INFO] 127.0.0.1 - - [18/May/2017:16:31:38] "GET /POP(-1,-1,-1,-1) C:/S-Monitor/Files/L11/Bomba 1.snt HTTP/1.1" 404 1288 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:31:45,600 [INFO] 127.0.0.1 - - [18/May/2017:16:31:45] "GET / HTTP/1.1" 200 26267 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:31:52,219 [INFO] 127.0.0.1 - - [18/May/2017:16:31:52] "GET /POP(-1,-1,-1,-1) C:/S-Monitor/Files/L11/Bomba 1.snt HTTP/1.1" 404 1288 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:31:59,268 [INFO] 127.0.0.1 - - [18/May/2017:16:31:59] "GET /POP(-1,-1,-1,-1) C:/S-Monitor/Files/L14/Bomba 1.snt HTTP/1.1" 404 1288 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:32:04,669 [INFO] 127.0.0.1 - - [18/May/2017:16:32:04] "GET / HTTP/1.1" 200 26267 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:32:22,603 [INFO] [18/May/2017:16:32:22] ENGINE Bus STARTING
+2017-05-18 16:32:22,605 [INFO] [18/May/2017:16:32:22] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:32:22,605 [INFO] [18/May/2017:16:32:22] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:32:27,761 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:32:27,761 [INFO] [18/May/2017:16:32:27] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:32:27,762 [INFO] [18/May/2017:16:32:27] ENGINE Bus STARTED
+2017-05-18 16:32:31,003 [INFO] 127.0.0.1 - - [18/May/2017:16:32:31] "GET / HTTP/1.1" 200 26267 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:32:34,518 [INFO] 127.0.0.1 - - [18/May/2017:16:32:34] "GET /POP(-1,-1,-1,-1) C:/S-Monitor/Files/L11/Bomba 1.snt HTTP/1.1" 404 1288 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:32:52,262 [INFO] 127.0.0.1 - - [18/May/2017:16:32:52] "GET / HTTP/1.1" 200 26267 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:31,959 [INFO] [18/May/2017:16:33:31] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:33:31,960 [INFO] [18/May/2017:16:33:31] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:33:31,960 [INFO] [18/May/2017:16:33:31] ENGINE Bus STOPPING
+2017-05-18 16:33:31,961 [INFO] [18/May/2017:16:33:31] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:33:31,961 [INFO] [18/May/2017:16:33:31] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:33:31,961 [INFO] [18/May/2017:16:33:31] ENGINE Bus STOPPED
+2017-05-18 16:33:31,961 [INFO] [18/May/2017:16:33:31] ENGINE Bus EXITING
+2017-05-18 16:33:31,962 [INFO] [18/May/2017:16:33:31] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:33:31,962 [INFO] [18/May/2017:16:33:31] ENGINE Bus EXITED
+2017-05-18 16:33:31,962 [INFO] [18/May/2017:16:33:31] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:33:33,026 [INFO] [18/May/2017:16:33:33] ENGINE Bus STARTING
+2017-05-18 16:33:33,027 [INFO] [18/May/2017:16:33:33] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:33:33,028 [INFO] [18/May/2017:16:33:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:33:38,218 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:33:38,218 [INFO] [18/May/2017:16:33:38] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:33:38,229 [INFO] [18/May/2017:16:33:38] ENGINE Bus STARTED
+2017-05-18 16:33:41,801 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET / HTTP/1.1" 200 26264 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,818 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,826 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,835 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,840 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,847 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,854 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,857 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,866 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,870 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,872 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,881 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,886 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,889 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,895 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,899 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,901 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:41,902 [INFO] 127.0.0.1 - - [18/May/2017:16:33:41] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:42,124 [INFO] 127.0.0.1 - - [18/May/2017:16:33:42] "GET / HTTP/1.1" 200 26264 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:44,706 [INFO] 127.0.0.1 - - [18/May/2017:16:33:44] "POST /Sinoptico HTTP/1.1" 200 8713 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:44,737 [INFO] 127.0.0.1 - - [18/May/2017:16:33:44] "GET /Base/images/ui-icons_444444_256x240.png HTTP/1.1" 304 - "http://localhost/Base/jquery-ui.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:33:44,741 [INFO] 127.0.0.1 - - [18/May/2017:16:33:44] "GET /Base/images/ui-icons_777777_256x240.png HTTP/1.1" 304 - "http://localhost/Base/jquery-ui.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:36:00,657 [INFO] [18/May/2017:16:36:00] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:36:00,660 [INFO] [18/May/2017:16:36:00] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:36:00,675 [INFO] [18/May/2017:16:36:00] ENGINE Bus STOPPING
+2017-05-18 16:36:00,695 [INFO] [18/May/2017:16:36:00] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:36:00,696 [INFO] [18/May/2017:16:36:00] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:36:00,697 [INFO] [18/May/2017:16:36:00] ENGINE Bus STOPPED
+2017-05-18 16:36:00,698 [INFO] [18/May/2017:16:36:00] ENGINE Bus EXITING
+2017-05-18 16:36:00,698 [INFO] [18/May/2017:16:36:00] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:36:00,698 [INFO] [18/May/2017:16:36:00] ENGINE Bus EXITED
+2017-05-18 16:36:00,699 [INFO] [18/May/2017:16:36:00] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:36:01,964 [INFO] [18/May/2017:16:36:01] ENGINE Bus STARTING
+2017-05-18 16:36:01,966 [INFO] [18/May/2017:16:36:01] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:36:01,966 [INFO] [18/May/2017:16:36:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:36:07,185 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:36:07,186 [INFO] [18/May/2017:16:36:07] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:36:07,188 [INFO] [18/May/2017:16:36:07] ENGINE Bus STARTED
+2017-05-18 16:36:11,532 [INFO] 127.0.0.1 - - [18/May/2017:16:36:11] "GET / HTTP/1.1" 200 26291 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:36:11,828 [INFO] 127.0.0.1 - - [18/May/2017:16:36:11] "GET / HTTP/1.1" 200 26291 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:36:12,453 [INFO] 127.0.0.1 - - [18/May/2017:16:36:12] "GET / HTTP/1.1" 200 26291 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:36:12,690 [INFO] 127.0.0.1 - - [18/May/2017:16:36:12] "GET / HTTP/1.1" 200 26291 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:36:12,993 [INFO] 127.0.0.1 - - [18/May/2017:16:36:12] "GET / HTTP/1.1" 200 26291 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:36:14,501 [INFO] 127.0.0.1 - - [18/May/2017:16:36:14] "POST /Sinoptico HTTP/1.1" 200 8713 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:37:10,036 [INFO] [18/May/2017:16:37:10] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:37:10,037 [INFO] [18/May/2017:16:37:10] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:37:10,041 [INFO] [18/May/2017:16:37:10] ENGINE Bus STOPPING
+2017-05-18 16:37:10,044 [INFO] [18/May/2017:16:37:10] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:37:10,046 [INFO] [18/May/2017:16:37:10] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:37:10,053 [INFO] [18/May/2017:16:37:10] ENGINE Bus STOPPED
+2017-05-18 16:37:10,055 [INFO] [18/May/2017:16:37:10] ENGINE Bus EXITING
+2017-05-18 16:37:10,055 [INFO] [18/May/2017:16:37:10] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:37:10,056 [INFO] [18/May/2017:16:37:10] ENGINE Bus EXITED
+2017-05-18 16:37:10,058 [INFO] [18/May/2017:16:37:10] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:37:11,267 [INFO] [18/May/2017:16:37:11] ENGINE Bus STARTING
+2017-05-18 16:37:11,269 [INFO] [18/May/2017:16:37:11] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:37:11,270 [INFO] [18/May/2017:16:37:11] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:37:16,434 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:37:16,435 [INFO] [18/May/2017:16:37:16] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:37:16,436 [INFO] [18/May/2017:16:37:16] ENGINE Bus STARTED
+2017-05-18 16:37:18,863 [INFO] 127.0.0.1 - - [18/May/2017:16:37:18] "GET /Base/images/ui-icons_555555_256x240.png HTTP/1.1" 304 - "http://localhost/Base/jquery-ui.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:37:19,552 [INFO] 127.0.0.1 - - [18/May/2017:16:37:19] "GET / HTTP/1.1" 200 26313 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:37:22,650 [INFO] 127.0.0.1 - - [18/May/2017:16:37:22] "POST /Sinoptico HTTP/1.1" 200 8713 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:37:31,282 [INFO] 127.0.0.1 - - [18/May/2017:16:37:31] "GET /Base/images/ui-icons_ffffff_256x240.png HTTP/1.1" 304 - "http://localhost/Base/jquery-ui.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:38:57,522 [INFO] [18/May/2017:16:38:57] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:38:57,522 [INFO] [18/May/2017:16:38:57] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:38:57,524 [INFO] [18/May/2017:16:38:57] ENGINE Bus STOPPING
+2017-05-18 16:38:57,525 [INFO] [18/May/2017:16:38:57] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:38:57,526 [INFO] [18/May/2017:16:38:57] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:38:57,526 [INFO] [18/May/2017:16:38:57] ENGINE Bus STOPPED
+2017-05-18 16:38:57,526 [INFO] [18/May/2017:16:38:57] ENGINE Bus EXITING
+2017-05-18 16:38:57,526 [INFO] [18/May/2017:16:38:57] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:38:57,526 [INFO] [18/May/2017:16:38:57] ENGINE Bus EXITED
+2017-05-18 16:38:57,527 [INFO] [18/May/2017:16:38:57] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:38:58,551 [INFO] [18/May/2017:16:38:58] ENGINE Bus STARTING
+2017-05-18 16:38:58,556 [INFO] [18/May/2017:16:38:58] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:38:58,556 [INFO] [18/May/2017:16:38:58] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:39:03,714 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:39:03,715 [INFO] [18/May/2017:16:39:03] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:39:03,716 [INFO] [18/May/2017:16:39:03] ENGINE Bus STARTED
+2017-05-18 16:39:07,716 [INFO] 127.0.0.1 - - [18/May/2017:16:39:07] "GET / HTTP/1.1" 200 26336 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:39:10,025 [INFO] 127.0.0.1 - - [18/May/2017:16:39:10] "POST /Sinoptico HTTP/1.1" 200 8713 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:39:11,722 [INFO] 127.0.0.1 - - [18/May/2017:16:39:11] "POST /Sinoptico HTTP/1.1" 200 8713 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:39:26,798 [INFO] [18/May/2017:16:39:26] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:39:26,799 [INFO] [18/May/2017:16:39:26] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:39:26,799 [INFO] [18/May/2017:16:39:26] ENGINE Bus STOPPING
+2017-05-18 16:39:26,800 [INFO] [18/May/2017:16:39:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:39:26,800 [INFO] [18/May/2017:16:39:26] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:39:26,801 [INFO] [18/May/2017:16:39:26] ENGINE Bus STOPPED
+2017-05-18 16:39:26,801 [INFO] [18/May/2017:16:39:26] ENGINE Bus EXITING
+2017-05-18 16:39:26,801 [INFO] [18/May/2017:16:39:26] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:39:26,801 [INFO] [18/May/2017:16:39:26] ENGINE Bus EXITED
+2017-05-18 16:39:26,801 [INFO] [18/May/2017:16:39:26] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:39:28,051 [INFO] [18/May/2017:16:39:28] ENGINE Bus STARTING
+2017-05-18 16:39:28,053 [INFO] [18/May/2017:16:39:28] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:39:28,053 [INFO] [18/May/2017:16:39:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:39:33,252 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:39:33,253 [INFO] [18/May/2017:16:39:33] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:39:33,254 [INFO] [18/May/2017:16:39:33] ENGINE Bus STARTED
+2017-05-18 16:39:37,492 [INFO] 127.0.0.1 - - [18/May/2017:16:39:37] "GET / HTTP/1.1" 200 26311 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:39:41,925 [INFO] 127.0.0.1 - - [18/May/2017:16:39:41] "POST /Sinoptico HTTP/1.1" 200 8713 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:42:05,381 [INFO] [18/May/2017:16:42:05] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:42:05,381 [INFO] [18/May/2017:16:42:05] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:42:05,383 [INFO] [18/May/2017:16:42:05] ENGINE Bus STOPPING
+2017-05-18 16:42:05,394 [INFO] [18/May/2017:16:42:05] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:42:05,394 [INFO] [18/May/2017:16:42:05] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:42:05,394 [INFO] [18/May/2017:16:42:05] ENGINE Bus STOPPED
+2017-05-18 16:42:05,395 [INFO] [18/May/2017:16:42:05] ENGINE Bus EXITING
+2017-05-18 16:42:05,395 [INFO] [18/May/2017:16:42:05] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:42:05,395 [INFO] [18/May/2017:16:42:05] ENGINE Bus EXITED
+2017-05-18 16:42:05,395 [INFO] [18/May/2017:16:42:05] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:42:06,481 [INFO] [18/May/2017:16:42:06] ENGINE Bus STARTING
+2017-05-18 16:42:06,486 [INFO] [18/May/2017:16:42:06] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:42:06,488 [INFO] [18/May/2017:16:42:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:42:11,654 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:42:11,654 [INFO] [18/May/2017:16:42:11] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:42:11,655 [INFO] [18/May/2017:16:42:11] ENGINE Bus STARTED
+2017-05-18 16:42:16,445 [INFO] 127.0.0.1 - - [18/May/2017:16:42:16] "GET / HTTP/1.1" 200 26386 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:42:19,002 [INFO] 127.0.0.1 - - [18/May/2017:16:42:19] "POST /Sinoptico HTTP/1.1" 200 8713 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:43:01,963 [INFO] [18/May/2017:16:43:01] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:43:01,964 [INFO] [18/May/2017:16:43:01] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:43:01,966 [INFO] [18/May/2017:16:43:01] ENGINE Bus STOPPING
+2017-05-18 16:43:01,967 [INFO] [18/May/2017:16:43:01] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:43:01,968 [INFO] [18/May/2017:16:43:01] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:43:01,969 [INFO] [18/May/2017:16:43:01] ENGINE Bus STOPPED
+2017-05-18 16:43:01,969 [INFO] [18/May/2017:16:43:01] ENGINE Bus EXITING
+2017-05-18 16:43:01,969 [INFO] [18/May/2017:16:43:01] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:43:01,970 [INFO] [18/May/2017:16:43:01] ENGINE Bus EXITED
+2017-05-18 16:43:01,970 [INFO] [18/May/2017:16:43:01] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:43:03,083 [INFO] [18/May/2017:16:43:03] ENGINE Bus STARTING
+2017-05-18 16:43:03,087 [INFO] [18/May/2017:16:43:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:43:03,087 [INFO] [18/May/2017:16:43:03] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:43:08,286 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:43:08,287 [INFO] [18/May/2017:16:43:08] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:43:08,288 [INFO] [18/May/2017:16:43:08] ENGINE Bus STARTED
+2017-05-18 16:43:14,319 [INFO] 127.0.0.1 - - [18/May/2017:16:43:14] "GET / HTTP/1.1" 200 26364 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:43:17,026 [INFO] 127.0.0.1 - - [18/May/2017:16:43:17] "POST /Sinoptico HTTP/1.1" 200 8713 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017-05-18 16:47:29,209 [INFO] [18/May/2017:16:47:29] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 16:47:29,210 [INFO] [18/May/2017:16:47:29] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 16:47:29,210 [INFO] [18/May/2017:16:47:29] ENGINE Bus STOPPING
+2017-05-18 16:47:29,231 [INFO] [18/May/2017:16:47:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 16:47:29,231 [INFO] [18/May/2017:16:47:29] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 16:47:29,231 [INFO] [18/May/2017:16:47:29] ENGINE Bus STOPPED
+2017-05-18 16:47:29,232 [INFO] [18/May/2017:16:47:29] ENGINE Bus EXITING
+2017-05-18 16:47:29,232 [INFO] [18/May/2017:16:47:29] ENGINE Waiting for child threads to terminate...
+2017-05-18 16:47:29,232 [INFO] [18/May/2017:16:47:29] ENGINE Bus EXITED
+2017-05-18 16:47:29,232 [INFO] [18/May/2017:16:47:29] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 16:47:30,274 [INFO] [18/May/2017:16:47:30] ENGINE Bus STARTING
+2017-05-18 16:47:30,275 [INFO] [18/May/2017:16:47:30] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 16:47:30,276 [INFO] [18/May/2017:16:47:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 16:47:35,394 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 16:47:35,395 [INFO] [18/May/2017:16:47:35] ENGINE Serving on http://0.0.0.0
+2017-05-18 16:47:35,396 [INFO] [18/May/2017:16:47:35] ENGINE Bus STARTED

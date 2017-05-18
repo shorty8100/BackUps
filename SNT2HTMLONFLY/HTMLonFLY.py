@@ -714,7 +714,7 @@ class HTMLCreator:
 			tempSTYLE += " top: " + str(self.DicSinopticos[sinoticos].y) + "px;"
 			tempSTYLE += " } "
 			tempBODY += "<div id='index" + sinoticos.replace(" ","").replace(".","") + str(counter) + "'"
-			tempBODY += " style='position:fixed; left:"
+			tempBODY += " style='position:absolute; left:"
 			tempBODY += str(self.DicSinopticos[sinoticos].x) + "; top:"
 			tempBODY += str(self.DicSinopticos[sinoticos].y) + "'>"
 			tempBODY += "<img src='" + self.FileConverter(self.DicSinopticos[sinoticos].ImagemFundo, "png") + "'>"
@@ -756,9 +756,6 @@ class SIndex(object):
 		tempHTML += "</div>\n"
 		tempHTML += "<script type='application/javascript'> \
 					$(document).ready(function() { \
-						$('.POPUP' ).dialog({ \
-							close: function( event, ui ) { \
-								$('.POPUP').remove(); }}); \
 						$(document).on('click','a',function(event) { \
 							event.preventDefault(); \
 							var sino = $(this).attr('href'); \
@@ -768,6 +765,10 @@ class SIndex(object):
 								$('#wrapper').html(returnedData); \
 							}else{ \
 								$('#wrapper').append(returnedData);\
+								$('.POPUP' ).dialog({ \
+									'width': 'auto',\
+									close: function( event, ui ) { \
+									$('.POPUP').remove(); }}); \
 							}})})}); </script>\n"
 		tempHTML += "</body>\n"
 		tempHTML += "</html>"
@@ -793,7 +794,7 @@ class SIndex(object):
 			tempbody += "<script type='application/javascript'>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
 			styles += tempstyles
 			styles += "</style>"
-			body += '<div class="POPUP" style="top: 10%; left: 50%" title="' + htmlinho.DicSinopticos[nomeFicheiro].Nome + '">'
+			body += '<div class="POPUP" title="' + htmlinho.DicSinopticos[nomeFicheiro].Nome + '">'
 			body += tempbody
 			body += '</div>'
 		return styles, body
