@@ -9247,3 +9247,37 @@ Request Headers:
 2017-05-18 11:07:22,482 [INFO] 127.0.0.1 - - [18/May/2017:11:07:22] "GET /Cache/Files/Furos/Animacao - Bomba furo2.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
 2017-05-18 11:07:22,482 [INFO] 127.0.0.1 - - [18/May/2017:11:07:22] "GET /Cache/Files/SX/Animation - light small.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
 2017-05-18 11:07:22,483 [INFO] 127.0.0.1 - - [18/May/2017:11:07:22] "GET /Cache/Files/Furos/Animacao - Nivel do furo.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:16,841 [INFO] 127.0.0.1 - - [18/May/2017:11:08:16] "POST /Sinoptico HTTP/1.1" 200 41185 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:24,835 [INFO] 127.0.0.1 - - [18/May/2017:11:08:24] "POST /Sinoptico HTTP/1.1" 200 41185 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,099 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "POST /Sinoptico HTTP/1.1" 200 19703 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,204 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,206 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/Files/Main/Anemometro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,209 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/Files/Main/Animacao - Fault Automato.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,211 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/Files/Main/Sol.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,212 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/Files/Main/Animacao - alarme_peq.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,212 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/Files/Main/alarme - incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,215 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/Files/Main/Animacao - chuva.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,243 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,221 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/Files/Main/Humidadet.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,224 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/Files/Main/Term\xc3\xb3metro.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,226 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/Files/Main/Animacao-Rosa dos ventos.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,217 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/Files/Main/Animacao - EstadoEquipamento.gif HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:08:40,248 [INFO] 127.0.0.1 - - [18/May/2017:11:08:40] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-05-18 11:09:50,441 [INFO] [18/May/2017:11:09:50] ENGINE Restarting because C:\Users\Micael\Itelmatis\SNT2HTMLONFLY\HTMLonFLY.py changed.
+2017-05-18 11:09:50,442 [INFO] [18/May/2017:11:09:50] ENGINE Stopped thread 'Autoreloader'.
+2017-05-18 11:09:50,448 [INFO] [18/May/2017:11:09:50] ENGINE Bus STOPPING
+2017-05-18 11:09:50,460 [INFO] [18/May/2017:11:09:50] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+2017-05-18 11:09:50,461 [INFO] [18/May/2017:11:09:50] ENGINE Stopped thread '_TimeoutMonitor'.
+2017-05-18 11:09:50,462 [INFO] [18/May/2017:11:09:50] ENGINE Bus STOPPED
+2017-05-18 11:09:50,462 [INFO] [18/May/2017:11:09:50] ENGINE Bus EXITING
+2017-05-18 11:09:50,462 [INFO] [18/May/2017:11:09:50] ENGINE Waiting for child threads to terminate...
+2017-05-18 11:09:50,463 [INFO] [18/May/2017:11:09:50] ENGINE Bus EXITED
+2017-05-18 11:09:50,464 [INFO] [18/May/2017:11:09:50] ENGINE Re-spawning C:\Python36\python.exe HTMLonFLY.py
+2017-05-18 11:09:51,526 [INFO] [18/May/2017:11:09:51] ENGINE Bus STARTING
+2017-05-18 11:09:51,527 [INFO] [18/May/2017:11:09:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-05-18 11:09:51,527 [INFO] [18/May/2017:11:09:51] ENGINE Started monitor thread 'Autoreloader'.
+2017-05-18 11:09:56,703 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-05-18 11:09:56,704 [INFO] [18/May/2017:11:09:56] ENGINE Serving on http://0.0.0.0
+2017-05-18 11:09:56,704 [INFO] [18/May/2017:11:09:56] ENGINE Bus STARTED

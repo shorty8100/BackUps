@@ -748,7 +748,6 @@ class INICIO(object):
 		tempHTML += self.LoadDefaultConfig()
 		tempHTML += "</style>"
 		tempHTML += "<script src='/Base/jquery-3.2.1.js'></script>\n"
-		#tempHTML += "<script>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
 		tempHTML += "<title>\n" + "S-Monitor" + " @ Itelmatis" + "</title>\n"
 		tempHTML += "</head>\n"
 		tempHTML += "<body>\n"
@@ -768,7 +767,6 @@ class INICIO(object):
 		print("----- " + Caminho + " -----")
 		tempstyles = "<style>"
 		styles, body = htmlinho.DumpHTML()
-		#body += "<script> $(document).ready(function() { $(document).on('click','a',function(event) { event.preventDefault(); var href = $('a').attr('href'); $.post('Sinoptico', { Caminho: href }, function(returnedData){ $('#wrapper').html(returnedData);})})}); </script>\n"
 		body += "<script type='application/javascript'>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
 		tempstyles += styles
 		tempstyles += "</style>"
