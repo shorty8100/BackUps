@@ -766,7 +766,14 @@ class SIndex(object):
 							}else{ \
 								$('#wrapper').append(returnedData);\
 								$('.POPUP' ).dialog({ \
-									'width': 'auto',\
+									width: 'auto',\
+									height:'auto', \
+									minWidth: '400',\
+									minHeight:'400', \
+									maxWidth: 'auto',\
+									maxHeight:'auto', \
+									modal: false, \
+									resizable: true ,\
 									close: function( event, ui ) { \
 									$('.POPUP').remove(); }}); \
 							}})})}); </script>\n"
