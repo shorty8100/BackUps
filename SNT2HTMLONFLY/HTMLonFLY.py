@@ -548,14 +548,14 @@ class HTMLCreator:
 			return
 		return "/Cache" + arquitectura + nome + "." + ImageExtensao
 
-	def CSSGenerator(self, objecto, objId, faseX, faseY):
+	def CSSGenerator(self, objecto, nomesinotico, objId, faseX, faseY):
 		TextColorBGR = ""
 		BackColorBGR = ""
 		tempCSS = ""
 		if objecto.Tipo == 2 or objecto.Tipo == 3:
 			TextColorBGR = str(hex((objecto.TipoDeLetraCor + (1 << 64)) % (1 << 64))).split("x", 1)[1]
 			tempCSS += "#"
-			tempCSS += "index" + str(objId) + " {"
+			tempCSS += "index" + nomesinotico + str(objId) + " {"
 			tempCSS += " text-align: center; vertical-align: middle; line-height: normal; display: inline-block;"
 			tempCSS += " font-family: '" + objecto.TipoDeLetraNome + "';"
 			tempCSS += " font-size: " + str(objecto.TipoDeLetraTamanho) +"pt;"
@@ -585,14 +585,14 @@ class HTMLCreator:
 			tempCSS += " }"
 		if objecto.Tipo == 0:
 			tempCSS += "#"
-			tempCSS += "index" + str(objId) + " {"
+			tempCSS += "index" + nomesinotico + str(objId) + " {"
 			tempCSS += " position: absolute;"
 			tempCSS += " left: " + str(objecto.x - faseX) + "px;"
 			tempCSS += " top: " + str(objecto.y - faseY) + "px;"
 			tempCSS += " }"
 		if objecto.Tipo == 1:
 			tempCSS += "#"
-			tempCSS += "index" + str(objId) + " {"
+			tempCSS += "index" + nomesinotico + str(objId) + " {"
 			tempCSS += " position: absolute;"
 			tempCSS += " left: " + str(objecto.x - faseX) + "px;"
 			tempCSS += " top: " + str(objecto.y - faseY) + "px;"
@@ -604,10 +604,10 @@ class HTMLCreator:
 			tempCSS += " }"
 		return tempCSS
 
-	def OBJGenerator(self, objecto , objId):
+	def OBJGenerator(self, objecto, nomesinotico, objId):
 		tempOBJ = ""
 		if objecto.Tipo == 2 or objecto.Tipo == 3:
-			tempOBJ = "<div id='index" + str(objId) + "' class='"
+			tempOBJ = "<div id='index" + nomesinotico + str(objId) + "' class='"
 			if objecto.Digital == 0:
 				tempOBJ += "a"
 			else:
@@ -616,7 +616,7 @@ class HTMLCreator:
 			tempOBJ += objecto.Texto
 			tempOBJ += "</div>"
 		if objecto.Tipo == 0:
-			tempOBJ += "<img id='index" + str(objId) + "' class='"
+			tempOBJ += "<img id='index" + nomesinotico + str(objId) + "' class='"
 			if objecto.Digital == 0:
 				tempOBJ += "a"
 			else:
@@ -624,7 +624,7 @@ class HTMLCreator:
 			tempOBJ += "-" + str(objecto.Variavel) + "' src='"
 			tempOBJ += self.FileConverter(objecto.Ficheiro, "gif") + "'>"
 		if objecto.Tipo == 1:
-			tempOBJ += "<button type='button' id='index" + str(objId) + "' class='"
+			tempOBJ += "<button type='button' id='index" + nomesinotico + str(objId) + "' class='"
 			if objecto.Digital == 0:
 				tempOBJ += "a"
 			else:
@@ -657,48 +657,44 @@ class HTMLCreator:
 				tempDROP += "</li>"
 		return tempDROP
 
-	def LINKGenerator(self, index, Xi, Yi, Xf, Yf, destino, imagem, faseX, faseY):
+	def LINKGenerator(self,nomesinotico, index, Xi, Yi, Xf, Yf, destino, imagem, faseX, faseY):
 		tempLINKCSS = ""
 		tempLINKOBJ = ""
 		if len(destino) > 1:
-			tempLINKCSS += "#index" + str(index) + " { position: absolute; "
+			tempLINKCSS += "#index" + nomesinotico + str(index) + " { position: absolute; "
 			tempLINKCSS += "top: " + str(Yi - faseY) + "px; left: " + str(Xi - faseX) + "px; "
 			tempLINKCSS += "height: " + str(Yf - Yi) + "px; width: " + str(Xf - Xi) + "px; }"
-			if not "POP" in destino:
-				if ".snt" in destino:
-					tempLINKCSS += "#index" + str(index) + " a { "
-					tempLINKCSS += "height: " + str(Yf - Yi) + "px; width: " + str(Xf - Xi) + "px; }\n"
-					tempLINKOBJ += "<nav id='index" + str(index) + "'>"
-					tempLINKOBJ += "<ul><li>"
-					tempLINKOBJ += '<a href="'+ destino + '"' + "> </a>"
-					tempLINKOBJ += "</li></ul>"
-					tempLINKOBJ += "</nav>"
-				if ".csv" in destino:
-					tempLINKCSS += "#index" + str(index) + " a { white-space:nowrap; padding-left: 10px; padding-right: 10px;}"
-					menucsv = open(destino,"r")
-					conteudoCSV = menucsv.read()
-					menucsv.close()
-					dicIDs = {}
-					for linha in conteudoCSV.split("\n"):
-						dicINFO = {"descricao": "", "destino": "", "iconOFF": "", "iconON": ""}
-						if "ID" in linha.split(";")[0]:
-							if not linha.split(";")[0] in dicIDs:
-								dicIDs[linha.split(";")[0]] = []
-							dicINFO["descricao"] = linha.split(";")[1]
-							dicINFO["destino"] = linha.split(";")[3]
-							dicINFO["iconOFF"] = linha.split(";")[4]
-							dicINFO["iconON"] = linha.split(";")[5]
-							dicIDs[linha.split(";")[0]].append(dicINFO)
-					tempLINKOBJ += "<nav id='index" + str(index) + "'>"
-					tempLINKOBJ += '<ul class="content clearfix">'
-					tempLINKOBJ += '<li class="dropdown">'
-					tempLINKOBJ += '<a href="#" style="width: ' + str(Xf - Xi + 5) + 'px; height: ' + str(Yf - Yi) + 'px; background-color:none; "></a><ul class="sub-menu">'
-					tempLINKOBJ += self.DROPDOWNGenerator(dicIDs, "ID0")
-					tempLINKOBJ += "</ul></li></ul>"
-					tempLINKOBJ += "</nav>"
-			else:
-				pass
-				
+			if ".snt" in destino:
+				tempLINKCSS += "#index" + nomesinotico + str(index) + " a { "
+				tempLINKCSS += "height: " + str(Yf - Yi) + "px; width: " + str(Xf - Xi) + "px; }\n"
+				tempLINKOBJ += "<nav id='index" + nomesinotico + str(index) + "'>"
+				tempLINKOBJ += "<ul><li>"
+				tempLINKOBJ += '<a href="'+ destino + '"' + "> </a>"
+				tempLINKOBJ += "</li></ul>"
+				tempLINKOBJ += "</nav>"
+			if ".csv" in destino:
+				tempLINKCSS += "#index" + nomesinotico + str(index) + " a { white-space:nowrap; padding-left: 10px; padding-right: 10px;}"
+				menucsv = open(destino,"r")
+				conteudoCSV = menucsv.read()
+				menucsv.close()
+				dicIDs = {}
+				for linha in conteudoCSV.split("\n"):
+					dicINFO = {"descricao": "", "destino": "", "iconOFF": "", "iconON": ""}
+					if "ID" in linha.split(";")[0]:
+						if not linha.split(";")[0] in dicIDs:
+							dicIDs[linha.split(";")[0]] = []
+						dicINFO["descricao"] = linha.split(";")[1]
+						dicINFO["destino"] = linha.split(";")[3]
+						dicINFO["iconOFF"] = linha.split(";")[4]
+						dicINFO["iconON"] = linha.split(";")[5]
+						dicIDs[linha.split(";")[0]].append(dicINFO)
+				tempLINKOBJ += "<nav id='index" + nomesinotico + str(index) + "'>"
+				tempLINKOBJ += '<ul class="content clearfix">'
+				tempLINKOBJ += '<li class="dropdown">'
+				tempLINKOBJ += '<a href="#" style="width: ' + str(Xf - Xi + 5) + 'px; height: ' + str(Yf - Yi) + 'px; background-color:none; "></a><ul class="sub-menu">'
+				tempLINKOBJ += self.DROPDOWNGenerator(dicIDs, "ID0")
+				tempLINKOBJ += "</ul></li></ul>"
+				tempLINKOBJ += "</nav>"
 		return tempLINKCSS, tempLINKOBJ
 
 	def DumpHTML(self):
@@ -710,25 +706,25 @@ class HTMLCreator:
 		tempBODY = ""
 		tempHEAD = ""
 		for sinoticos in self.DicSinopticos:
-			tempSTYLE += "#index" + str(counter)
+			tempSTYLE += "#index" + sinoticos.replace(" ","").replace(".","") + str(counter)
 			tempSTYLE += "{"
 			tempSTYLE += " background-size: auto; background-repeat: no-repeat;"
 			tempSTYLE += " position: absolute;"
 			tempSTYLE += " left: " + str(self.DicSinopticos[sinoticos].x) + "px;"
 			tempSTYLE += " top: " + str(self.DicSinopticos[sinoticos].y) + "px;"
 			tempSTYLE += " } "
-			tempBODY += "<div id='index" + str(counter) + "'"
+			tempBODY += "<div id='index" + sinoticos.replace(" ","").replace(".","") + str(counter) + "'"
 			tempBODY += " style='position:fixed; left:"
 			tempBODY += str(self.DicSinopticos[sinoticos].x) + "; top:"
 			tempBODY += str(self.DicSinopticos[sinoticos].y) + "'>"
 			tempBODY += "<img src='" + self.FileConverter(self.DicSinopticos[sinoticos].ImagemFundo, "png") + "'>"
 			counter += 1
 			for obj in self.DicSinopticos[sinoticos].objeto:
-				tempSTYLE += self.CSSGenerator(obj, counter, self.DicSinopticos[sinoticos].x, self.DicSinopticos[sinoticos].y)
-				tempBODY += self.OBJGenerator(obj, counter)
+				tempSTYLE += self.CSSGenerator(obj, sinoticos.replace(" ","").replace(".",""), counter, self.DicSinopticos[sinoticos].x, self.DicSinopticos[sinoticos].y)
+				tempBODY += self.OBJGenerator(obj, sinoticos.replace(" ","").replace(".",""), counter)
 				counter += 1
 			for num in range(0, 100):
-				tempLINKCSS, tempLINKOBJ = self.LINKGenerator(counter, self.DicSinopticos[sinoticos].LinkXi[num], self.DicSinopticos[sinoticos].LinkYi[num], self.DicSinopticos[sinoticos].LinkXf[num], self.DicSinopticos[sinoticos].LinkYf[num], self.DicSinopticos[sinoticos].LinkFicheiro[num], self.DicSinopticos[sinoticos].LinkImagem[num], self.DicSinopticos[sinoticos].x, self.DicSinopticos[sinoticos].y)
+				tempLINKCSS, tempLINKOBJ = self.LINKGenerator(sinoticos.replace(" ","").replace(".",""), counter, self.DicSinopticos[sinoticos].LinkXi[num], self.DicSinopticos[sinoticos].LinkYi[num], self.DicSinopticos[sinoticos].LinkXf[num], self.DicSinopticos[sinoticos].LinkYf[num], self.DicSinopticos[sinoticos].LinkFicheiro[num], self.DicSinopticos[sinoticos].LinkImagem[num], self.DicSinopticos[sinoticos].x, self.DicSinopticos[sinoticos].y)
 				tempSTYLE += tempLINKCSS
 				tempBODY += tempLINKOBJ
 				counter += 1
@@ -739,7 +735,7 @@ class HTMLCreator:
 		return tempHEAD, tempBODY
 
 
-class INICIO(object):
+class SIndex(object):
 	@cherrypy.expose
 	def index(self):
 		tempHTML = "<<html>\n"
@@ -748,6 +744,8 @@ class INICIO(object):
 		tempHTML += self.LoadDefaultConfig()
 		tempHTML += "</style>"
 		tempHTML += "<script src='/Base/jquery-3.2.1.js'></script>\n"
+		tempHTML += "<script src='/Base/jquery-ui.js'></script>\n"
+		tempHTML += '<link rel="stylesheet" href="/Base/jquery-ui.css">'
 		tempHTML += "<title>\n" + "S-Monitor" + " @ Itelmatis" + "</title>\n"
 		tempHTML += "</head>\n"
 		tempHTML += "<body>\n"
@@ -756,20 +754,48 @@ class INICIO(object):
 		tempHTML += tempstyles
 		tempHTML += tempbody
 		tempHTML += "</div>\n"
-		tempHTML += "<script type='application/javascript'> $(document).ready(function() { $(document).on('click','a',function(event) { event.preventDefault(); var sino = $(this).attr('href'); $.post('Sinoptico', { Caminho: sino }, function(returnedData){ $('#wrapper').html(returnedData); })})}); </script>\n"
+		tempHTML += "<script type='application/javascript'> \
+					$(document).ready(function() { \
+						$('.POPUP' ).dialog({ \
+							close: function( event, ui ) { \
+								$('.POPUP').remove(); }}); \
+						$(document).on('click','a',function(event) { \
+							event.preventDefault(); \
+							var sino = $(this).attr('href'); \
+							var substring = 'POP'; \
+							$.post('Sinoptico', { Caminho: sino }, function(returnedData){ \
+							if(sino.indexOf(substring) < 0){ \
+								$('#wrapper').html(returnedData); \
+							}else{ \
+								$('#wrapper').append(returnedData);\
+							}})})}); </script>\n"
 		tempHTML += "</body>\n"
 		tempHTML += "</html>"
 		return tempHTML
 
 	@cherrypy.expose
 	def Sinoptico(self, Caminho=None):
-		htmlinho = HTMLCreator(Caminho)
-		print("----- " + Caminho + " -----")
-		tempstyles = "<style>"
-		styles, body = htmlinho.DumpHTML()
-		body += "<script type='application/javascript'>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
-		tempstyles += styles
-		tempstyles += "</style>"
+		styles = ""
+		body = ""
+		if not "POP" in Caminho:
+			htmlinho = HTMLCreator(Caminho)
+			styles += "<style>"
+			tempstyles, tempbody = htmlinho.DumpHTML()
+			tempbody += "<script type='application/javascript'>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
+			styles += tempstyles
+			styles += "</style>"
+			body += tempbody
+		else:
+			caminho , nomeFicheiro = os.path.split(Caminho.split(" ",1)[1])
+			htmlinho = HTMLCreator(Caminho.split(" ",1)[1])
+			styles += "<style>"
+			tempstyles, tempbody = htmlinho.DumpHTML()
+			tempbody += "<script type='application/javascript'>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
+			styles += tempstyles
+			styles += "</style>"
+			body += '<div class="POPUP" style="top: 10%; left: 50%" title="' + htmlinho.DicSinopticos[nomeFicheiro].Nome + '">'
+			body += tempbody
+			body += '</div>'
 		return styles, body
 
 	def LoadDefaultConfig(self):
@@ -805,7 +831,7 @@ if __name__ == "__main__":
 	config = {"/Cache": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(this_file_path, "Cache") },
 			"/Base": {"tools.staticdir.on": True, "tools.staticdir.dir": os.path.join(this_file_path, "Base") },
 			"/favicon.ico": { "tools.staticfile.on": True, "tools.staticfile.filename": this_file_path + "/Base/IMG/icone.ico"} }
-	cherrypy.tree.mount(INICIO(), "/", config=config)
+	cherrypy.tree.mount(SIndex(), "/", config=config)
 	#cherrypy.config.update({'log.screen': False }) # nao cospe informacao para a consola
 	cherrypy.engine.start()
 	cherrypy.engine.block()
