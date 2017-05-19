@@ -535,6 +535,7 @@ class HTMLCreator:
 		if extensao.lower() == "bmp":
 			if not os.path.isfile("Cache" + arquitectura + nome + "." + ImageExtensao):
 				Image.open(ImagePath).save("Cache" + arquitectura + nome + "." + ImageExtensao)
+			return "/Cache" + arquitectura + nome + "." + ImageExtensao
 		elif extensao.lower() == "avi" and ImageExtensao.lower() == "gif":
 			if not os.path.isfile("Cache" + arquitectura + nome + "." + ImageExtensao):
 				Sreader = imageio.get_reader(ImagePath)
@@ -543,23 +544,27 @@ class HTMLCreator:
 				for i,im in enumerate(Sreader):
 					Swriter.append_data(im)
 				Swriter.close()
+			return "/Cache" + arquitectura + nome + "." + ImageExtensao
 		elif extensao.lower() == "avi" and ImageExtensao.lower() == "png":
 			if not os.path.exists(this_file_path + "/Cache/Temp"):
 				os.makedirs(this_file_path + "/Cache/Temp")
 			VIDEO = imageio.get_reader(ImagePath)
+			numFrames = VIDEO.get_meta_data()['fps']
+			image_width, image_height = VIDEO.get_meta_data()['size']
 			frames = []
-			for frame, imagem in enumerate(VIDEO):
-				imageio.imwrite("Cache/Temp/tempFrame_" + str(frame) + "." + ImageExtensao, imagem)
-				frames.append(Image.open("Cache/Temp/tempFrame_" + str(frame) + "." + ImageExtensao))
-			image_width, image_height = frames[0].size
-			master_width = (image_width * len(frames)) 
-			master_height = image_height
-			master = Image.new(mode='RGBA', size=(master_width, master_height), color=(0, 0, 0, 0))
-			for count, image in enumerate(frames):
-				location = image_width*count
-				master.paste(image,(location,0))
-			master.save("Cache" + arquitectura + nome + "." + ImageExtensao)
+			if not os.path.isfile("Cache" + arquitectura + nome + str(image_width) + str(image_height) + str(int(numFrames)) + "." + ImageExtensao):
+				for frame, imagem in enumerate(VIDEO):
+					imageio.imwrite("Cache/Temp/tempFrame_" + str(frame) + "." + ImageExtensao, imagem)
+					frames.append(Image.open("Cache/Temp/tempFrame_" + str(frame) + "." + ImageExtensao))
+				master_width = (image_width * int(numFrames)) 
+				master_height = image_height
+				master = Image.new(mode='RGBA', size=(master_width, master_height), color=(0, 0, 0, 0))
+				for count, image in enumerate(frames):
+					location = image_width*count
+					master.paste(image,(location,0))
+				master.save("Cache" + arquitectura + nome + str(image_width) + str(image_height) + str(int(numFrames)) + "." + ImageExtensao)
 			shutil.rmtree(this_file_path + '/Cache/Temp')
+			return "/Cache" + arquitectura + nome + str(image_width) + str(image_height) + str(int(numFrames)) + "." + ImageExtensao , image_width, image_height, int(numFrames), int(image_width * int(numFrames))
 		else:
 			print("Tipo de ficheiro desconhecido")
 			return
@@ -601,11 +606,16 @@ class HTMLCreator:
 				tempCSS += " border-style: solid; border-width: 1px;"
 			tempCSS += " }"
 		if objecto.Tipo == 0:
+			caminho , largura, altura, numFrames, larguraFinal = self.FileConverter(objecto.Ficheiro, "png")
 			tempCSS += "#"
 			tempCSS += "index" + nomesinotico + str(objId) + " {"
 			tempCSS += " position: absolute;"
 			tempCSS += " left: " + str(objecto.x - faseX) + "px;"
 			tempCSS += " top: " + str(objecto.y - faseY) + "px;"
+			tempCSS += " width: " + str(largura) + "px;"
+			tempCSS += " height: " + str(altura) + "px;"
+			tempCSS += " background: url('" + caminho + "') left center;"
+			tempCSS += " animation: play .8s steps(" + str(numFrames) + ") infinite;"
 			tempCSS += " }"
 		if objecto.Tipo == 1:
 			tempCSS += "#"
@@ -633,13 +643,12 @@ class HTMLCreator:
 			tempOBJ += objecto.Texto + "0" + str(objecto.Variavel)
 			tempOBJ += "</div>"
 		if objecto.Tipo == 0:
-			tempOBJ += "<img id='index" + nomesinotico + str(objId) + "' class='"
+			tempOBJ += "<div id='index" + nomesinotico + str(objId) + "' class='"
 			if objecto.Digital == 0:
 				tempOBJ += "a"
 			else:
 				tempOBJ += "d"
-			tempOBJ += "-" + str(objecto.Variavel) + "' src='"
-			tempOBJ += self.FileConverter(objecto.Ficheiro, "png") + "'>"
+			tempOBJ += "-" + str(objecto.Variavel) + "'></div>"
 		if objecto.Tipo == 1:
 			tempOBJ += "<button type='button' id='index" + nomesinotico + str(objId) + "' class='"
 			if objecto.Digital == 0:
@@ -849,7 +858,7 @@ class SIndex(object):
 		defaultMENU += " nav li li.dropdown > a { background-image:url('/Base/IMG/arrow-right-black.png'); background-position:right 8px; background-repeat:no-repeat; }"
 		defaultMENU += " nav li li.dropdown:hover > a { background-image:url('/Base/IMG/arrow-right-white.png'); background-position:right 8px; background-repeat:no-repeat; }"
 		defaultMENU += " ul .sub-menu { display:none; }"
-		defaultMENU += " nav img { height: 16px; width: 16px; }"
+		defaultMENU += " nav img { height: 16px; width: 16px; } @keyframes play { 100% { background-position: 0px; } }"
 		return clearFORMATs + defaultMENU
 
 if __name__ == "__main__":
