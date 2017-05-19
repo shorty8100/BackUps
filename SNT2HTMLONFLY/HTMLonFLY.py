@@ -8,6 +8,7 @@ from moviepy.editor import *
 import imageio
 import cherrypy
 import SMComm
+import shutil
 
 __author__ = "Micael Martins"
 __copyright__ = "Copyright 2017, Itelmatis"
@@ -534,7 +535,7 @@ class HTMLCreator:
 		if extensao.lower() == "bmp":
 			if not os.path.isfile("Cache" + arquitectura + nome + "." + ImageExtensao):
 				Image.open(ImagePath).save("Cache" + arquitectura + nome + "." + ImageExtensao)
-		elif extensao.lower() == "avi":
+		elif extensao.lower() == "avi" and ImageExtensao.lower() == "gif":
 			if not os.path.isfile("Cache" + arquitectura + nome + "." + ImageExtensao):
 				Sreader = imageio.get_reader(ImagePath)
 				Sfps = Sreader.get_meta_data()['fps']
@@ -542,7 +543,23 @@ class HTMLCreator:
 				for i,im in enumerate(Sreader):
 					Swriter.append_data(im)
 				Swriter.close()
-				#VideoFileClip(ImagePath, verbose=False).write_gif("HTML/" + nome + "." + ImageExtensao, verbose=False) #já não usa esta biblioteca
+		elif extensao.lower() == "avi" and ImageExtensao.lower() == "png":
+			if not os.path.exists(this_file_path + "/Cache/Temp"):
+				os.makedirs(this_file_path + "/Cache/Temp")
+			VIDEO = imageio.get_reader(ImagePath)
+			frames = []
+			for frame, imagem in enumerate(VIDEO):
+				imageio.imwrite("Cache/Temp/tempFrame_" + str(frame) + "." + ImageExtensao, imagem)
+				frames.append(Image.open("Cache/Temp/tempFrame_" + str(frame) + "." + ImageExtensao))
+			image_width, image_height = frames[0].size
+			master_width = (image_width * len(frames)) 
+			master_height = image_height
+			master = Image.new(mode='RGBA', size=(master_width, master_height), color=(0, 0, 0, 0))
+			for count, image in enumerate(frames):
+				location = image_width*count
+				master.paste(image,(location,0))
+			master.save("Cache" + arquitectura + nome + "." + ImageExtensao)
+			shutil.rmtree(this_file_path + '/Cache/Temp')
 		else:
 			print("Tipo de ficheiro desconhecido")
 			return
@@ -622,7 +639,7 @@ class HTMLCreator:
 			else:
 				tempOBJ += "d"
 			tempOBJ += "-" + str(objecto.Variavel) + "' src='"
-			tempOBJ += self.FileConverter(objecto.Ficheiro, "gif") + "'>"
+			tempOBJ += self.FileConverter(objecto.Ficheiro, "png") + "'>"
 		if objecto.Tipo == 1:
 			tempOBJ += "<button type='button' id='index" + nomesinotico + str(objId) + "' class='"
 			if objecto.Digital == 0:
