@@ -745,6 +745,7 @@ class SIndex(object):
 		tempHTML += "</style>"
 		tempHTML += "<script src='/Base/jquery-3.2.1.js'></script>\n"
 		tempHTML += "<script src='/Base/jquery-ui.js'></script>\n"
+		tempHTML += '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>'
 		tempHTML += '<link rel="stylesheet" href="/Base/jquery-ui.css">'
 		tempHTML += "<title>\n" + "S-Monitor" + " @ Itelmatis" + "</title>\n"
 		tempHTML += "</head>\n"
@@ -759,23 +760,21 @@ class SIndex(object):
 						$(document).on('click','a',function(event) { \
 							event.preventDefault(); \
 							var sino = $(this).attr('href'); \
-							var substring = 'POP'; \
 							$.post('Sinoptico', { Caminho: sino }, function(returnedData){ \
-							if(sino.indexOf(substring) < 0){ \
+							if(sino.indexOf('POP') < 0){ \
 								$('#wrapper').html(returnedData); \
 							}else{ \
-								$('#wrapper').append(returnedData);\
+								var sjson = JSON.parse(returnedData); \
+								$('#wrapper').append(sjson.POPHTML);\
 								$('.POPUP' ).dialog({ \
-									width: 'auto',\
-									height:'auto', \
-									minWidth: '400',\
-									minHeight:'400', \
+									minHeight: $('.POPUP').height(), \
+									minWidth: $('.POPUP').width(), \
 									maxWidth: 'auto',\
 									maxHeight:'auto', \
-									modal: false, \
-									resizable: true ,\
+									resizable: false ,\
 									close: function( event, ui ) { \
-									$('.POPUP').remove(); }}); \
+									$('.POPUP').remove(); } , \
+									}); \
 							}})})}); </script>\n"
 		tempHTML += "</body>\n"
 		tempHTML += "</html>"
@@ -785,25 +784,29 @@ class SIndex(object):
 	def Sinoptico(self, Caminho=None):
 		styles = ""
 		body = ""
+		POPjson = {}
 		if not "POP" in Caminho:
 			htmlinho = HTMLCreator(Caminho)
-			styles += "<style>"
 			tempstyles, tempbody = htmlinho.DumpHTML()
 			tempbody += "<script type='application/javascript'>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
 			styles += tempstyles
-			styles += "</style>"
 			body += tempbody
 		else:
 			caminho , nomeFicheiro = os.path.split(Caminho.split(" ",1)[1])
 			htmlinho = HTMLCreator(Caminho.split(" ",1)[1])
-			styles += "<style>"
+			largura, altura = Image.open(htmlinho.DicSinopticos[nomeFicheiro].ImagemFundo).size
+			print("----------->> " + str(largura) + " x " + str(altura) + " <<--------------------------")
 			tempstyles, tempbody = htmlinho.DumpHTML()
 			tempbody += "<script type='application/javascript'>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
 			styles += tempstyles
-			styles += "</style>"
 			body += '<div class="POPUP" title="' + htmlinho.DicSinopticos[nomeFicheiro].Nome + '">'
 			body += tempbody
 			body += '</div>'
+			POPjson['POPHTML'] = styles + body
+			POPjson['POPAltura'] = altura + 45
+			POPjson['POPLargura'] = largura
+			print (POPjson)
+			return POPjson
 		return styles, body
 
 	def LoadDefaultConfig(self):
