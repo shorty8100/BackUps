@@ -613,7 +613,7 @@ class HTMLCreator:
 			else:
 				tempOBJ += "d"
 			tempOBJ += "-" + str(objecto.Variavel) + "'>"
-			tempOBJ += objecto.Texto
+			tempOBJ += objecto.Texto + "0" + str(objecto.Variavel)
 			tempOBJ += "</div>"
 		if objecto.Tipo == 0:
 			tempOBJ += "<img id='index" + nomesinotico + str(objId) + "' class='"
@@ -640,18 +640,18 @@ class HTMLCreator:
 			if ".snt" in detalhes["destino"]:
 				caminho , ficheiro = os.path.split(detalhes["destino"])
 				nome , extensao = ficheiro.split(".")
-				tempDROP += "<li><a href=" + '"' + detalhes["destino"] + '">'
+				tempDROP += "<li><a href='" + detalhes["destino"] + "'>"
 				if len(detalhes["iconOFF"]) > 1:
 					tempDROP += "<img src='" + self.FileConverter(detalhes["iconOFF"], "png") + "'>"
 				tempDROP += detalhes["descricao"]
 				tempDROP += "</a></li>"
 			if "ID" in detalhes["destino"]:
-				tempDROP += '<li class="dropdown">'
-				tempDROP += '<a href="#">'
+				tempDROP += "<li class='dropdown'>"
+				tempDROP += "<a href='#'>"
 				if len(detalhes["iconOFF"]) > 1:
 					tempDROP += "<img src='" + self.FileConverter(detalhes["iconOFF"], "png") + "'>"
 				tempDROP += detalhes["descricao"]
-				tempDROP += "</a>" + '<ul class="sub-menu">'
+				tempDROP += "</a>" + "<ul class='sub-menu'>"
 				tempDROP += self.DROPDOWNGenerator(ALLdics, detalhes["destino"])
 				tempDROP += "</ul>"
 				tempDROP += "</li>"
@@ -669,7 +669,7 @@ class HTMLCreator:
 				tempLINKCSS += "height: " + str(Yf - Yi) + "px; width: " + str(Xf - Xi) + "px; }\n"
 				tempLINKOBJ += "<nav id='index" + nomesinotico + str(index) + "'>"
 				tempLINKOBJ += "<ul><li>"
-				tempLINKOBJ += '<a href="'+ destino + '"' + "> </a>"
+				tempLINKOBJ += "<a href='"+ destino + "'> </a>"
 				tempLINKOBJ += "</li></ul>"
 				tempLINKOBJ += "</nav>"
 			if ".csv" in destino:
@@ -689,9 +689,9 @@ class HTMLCreator:
 						dicINFO["iconON"] = linha.split(";")[5]
 						dicIDs[linha.split(";")[0]].append(dicINFO)
 				tempLINKOBJ += "<nav id='index" + nomesinotico + str(index) + "'>"
-				tempLINKOBJ += '<ul class="content clearfix">'
-				tempLINKOBJ += '<li class="dropdown">'
-				tempLINKOBJ += '<a href="#" style="width: ' + str(Xf - Xi + 5) + 'px; height: ' + str(Yf - Yi) + 'px; background-color:none; "></a><ul class="sub-menu">'
+				tempLINKOBJ += "<ul class='content clearfix'>"
+				tempLINKOBJ += "<li class='dropdown'>"
+				tempLINKOBJ += "<a href='#' style='width: " + str(Xf - Xi + 5) + "px; height: " + str(Yf - Yi) + "px; background-color:none; '></a><ul class='sub-menu'>"
 				tempLINKOBJ += self.DROPDOWNGenerator(dicIDs, "ID0")
 				tempLINKOBJ += "</ul></li></ul>"
 				tempLINKOBJ += "</nav>"
@@ -745,8 +745,7 @@ class SIndex(object):
 		tempHTML += "</style>"
 		tempHTML += "<script src='/Base/jquery-3.2.1.js'></script>\n"
 		tempHTML += "<script src='/Base/jquery-ui.js'></script>\n"
-		tempHTML += '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>'
-		tempHTML += '<link rel="stylesheet" href="/Base/jquery-ui.css">'
+		tempHTML += "<link rel='stylesheet' href='/Base/jquery-ui.css'>"
 		tempHTML += "<title>\n" + "S-Monitor" + " @ Itelmatis" + "</title>\n"
 		tempHTML += "</head>\n"
 		tempHTML += "<body>\n"
@@ -764,16 +763,17 @@ class SIndex(object):
 							if(sino.indexOf('POP') < 0){ \
 								$('#wrapper').html(returnedData); \
 							}else{ \
-								var sjson = JSON.parse(returnedData); \
-								$('#wrapper').append(sjson.POPHTML);\
+								var popjson = JSON.parse(returnedData); \
+								$('#wrapper').append(popjson.POPHTML);\
 								$('.POPUP' ).dialog({ \
-									minHeight: $('.POPUP').height(), \
-									minWidth: $('.POPUP').width(), \
 									maxWidth: 'auto',\
 									maxHeight:'auto', \
 									resizable: false ,\
 									close: function( event, ui ) { \
-									$('.POPUP').remove(); } , \
+										$('.POPUP').remove(); }, \
+									open: function() { \
+										$(this).dialog('option', 'minHeight', popjson.POPAltura); \
+										$(this).dialog('option', 'minWidth', popjson.POPLargura);}\
 									}); \
 							}})})}); </script>\n"
 		tempHTML += "</body>\n"
@@ -784,7 +784,7 @@ class SIndex(object):
 	def Sinoptico(self, Caminho=None):
 		styles = ""
 		body = ""
-		POPjson = {}
+		POPjson = ""
 		if not "POP" in Caminho:
 			htmlinho = HTMLCreator(Caminho)
 			tempstyles, tempbody = htmlinho.DumpHTML()
@@ -799,14 +799,13 @@ class SIndex(object):
 			tempstyles, tempbody = htmlinho.DumpHTML()
 			tempbody += "<script type='application/javascript'>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
 			styles += tempstyles
-			body += '<div class="POPUP" title="' + htmlinho.DicSinopticos[nomeFicheiro].Nome + '">'
+			body += "<div class='POPUP' title='" + htmlinho.DicSinopticos[nomeFicheiro].Nome + "'>"
 			body += tempbody
 			body += '</div>'
-			POPjson['POPHTML'] = styles + body
-			POPjson['POPAltura'] = altura + 45
-			POPjson['POPLargura'] = largura
-			print (POPjson)
-			return POPjson
+			POPjson += '{"POPHTML":"' + str(styles + body) + '",'
+			POPjson += '"POPAltura":' + str(altura + 45) + ','
+			POPjson += '"POPLargura":' + str(largura) + '}'
+			return POPjson.replace("\n","")
 		return styles, body
 
 	def LoadDefaultConfig(self):
