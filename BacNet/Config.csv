@@ -1,0 +1,10 @@
+Device ID;IP:Porta;Process ID;Objecto;ID Objecto;Argumento;Nome VAR PRT;Default VAR Value;Writeble
+4128774;192.168.200.130:55675;1;analogInput;0;presentValue;TempIndoor;0;0
+4128774;192.168.200.130:55675;2;analogInput;1;presentValue;TempWater;0;0
+4128774;192.168.200.130:55675;3;analogInput;2;presentValue;TempOutdoor;0;0
+4128774;192.168.200.130:55675;4;analogValue;0;presentValue;EffectSetPoint;0;1
+4128774;192.168.200.130:55675;5;analogValue;1;presentValue;SetPoint.1;0;1
+4128774;192.168.200.130:55675;6;analogValue;2;presentValue;SetPoint.2;0;1
+4128774;192.168.200.130:55675;7;analogValue;3;presentValue;SetPoint.3;0;1
+4128774;192.168.200.130:55675;10;multiStateValue;0;presentValue;CommandState;0;1
+4128774;192.168.200.130:55675;11;multiStateValue;1;presentValue;VentilationLevel;0;0

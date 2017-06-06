@@ -1,7 +1,12 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-ola = "exemplo de testes de isso chourico"
-oi = "sempaciencia"
+print "chupa"
+print "chupa"
+print "chupa"
+print "chupa"
+print "chupa"
+print "chupa"
+ola = "chupista"
 
-print(ola.replace(" ",""))
-print(oi.replace(" ",""))
+print ola

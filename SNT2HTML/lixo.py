@@ -1,7 +1,19 @@
 # -*- coding: utf-8 -*-
 
 
-import os.path
+geral = {}
 
-file_path = os.getcwd().replace("\\", "/")
-print (file_path)
+temp = {}
+
+temp["micael"] = 10
+temp["joao"] = 9
+
+print (temp)
+
+if "micael" in temp:
+	print("esta aki")
+	print (temp["micael"])
+
+geral["main"] = temp
+
+print(geral)
