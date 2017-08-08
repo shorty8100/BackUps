@@ -50,13 +50,16 @@ class Conteudo(QWidget):
 		self.setLayout(final)
 	
 	def enviar_dados(self):
-		de = base64.b64decode("bWljYWVsbWFydGluc0BpdGVsbWF0aXMuY29t")
-		pw = base64.b64decode("bWljYWVsaXRlbG1hdGlz")
+		#de = base64.b64decode("bWljYWVsbWFydGluc0BpdGVsbWF0aXMuY29t")
+		#pw = base64.b64decode("bWljYWVsaXRlbG1hdGlz")
+		de = "telegestao.infraquinta@gmail.com"
+		pw = "!Infraquinta2014#"
 		#recipients = ["sh.shorty@gmail.com" , "micaelmartins.sh@gmail.com"]
 		#recipients = ["soniapeleira@itelmatis.com", "marcosfigueirinha@itelmatis.com", "micael.itelmatis@gmail.com"]
-		recipients = ["micael.itelmatis@gmail.com", "marcosfigueirinha@itelmatis.com"]
-		lixo1 , de1 , lixo2 = str(de).split("'")
-		lixo1 , pw1 , lixo2 = str(pw).split("'")
+		#recipients = ["micael.itelmatis@gmail.com", "marcosfigueirinha@itelmatis.com"]
+		recipients = ["jbarreto910@gmail.com"]
+		#lixo1 , de1 , lixo2 = str(de).split("'")
+		#lixo1 , pw1 , lixo2 = str(pw).split("'")
 		#fp = open('itelmatis.jpg', 'rb')
 		#msgImage = MIMEImage(fp.read())
 		#fp.close()
@@ -65,7 +68,7 @@ class Conteudo(QWidget):
 		msg = MIMEMultipart()
 		msg.set_charset('utf-8')
 		msg['Subject'] = "Relatório Trabalho Diário"#.encode('utf8')#.decode('utf8')
-		msg['From'] = de1
+		msg['From'] = de
 		msg['To'] = ", ".join(recipients)
 		data = "Data: " + time.strftime("%d-%m-%Y") + "\n\n"
 		obra = data + self.relatorio.toPlainText() + "\n\n" + "Cumprimentos,\nMicael Martins"
@@ -73,10 +76,13 @@ class Conteudo(QWidget):
 		msg.attach(body)
 		#envia a imagem em anexo, sendo a ideia enviar como assinatura
 		#msg.attach(msgImage)
-		server = smtplib.SMTP('mail.itelmatis.com', 25)
-		server.set_debuglevel(0)
-		server.login(de1, pw1)
-		server.sendmail(de1, recipients, msg.as_string())
+		#server = smtplib.SMTP('mail.itelmatis.com', 25)
+		server = smtplib.SMTP('smtp.gmail.com', 587)
+		server.ehlo()
+		server.starttls()
+		server.set_debuglevel(1)
+		server.login(de, pw)
+		server.sendmail(de, recipients, msg.as_string())
 		server.quit()
 
 

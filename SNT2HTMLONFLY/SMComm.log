@@ -1,0 +1,625 @@
+2017-06-09 14:17:45,252 [INFO] [09/Jun/2017:14:17:45] ENGINE Bus STARTING
+2017-06-09 14:17:45,273 [INFO] [09/Jun/2017:14:17:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-06-09 14:17:45,274 [INFO] [09/Jun/2017:14:17:45] ENGINE Started monitor thread 'Autoreloader'.
+2017-06-09 14:17:50,628 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-06-09 14:17:50,629 [INFO] [09/Jun/2017:14:17:50] ENGINE Serving on http://0.0.0.0
+2017-06-09 14:17:50,634 [INFO] [09/Jun/2017:14:17:50] ENGINE Bus STARTED
+2017-06-09 14:18:02,702 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:02] "GET / HTTP/1.1" 200 34480 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:02,975 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:02] "GET /Base/jquery-ui.css HTTP/1.1" 200 37326 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:02,984 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:02] "GET /Cache/Files/Menu/Icon - Tanque.png HTTP/1.1" 200 113 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,015 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Menu/Icon - Ferramentas.png HTTP/1.1" 200 981 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,021 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Menu/Icone - Alarmes.png HTTP/1.1" 200 919 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,023 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Base/jquery-3.2.1.js HTTP/1.1" 200 268039 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,025 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Menu/menu.png HTTP/1.1" 200 2877 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,034 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/ModuloAnalisadorRede/Fundo - Analisador 7 variaveis vertical.png HTTP/1.1" 200 1371 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,045 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Main/Fundo - Menu Principal.png HTTP/1.1" 200 934487 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,179 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Base/jquery-ui.js HTTP/1.1" 200 520714 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,314 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Main/Animacao - EstadoEquipamento15152.png HTTP/1.1" 200 289 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,315 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Main/alarme - incomunicavel17173.png HTTP/1.1" 200 268 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,316 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Main/Animacao - Fault Automato1562.png HTTP/1.1" 200 90 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,317 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Main/Animacao - alarme_peq18162.png HTTP/1.1" 200 293 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,332 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Main/Anemometro413412.png HTTP/1.1" 200 633 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,349 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Main/Term\xc3\xb3metro12469.png HTTP/1.1" 200 470 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,357 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/ModuloAnalisadorRede/Alarme - Modulo Incomunicavel89241.png HTTP/1.1" 200 398 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,359 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Main/Humidadet12264.png HTTP/1.1" 200 285 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,381 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Main/Sol805825.png HTTP/1.1" 200 19312 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,393 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 200 171 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,403 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Main/Animacao-Rosa dos ventos877129.png HTTP/1.1" 200 2686 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,414 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /Cache/Files/Main/Animacao - chuva523829.png HTTP/1.1" 200 1256 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:18:03,539 [INFO] 127.0.0.1 - - [09/Jun/2017:14:18:03] "GET /favicon.ico HTTP/1.1" 200 370070 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:28,693 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:28] "GET /Base/IMG/arrow-right-black.png HTTP/1.1" 200 181 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:31,884 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:31,885 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:31,885 [DEBUG] STREAM b'IDAT' 41 269
+2017-06-09 14:19:32,387 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:32] "GET /Base/IMG/arrow-right-white.png HTTP/1.1" 200 137 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:32,687 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:32,688 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:32,688 [DEBUG] STREAM b'IDAT' 41 332
+2017-06-09 14:19:32,689 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:32,690 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:32,691 [DEBUG] STREAM b'IDAT' 41 327
+2017-06-09 14:19:32,692 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:32,693 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:32,693 [DEBUG] STREAM b'IDAT' 41 332
+2017-06-09 14:19:33,489 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:33,490 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:33,490 [DEBUG] STREAM b'IDAT' 41 317
+2017-06-09 14:19:33,492 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:33,493 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:33,493 [DEBUG] STREAM b'IDAT' 41 269
+2017-06-09 14:19:34,309 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:34,310 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:34,311 [DEBUG] STREAM b'IDAT' 41 199
+2017-06-09 14:19:34,537 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:34,539 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:34,539 [DEBUG] STREAM b'IDAT' 41 196
+2017-06-09 14:19:34,754 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:34,756 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:34,756 [DEBUG] STREAM b'IDAT' 41 195
+2017-06-09 14:19:34,960 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:34,961 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:34,961 [DEBUG] STREAM b'IDAT' 41 192
+2017-06-09 14:19:35,170 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,171 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,171 [DEBUG] STREAM b'IDAT' 41 519
+2017-06-09 14:19:35,174 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,175 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,176 [DEBUG] STREAM b'IDAT' 41 521
+2017-06-09 14:19:35,179 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,180 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,180 [DEBUG] STREAM b'IDAT' 41 521
+2017-06-09 14:19:35,190 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,191 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,192 [DEBUG] STREAM b'IDAT' 41 519
+2017-06-09 14:19:35,195 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,196 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,196 [DEBUG] STREAM b'IDAT' 41 520
+2017-06-09 14:19:35,201 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,202 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,202 [DEBUG] STREAM b'IDAT' 41 519
+2017-06-09 14:19:35,205 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,206 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,206 [DEBUG] STREAM b'IDAT' 41 520
+2017-06-09 14:19:35,210 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,211 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,211 [DEBUG] STREAM b'IDAT' 41 519
+2017-06-09 14:19:35,215 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,216 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,216 [DEBUG] STREAM b'IDAT' 41 521
+2017-06-09 14:19:35,220 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,222 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,222 [DEBUG] STREAM b'IDAT' 41 521
+2017-06-09 14:19:35,225 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,227 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,227 [DEBUG] STREAM b'IDAT' 41 519
+2017-06-09 14:19:35,514 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,515 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,516 [DEBUG] STREAM b'IDAT' 41 459
+2017-06-09 14:19:35,517 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,518 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,518 [DEBUG] STREAM b'IDAT' 41 436
+2017-06-09 14:19:35,723 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,724 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,724 [DEBUG] STREAM b'IDAT' 41 239
+2017-06-09 14:19:35,725 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-06-09 14:19:35,726 [DEBUG] STREAM b'IHDR' 16 13
+2017-06-09 14:19:35,726 [DEBUG] STREAM b'IDAT' 41 269
+2017-06-09 14:19:36,729 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "POST /Sinoptico HTTP/1.1" 200 19571 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:36,789 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "GET /Cache/Files/L14/Fundo - Bombagem Principal3.png HTTP/1.1" 200 13521 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:36,816 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "GET /Cache/Files/L14/Animation - Pump stopped237442.png HTTP/1.1" 200 455 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:36,817 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "GET /Cache/Files/L14/Animation - HMotor3374529.png HTTP/1.1" 200 855 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:36,819 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "GET /Cache/Files/L14/Animation - Pump alarm237442.png HTTP/1.1" 200 668 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:36,822 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "GET /Cache/Files/L14/Animacao - BombaJ com variador520371.png HTTP/1.1" 200 328 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:36,824 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "GET /Cache/Files/L14/Animacao - Bomba1 com variador520371.png HTTP/1.1" 200 317 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:36,825 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "GET /Cache/Files/L14/Animacao - Bomba2 com variador520371.png HTTP/1.1" 200 319 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:36,845 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "GET /Cache/Files/L14/Animacao - Bomba3 com variador520371.png HTTP/1.1" 200 318 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:36,846 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "GET /Cache/Files/L14/Animation - Reservatorio25620729.png HTTP/1.1" 200 7697 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:36,846 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "GET /Cache/Files/L14/Animation - Alarm Small20192.png HTTP/1.1" 200 714 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:36,846 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:36] "GET /Cache/Files/L14/Animation - light small171729.png HTTP/1.1" 200 571 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:19:51,641 [INFO] 127.0.0.1 - - [09/Jun/2017:14:19:51] "POST /Sinoptico HTTP/1.1" 200 31204 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:20:01,036 [INFO] 127.0.0.1 - - [09/Jun/2017:14:20:01] "POST /Sinoptico HTTP/1.1" 200 19571 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:20:28,346 [INFO] 127.0.0.1 - - [09/Jun/2017:14:20:28] "POST /Sinoptico HTTP/1.1" 200 31204 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"
+2017-06-09 14:25:23,755 [INFO] [09/Jun/2017:14:25:23] ENGINE Bus STARTING
+2017-06-09 14:25:23,833 [INFO] [09/Jun/2017:14:25:23] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-06-09 14:25:23,833 [INFO] [09/Jun/2017:14:25:23] ENGINE Started monitor thread 'Autoreloader'.
+2017-06-09 14:25:29,318 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-06-09 14:25:29,318 [INFO] [09/Jun/2017:14:25:29] ENGINE Serving on http://0.0.0.0
+2017-06-09 14:25:29,318 [INFO] [09/Jun/2017:14:25:29] ENGINE Bus STARTED
+2017-07-10 10:09:27,995 [INFO] [10/Jul/2017:10:09:27] ENGINE Bus STARTING
+2017-07-10 10:09:28,102 [INFO] [10/Jul/2017:10:09:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-07-10 10:09:28,103 [INFO] [10/Jul/2017:10:09:28] ENGINE Started monitor thread 'Autoreloader'.
+2017-07-10 10:09:33,510 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-07-10 10:09:33,511 [INFO] [10/Jul/2017:10:09:33] ENGINE Serving on http://0.0.0.0
+2017-07-10 10:09:33,511 [INFO] [10/Jul/2017:10:09:33] ENGINE Bus STARTED
+2017-07-10 10:09:36,651 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:36,654 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:36,654 [DEBUG] STREAM b'IDAT' 41 143
+2017-07-10 10:09:36,656 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:36,660 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:36,660 [DEBUG] STREAM b'IDAT' 41 135
+2017-07-10 10:09:39,979 [ERROR] [10/Jul/2017:10:09:39] HTTP 
+Traceback (most recent call last):
+  File "C:\Python36\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python36\lib\site-packages\cherrypy\lib\encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python36\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "HTMLonFLY.py", line 779, in index
+    tempstyles , tempbody = self.Sinoptico(SMonitorFolder + "\\" + SinoticoPrincipal)
+  File "HTMLonFLY.py", line 816, in Sinoptico
+    tempstyles, tempbody = htmlinho.DumpHTML()
+  File "HTMLonFLY.py", line 749, in DumpHTML
+    tempSTYLE += self.CSSGenerator(obj, sinoticos.replace(" ","").replace(".",""), counter, self.DicSinopticos[sinoticos].x, self.DicSinopticos[sinoticos].y)
+  File "HTMLonFLY.py", line 609, in CSSGenerator
+    caminho , largura, altura, numFrames, larguraFinal = self.FileConverter(objecto.Ficheiro, "png")
+  File "HTMLonFLY.py", line 566, in FileConverter
+    shutil.rmtree(this_file_path + '/Cache/Temp')
+  File "C:\Python36\lib\shutil.py", line 488, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "C:\Python36\lib\shutil.py", line 370, in _rmtree_unsafe
+    onerror(os.listdir, path, sys.exc_info())
+  File "C:\Python36\lib\shutil.py", line 368, in _rmtree_unsafe
+    names = os.listdir(path)
+FileNotFoundError: [WinError 3] O sistema não conseguiu localizar o caminho especificado: 'C:\\Users\\Micael\\Itelmatis\\SNT2HTMLONFLY/Cache/Temp'
+2017-07-10 10:09:40,081 [INFO] [10/Jul/2017:10:09:40] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+2017-07-10 10:09:40,087 [INFO] 127.0.0.1 - - [10/Jul/2017:10:09:40] "GET / HTTP/1.1" 500 2373 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:09:40,601 [INFO] 127.0.0.1 - - [10/Jul/2017:10:09:40] "GET /favicon.ico HTTP/1.1" 200 370070 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:09:43,917 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:43,919 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:43,919 [DEBUG] STREAM b'IDAT' 41 241
+2017-07-10 10:09:43,920 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:43,921 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:43,922 [DEBUG] STREAM b'IDAT' 41 242
+2017-07-10 10:09:50,276 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:50,277 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:50,277 [DEBUG] STREAM b'IDAT' 41 127
+2017-07-10 10:09:50,278 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:50,279 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:50,279 [DEBUG] STREAM b'IDAT' 41 129
+2017-07-10 10:09:50,280 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:50,281 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:50,281 [DEBUG] STREAM b'IDAT' 41 127
+2017-07-10 10:09:50,283 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:50,284 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:50,284 [DEBUG] STREAM b'IDAT' 41 123
+2017-07-10 10:09:50,285 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:50,286 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:50,286 [DEBUG] STREAM b'IDAT' 41 129
+2017-07-10 10:09:50,288 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:50,289 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:50,289 [DEBUG] STREAM b'IDAT' 41 127
+2017-07-10 10:09:50,290 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:50,291 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:50,291 [DEBUG] STREAM b'IDAT' 41 123
+2017-07-10 10:09:51,101 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,102 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,102 [DEBUG] STREAM b'IDAT' 41 440
+2017-07-10 10:09:51,104 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,105 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,105 [DEBUG] STREAM b'IDAT' 41 484
+2017-07-10 10:09:51,108 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,109 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,110 [DEBUG] STREAM b'IDAT' 41 459
+2017-07-10 10:09:51,112 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,114 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,114 [DEBUG] STREAM b'IDAT' 41 466
+2017-07-10 10:09:51,116 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,118 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,118 [DEBUG] STREAM b'IDAT' 41 470
+2017-07-10 10:09:51,121 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,122 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,122 [DEBUG] STREAM b'IDAT' 41 498
+2017-07-10 10:09:51,124 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,126 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,126 [DEBUG] STREAM b'IDAT' 41 471
+2017-07-10 10:09:51,536 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,537 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,537 [DEBUG] STREAM b'IDAT' 41 141
+2017-07-10 10:09:51,538 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,539 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,540 [DEBUG] STREAM b'IDAT' 41 157
+2017-07-10 10:09:51,541 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,542 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,543 [DEBUG] STREAM b'IDAT' 41 141
+2017-07-10 10:09:51,545 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,546 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,546 [DEBUG] STREAM b'IDAT' 41 136
+2017-07-10 10:09:51,942 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,943 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,943 [DEBUG] STREAM b'IDAT' 41 135
+2017-07-10 10:09:51,944 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:51,945 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:51,945 [DEBUG] STREAM b'IDAT' 41 132
+2017-07-10 10:09:52,324 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,326 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,326 [DEBUG] STREAM b'IDAT' 41 141
+2017-07-10 10:09:52,730 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,731 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,732 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,733 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,734 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,734 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,736 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,737 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,737 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,739 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,740 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,740 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,742 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,743 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,743 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,745 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,746 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,746 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,748 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,749 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,749 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,751 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,752 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,752 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,754 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,755 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,755 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,757 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,758 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,758 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,760 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,761 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,762 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,763 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,765 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,765 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,767 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,768 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,768 [DEBUG] STREAM b'IDAT' 41 230
+2017-07-10 10:09:52,770 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,771 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,772 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,773 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,775 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,775 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,777 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,778 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,778 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,780 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,781 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,781 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,783 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,785 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,785 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,786 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,788 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,788 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,790 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,791 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,791 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,793 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,794 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,794 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,796 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,797 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,797 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,799 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,801 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,801 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,802 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,803 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,804 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,805 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,807 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,807 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:52,809 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:52,810 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:52,811 [DEBUG] STREAM b'IDAT' 41 220
+2017-07-10 10:09:54,452 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:54,453 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:54,454 [DEBUG] STREAM b'IDAT' 41 721
+2017-07-10 10:09:54,458 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:54,459 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:54,459 [DEBUG] STREAM b'IDAT' 41 700
+2017-07-10 10:09:54,689 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:54,690 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:54,690 [DEBUG] STREAM b'IDAT' 41 142
+2017-07-10 10:09:55,310 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:55,312 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:55,313 [DEBUG] STREAM b'IDAT' 41 141
+2017-07-10 10:09:55,316 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:55,318 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:55,319 [DEBUG] STREAM b'IDAT' 41 155
+2017-07-10 10:09:55,322 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:55,324 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:55,325 [DEBUG] STREAM b'IDAT' 41 141
+2017-07-10 10:09:55,328 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:09:55,331 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:09:55,331 [DEBUG] STREAM b'IDAT' 41 132
+2017-07-10 10:10:57,985 [INFO] [10/Jul/2017:10:10:57] ENGINE Bus STARTING
+2017-07-10 10:10:57,986 [INFO] [10/Jul/2017:10:10:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-07-10 10:10:57,987 [INFO] [10/Jul/2017:10:10:57] ENGINE Started monitor thread 'Autoreloader'.
+2017-07-10 10:11:03,173 [WARNING] C:\Python36\lib\site-packages\cherrypy\process\servers.py:411: UserWarning: Unable to verify that the server is bound on 80
+  warnings.warn(msg)
+
+2017-07-10 10:11:03,174 [INFO] [10/Jul/2017:10:11:03] ENGINE Serving on http://0.0.0.0
+2017-07-10 10:11:03,174 [INFO] [10/Jul/2017:10:11:03] ENGINE Bus STARTED
+2017-07-10 10:11:38,288 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,290 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,290 [DEBUG] STREAM b'IDAT' 41 392
+2017-07-10 10:11:38,293 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,297 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,297 [DEBUG] STREAM b'IDAT' 41 439
+2017-07-10 10:11:38,300 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,301 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,301 [DEBUG] STREAM b'IDAT' 41 502
+2017-07-10 10:11:38,306 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,308 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,308 [DEBUG] STREAM b'IDAT' 41 607
+2017-07-10 10:11:38,314 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,317 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,317 [DEBUG] STREAM b'IDAT' 41 749
+2017-07-10 10:11:38,562 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,564 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,565 [DEBUG] STREAM b'IDAT' 41 1151
+2017-07-10 10:11:38,571 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,572 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,572 [DEBUG] STREAM b'IDAT' 41 1065
+2017-07-10 10:11:38,580 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,583 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,583 [DEBUG] STREAM b'IDAT' 41 1265
+2017-07-10 10:11:38,591 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,595 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,596 [DEBUG] STREAM b'IDAT' 41 1248
+2017-07-10 10:11:38,604 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,607 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,607 [DEBUG] STREAM b'IDAT' 41 1258
+2017-07-10 10:11:38,615 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,619 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,619 [DEBUG] STREAM b'IDAT' 41 1290
+2017-07-10 10:11:38,867 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,868 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,868 [DEBUG] STREAM b'IDAT' 41 253
+2017-07-10 10:11:38,869 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,870 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,870 [DEBUG] STREAM b'IDAT' 41 253
+2017-07-10 10:11:38,871 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,872 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,872 [DEBUG] STREAM b'IDAT' 41 253
+2017-07-10 10:11:38,874 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,875 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,875 [DEBUG] STREAM b'IDAT' 41 237
+2017-07-10 10:11:38,876 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,878 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,878 [DEBUG] STREAM b'IDAT' 41 237
+2017-07-10 10:11:38,879 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:38,881 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:38,881 [DEBUG] STREAM b'IDAT' 41 237
+2017-07-10 10:11:39,092 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,093 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,094 [DEBUG] STREAM b'IDAT' 41 1620
+2017-07-10 10:11:39,106 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,108 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,108 [DEBUG] STREAM b'IDAT' 41 1634
+2017-07-10 10:11:39,114 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,116 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,116 [DEBUG] STREAM b'IDAT' 41 1644
+2017-07-10 10:11:39,123 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,124 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,124 [DEBUG] STREAM b'IDAT' 41 1646
+2017-07-10 10:11:39,129 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,130 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,130 [DEBUG] STREAM b'IDAT' 41 1652
+2017-07-10 10:11:39,136 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,137 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,138 [DEBUG] STREAM b'IDAT' 41 1647
+2017-07-10 10:11:39,143 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,144 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,145 [DEBUG] STREAM b'IDAT' 41 1648
+2017-07-10 10:11:39,151 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,152 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,152 [DEBUG] STREAM b'IDAT' 41 1735
+2017-07-10 10:11:39,157 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,158 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,158 [DEBUG] STREAM b'IDAT' 41 1693
+2017-07-10 10:11:39,164 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,165 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,165 [DEBUG] STREAM b'IDAT' 41 1729
+2017-07-10 10:11:39,170 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,171 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,171 [DEBUG] STREAM b'IDAT' 41 1753
+2017-07-10 10:11:39,177 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,178 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,178 [DEBUG] STREAM b'IDAT' 41 1741
+2017-07-10 10:11:39,184 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,185 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,185 [DEBUG] STREAM b'IDAT' 41 1726
+2017-07-10 10:11:39,190 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,192 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,192 [DEBUG] STREAM b'IDAT' 41 1729
+2017-07-10 10:11:39,198 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,199 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,199 [DEBUG] STREAM b'IDAT' 41 1723
+2017-07-10 10:11:39,204 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,205 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,205 [DEBUG] STREAM b'IDAT' 41 1695
+2017-07-10 10:11:39,212 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,213 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,214 [DEBUG] STREAM b'IDAT' 41 1684
+2017-07-10 10:11:39,219 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,220 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,220 [DEBUG] STREAM b'IDAT' 41 1615
+2017-07-10 10:11:39,225 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,227 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,227 [DEBUG] STREAM b'IDAT' 41 1735
+2017-07-10 10:11:39,233 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,234 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,234 [DEBUG] STREAM b'IDAT' 41 1737
+2017-07-10 10:11:39,240 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,242 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,242 [DEBUG] STREAM b'IDAT' 41 1742
+2017-07-10 10:11:39,248 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,249 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,249 [DEBUG] STREAM b'IDAT' 41 1750
+2017-07-10 10:11:39,255 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,256 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,256 [DEBUG] STREAM b'IDAT' 41 1749
+2017-07-10 10:11:39,262 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,264 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,264 [DEBUG] STREAM b'IDAT' 41 1755
+2017-07-10 10:11:39,270 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,272 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,272 [DEBUG] STREAM b'IDAT' 41 1696
+2017-07-10 10:11:39,278 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,279 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,280 [DEBUG] STREAM b'IDAT' 41 1728
+2017-07-10 10:11:39,285 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,287 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,287 [DEBUG] STREAM b'IDAT' 41 1747
+2017-07-10 10:11:39,293 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,295 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,295 [DEBUG] STREAM b'IDAT' 41 1739
+2017-07-10 10:11:39,300 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,302 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,302 [DEBUG] STREAM b'IDAT' 41 1732
+2017-07-10 10:11:39,308 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,310 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,310 [DEBUG] STREAM b'IDAT' 41 1729
+2017-07-10 10:11:39,317 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,318 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,318 [DEBUG] STREAM b'IDAT' 41 1742
+2017-07-10 10:11:39,325 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,327 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,327 [DEBUG] STREAM b'IDAT' 41 1711
+2017-07-10 10:11:39,596 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,597 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,597 [DEBUG] STREAM b'IDAT' 41 298
+2017-07-10 10:11:39,598 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,599 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,599 [DEBUG] STREAM b'IDAT' 41 298
+2017-07-10 10:11:39,600 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,601 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,602 [DEBUG] STREAM b'IDAT' 41 298
+2017-07-10 10:11:39,603 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,605 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,605 [DEBUG] STREAM b'IDAT' 41 300
+2017-07-10 10:11:39,801 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,802 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,802 [DEBUG] STREAM b'IDAT' 41 492
+2017-07-10 10:11:39,803 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,804 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,805 [DEBUG] STREAM b'IDAT' 41 217
+2017-07-10 10:11:39,998 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:39,999 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:39,999 [DEBUG] STREAM b'IDAT' 41 459
+2017-07-10 10:11:40,002 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:11:40,004 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:11:40,004 [DEBUG] STREAM b'IDAT' 41 436
+2017-07-10 10:11:40,515 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET / HTTP/1.1" 200 157522 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:40,678 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET /Base/jquery-ui.css HTTP/1.1" 200 37326 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:40,683 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET /Cache/Ficheiros/Fundo - Menu Principal FR.png HTTP/1.1" 200 23673 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:40,686 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET /Cache/Ficheiros/Icon - Programas.png HTTP/1.1" 200 558 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:40,687 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET /Cache/Ficheiros/Icon - Fertirrega.png HTTP/1.1" 200 933 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:40,688 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET /Cache/Ficheiros/Icon - Valores.png HTTP/1.1" 200 414 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:40,688 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET /Cache/Ficheiros/Icon - Rega.png HTTP/1.1" 200 459 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:40,690 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET /Cache/Ficheiros/Icon - bombagem.png HTTP/1.1" 200 346 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:40,693 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET /Cache/Ficheiros/Icon - Ferramentas.png HTTP/1.1" 200 981 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:40,695 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET /Cache/Ficheiros/Fundo - Menu Superior.png HTTP/1.1" 200 1193 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:40,769 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET /Base/jquery-3.2.1.js HTTP/1.1" 200 268039 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:40,818 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:40] "GET /Base/jquery-ui.js HTTP/1.1" 200 520714 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,154 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - EV20202.png HTTP/1.1" 200 304 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,156 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Alarme - EV31282.png HTTP/1.1" 200 536 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,160 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - Bomba Fundo Creme242860.png HTTP/1.1" 200 563 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,172 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - Soprador193945.png HTTP/1.1" 200 581 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,173 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - Tanque3312120.png HTTP/1.1" 200 3322 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,173 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/alarme18162.png HTTP/1.1" 200 317 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,174 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - Soprador off19391.png HTTP/1.1" 200 241 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,174 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Alarme - Sempre visivel333025.png HTTP/1.1" 200 990 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,178 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - EV Retrolavagem13355129.png HTTP/1.1" 200 3679 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,181 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - Soprador off DIR193929.png HTTP/1.1" 200 407 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,187 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - Soprador DIR193929.png HTTP/1.1" 200 510 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,188 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - Sol15115025.png HTTP/1.1" 200 8076 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,188 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - Chuva799325.png HTTP/1.1" 200 2619 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,188 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - Anemometro413424.png HTTP/1.1" 200 843 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,190 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - Rosa dos ventos14514425.png HTTP/1.1" 200 13245 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,193 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animacao - Bomba Grande374529.png HTTP/1.1" 200 845 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,194 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Alarme - Fundo creme peq 224222.png HTTP/1.1" 200 792 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,198 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Cache/Ficheiros/Animation - Alarm Small20192.png HTTP/1.1" 200 714 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:11:41,199 [INFO] 127.0.0.1 - - [10/Jul/2017:10:11:41] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 200 171 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:51,907 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:51] "GET / HTTP/1.1" 200 157522 "" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:51,994 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:51] "GET /Base/jquery-3.2.1.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:51,996 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:51] "GET /Base/jquery-ui.js HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:51,997 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:51] "GET /Base/jquery-ui.css HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,241 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Fundo - Menu Principal FR.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,245 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Icon - Fertirrega.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,245 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Icon - Valores.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,248 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Icon - Programas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,257 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Icon - Rega.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,258 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Icon - bombagem.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,259 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Icon - Ferramentas.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,263 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Fundo - Menu Superior.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,269 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - Bomba Fundo Creme242860.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,269 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - EV20202.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,271 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Alarme - EV31282.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,271 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - Tanque3312120.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,274 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - Soprador193945.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,280 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/alarme18162.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,285 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - EV Retrolavagem13355129.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,289 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - Soprador off DIR193929.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,309 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - Chuva799325.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,309 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - Sol15115025.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,313 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - Rosa dos ventos14514425.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,313 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - Anemometro413424.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,315 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - Bomba Grande374529.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,316 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Alarme - Fundo creme peq 224222.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,318 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animation - Alarm Small20192.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,321 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Base/IMG/arrow-down-black.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,330 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - Soprador off19391.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,330 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Alarme - Sempre visivel333025.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:12:52,330 [INFO] 127.0.0.1 - - [10/Jul/2017:10:12:52] "GET /Cache/Ficheiros/Animacao - Soprador DIR193929.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:13:27,354 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:13:27,356 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:13:27,356 [DEBUG] STREAM b'IDAT' 41 221
+2017-07-10 10:13:27,357 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:13:27,359 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:13:27,359 [DEBUG] STREAM b'IDAT' 41 209
+2017-07-10 10:13:27,964 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:13:27,965 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:13:27,965 [DEBUG] STREAM b'IDAT' 41 70
+2017-07-10 10:13:27,966 [DEBUG] Error closing: 'Image' object has no attribute 'fp'
+2017-07-10 10:13:27,967 [DEBUG] STREAM b'IHDR' 16 13
+2017-07-10 10:13:27,967 [DEBUG] STREAM b'IDAT' 41 111
+2017-07-10 10:13:31,187 [INFO] 127.0.0.1 - - [10/Jul/2017:10:13:31] "POST /Sinoptico HTTP/1.1" 200 72459 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:13:31,354 [INFO] 127.0.0.1 - - [10/Jul/2017:10:13:31] "GET /Cache/Ficheiros/Fundo - Sondas FR.png HTTP/1.1" 200 24737 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:13:31,367 [INFO] 127.0.0.1 - - [10/Jul/2017:10:13:31] "GET /Cache/Ficheiros/Alarme - Sempre visivel231282.png HTTP/1.1" 200 493 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:13:31,370 [INFO] 127.0.0.1 - - [10/Jul/2017:10:13:31] "GET /Cache/Ficheiros/Animacao - Checkbox131329.png HTTP/1.1" 200 260 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,150 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "POST /Sinoptico HTTP/1.1" 200 154246 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,299 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - EV20202.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,301 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Alarme - EV31282.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,304 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - Bomba Fundo Creme242860.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,305 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - Tanque3312120.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,311 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - Soprador193945.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,315 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - Soprador off19391.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,315 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/alarme18162.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,318 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - EV Retrolavagem13355129.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,322 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - Chuva799325.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,323 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - Soprador off DIR193929.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,325 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - Soprador DIR193929.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,329 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - Sol15115025.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,331 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - Anemometro413424.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,334 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - Rosa dos ventos14514425.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,336 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animacao - Bomba Grande374529.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,341 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Alarme - Fundo creme peq 224222.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
+2017-07-10 10:14:14,352 [INFO] 127.0.0.1 - - [10/Jul/2017:10:14:14] "GET /Cache/Ficheiros/Animation - Alarm Small20192.png HTTP/1.1" 304 - "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"

@@ -13,13 +13,13 @@ import shutil
 __author__ = "Micael Martins"
 __copyright__ = "Copyright 2017, Itelmatis"
 __credits__ = ["Rui Palma & Ivo Vargas"]
-__version__ = "0.1"
+__version__ = "0.1 for Python 3.6"
 __maintainer__ = "Micael Martins"
 __email__ = "MicaelMartins@itelmatis.com"
 __status__ = "Under Development"
 
 PortaServidor = 80
-SinoticoPrincipal = "Files\Main\MenuPrincipal.snt"
+SinoticoPrincipal = "Ficheiros\Sinoptico - Menu principal FR.snt"
 SMonitorFolder = "C:\S-Monitor"
 this_file_path = os.getcwd()
 
