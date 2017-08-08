@@ -9,6 +9,8 @@ import imageio
 import cherrypy
 import SMComm
 import shutil
+from ws4py.server.cherrypyserver import WebSocketPlugin, WebSocketTool
+from ws4py.websocket import EchoWebSocket
 
 __author__ = "Micael Martins"
 __copyright__ = "Copyright 2017, Itelmatis"
@@ -22,6 +24,7 @@ PortaServidor = 80
 SinoticoPrincipal = "Ficheiros\Sinoptico - Menu principal FR.snt"
 SMonitorFolder = "C:\S-Monitor"
 this_file_path = os.getcwd()
+BDObjConverted = {}
 
 class Objeto:
 	def __init__(self):
@@ -546,25 +549,31 @@ class HTMLCreator:
 				Swriter.close()
 			return "/Cache" + arquitectura + nome + "." + ImageExtensao
 		elif extensao.lower() == "avi" and ImageExtensao.lower() == "png":
+			detalhesTemp = {}
 			if not os.path.exists(this_file_path + "/Cache/Temp"):
 				os.makedirs(this_file_path + "/Cache/Temp")
-			VIDEO = imageio.get_reader(ImagePath)
-			numFrames = VIDEO.get_meta_data()['fps']
-			image_width, image_height = VIDEO.get_meta_data()['size']
-			frames = []
-			if not os.path.isfile("Cache" + arquitectura + nome + str(image_width) + str(image_height) + str(int(numFrames)) + "." + ImageExtensao):
+			if ImagePath in BDObjConverted:
+				return BDObjConverted[ImagePath]["destino"] , BDObjConverted[ImagePath]["largura"] , BDObjConverted[ImagePath]["altura"] , BDObjConverted[ImagePath]["numFrames"], BDObjConverted[ImagePath]["larguraFinal"]
+			else:
+				VIDEO = imageio.get_reader(ImagePath)
+				detalhesTemp["numFrames"] = int(VIDEO.get_meta_data()['fps'])
+				detalhesTemp["largura"] , detalhesTemp["altura"] = VIDEO.get_meta_data()['size']
+				frames = []
 				for frame, imagem in enumerate(VIDEO):
 					imageio.imwrite("Cache/Temp/tempFrame_" + str(frame) + "." + ImageExtensao, imagem)
 					frames.append(Image.open("Cache/Temp/tempFrame_" + str(frame) + "." + ImageExtensao))
-				master_width = (image_width * int(numFrames)) 
-				master_height = image_height
+				master_width = (detalhesTemp["largura"] * int(detalhesTemp["numFrames"])) 
+				master_height = detalhesTemp["altura"]
 				master = Image.new(mode='RGBA', size=(master_width, master_height), color=(0, 0, 0, 0))
 				for count, image in enumerate(frames):
-					location = image_width*count
+					location = detalhesTemp["largura"] * count
 					master.paste(image,(location,0))
-				master.save("Cache" + arquitectura + nome + str(image_width) + str(image_height) + str(int(numFrames)) + "." + ImageExtensao)
-			shutil.rmtree(this_file_path + '/Cache/Temp')
-			return "/Cache" + arquitectura + nome + str(image_width) + str(image_height) + str(int(numFrames)) + "." + ImageExtensao , image_width, image_height, int(numFrames), int(image_width * int(numFrames))
+				master.save("Cache" + arquitectura + nome + "." + ImageExtensao)
+				detalhesTemp["destino"] = "Cache" + arquitectura + nome + "." + ImageExtensao
+				detalhesTemp["larguraFinal"] = int(master_width)
+				shutil.rmtree(this_file_path + '/Cache/Temp')
+				BDObjConverted[ImagePath] = detalhesTemp
+				return BDObjConverted[ImagePath]["destino"] , BDObjConverted[ImagePath]["largura"] , BDObjConverted[ImagePath]["altura"] , BDObjConverted[ImagePath]["numFrames"], BDObjConverted[ImagePath]["larguraFinal"]
 		else:
 			print("Tipo de ficheiro desconhecido")
 			return
@@ -615,8 +624,10 @@ class HTMLCreator:
 			tempCSS += " width: " + str(largura) + "px;"
 			tempCSS += " height: " + str(altura) + "px;"
 			tempCSS += " background: url('" + caminho + "') left center;"
-			tempCSS += " animation: play .8s steps(" + str(numFrames) + ") infinite;"
-			tempCSS += " }"
+			tempCSS += " animation: " + "play" + nomesinotico + str(objId) + " 1s steps(" + str(numFrames) + ") infinite;"
+			tempCSS += " } "
+			tempCSS += " @keyframes " + "play" + nomesinotico + str(objId) + "{ from { background-position: 0px; }"
+			tempCSS += " to { background-position: -" + str(largura * numFrames) + "px; } }"
 		if objecto.Tipo == 1:
 			tempCSS += "#"
 			tempCSS += "index" + nomesinotico + str(objId) + " {"
@@ -633,23 +644,27 @@ class HTMLCreator:
 
 	def OBJGenerator(self, objecto, nomesinotico, objId):
 		tempOBJ = ""
-		if objecto.Tipo == 2 or objecto.Tipo == 3:
+		if objecto.Tipo == 2 or objecto.Tipo == 3: #objecto do tipo texto fundo opaco ou transparente
 			tempOBJ = "<div id='index" + nomesinotico + str(objId) + "' class='"
 			if objecto.Digital == 0:
 				tempOBJ += "a"
 			else:
 				tempOBJ += "d"
 			tempOBJ += "-" + str(objecto.Variavel) + "'>"
-			tempOBJ += objecto.Texto + "0" + str(objecto.Variavel)
+			tempOBJ += objecto.Texto
+			if objecto.Variavel > -1:
+				tempOBJ += '<input type="text" value="' + str(objecto.Variavel) + '">'
+			else:
+				pass
 			tempOBJ += "</div>"
-		if objecto.Tipo == 0:
+		if objecto.Tipo == 0: #objecto do tipo animacao
 			tempOBJ += "<div id='index" + nomesinotico + str(objId) + "' class='"
 			if objecto.Digital == 0:
 				tempOBJ += "a"
 			else:
 				tempOBJ += "d"
 			tempOBJ += "-" + str(objecto.Variavel) + "'></div>"
-		if objecto.Tipo == 1:
+		if objecto.Tipo == 1: #objecto do tipo botao
 			tempOBJ += "<button type='button' id='index" + nomesinotico + str(objId) + "' class='"
 			if objecto.Digital == 0:
 				tempOBJ += "a"
@@ -821,7 +836,6 @@ class SIndex(object):
 			caminho , nomeFicheiro = os.path.split(Caminho.split(" ",1)[1])
 			htmlinho = HTMLCreator(Caminho.split(" ",1)[1])
 			largura, altura = Image.open(htmlinho.DicSinopticos[nomeFicheiro].ImagemFundo).size
-			print("----------->> " + str(largura) + " x " + str(altura) + " <<--------------------------")
 			tempstyles, tempbody = htmlinho.DumpHTML()
 			tempbody += "<script type='application/javascript'>\n$(document).ready(function() { $( '.dropdown' ).hover( function(){ $(this).children('.sub-menu').slideDown(0); }, function(){ $(this).children('.sub-menu').slideUp(0);  } ); });</script>\n"
 			styles += tempstyles
@@ -840,7 +854,7 @@ class SIndex(object):
 		clearFORMATs += " small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,"
 		clearFORMATs += " table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,"
 		clearFORMATs += " figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video"
-		clearFORMATs += " {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }"
+		clearFORMATs += " { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }"
 		clearFORMATs += " article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }"
 		clearFORMATs += " body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; }"
 		clearFORMATs += " blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }"
@@ -858,7 +872,7 @@ class SIndex(object):
 		defaultMENU += " nav li li.dropdown > a { background-image:url('/Base/IMG/arrow-right-black.png'); background-position:right 8px; background-repeat:no-repeat; }"
 		defaultMENU += " nav li li.dropdown:hover > a { background-image:url('/Base/IMG/arrow-right-white.png'); background-position:right 8px; background-repeat:no-repeat; }"
 		defaultMENU += " ul .sub-menu { display:none; }"
-		defaultMENU += " nav img { height: 16px; width: 16px; } @keyframes play { 100% { background-position: 0px; } }"
+		defaultMENU += " nav img { height: 16px; width: 16px; } div input { border: 0; background: none; } div input:focus { border: 1px solid; } "
 		return clearFORMATs + defaultMENU
 
 if __name__ == "__main__":
